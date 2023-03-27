@@ -1,0 +1,7 @@
+.object-fit-contain {
+  object-fit: contain;
+}
+
+.ratio-2x3 {
+  --bs-aspect-ratio: calc(3 / 2 * 100%);
+}
