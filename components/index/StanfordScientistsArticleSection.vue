@@ -1,12 +1,12 @@
 <template>
   <section class="container py-5">
-    <div class="row d-flex justify-content-center align-items-center align-items-xxl-end">
+    <div class="row d-flex justify-content-center align-items-center">
       <div class="order-1 order-md-0 col-12 col-lg-7 mb-md-4 mb-lg-0">
         <div class="text-primary small">January 2023</div>
-        <h2 class="display-6 fw-bold mb-5 text-secondary">
+        <h2 class="fw-bold mb-5 text-secondary title-font-size">
           Stanford Scientists Discover A Shocking New Cause of Belly Fat, And it’s Not What You Think...
         </h2>
-        <p class="mb-0 fs-5 text-secondary pe-xxl-4">
+        <p class="mb-0 text-secondary paragraph-font-size pe-lg-4">
           Acetyl-l-carnitine; L-carnitine Carnitine is a substance that
           helps the body turn fat into energy. Your body makes it in the
           liver and kidneys and stores it in the skeletal muscles, heart,
@@ -50,6 +50,24 @@ export default {
 @media (min-width: 1200px) {
   .max-height-80vh {
     max-height: 80vh;
+  }
+}
+
+.title-font-size {
+  font-size: 2.3rem;
+}
+
+.paragraph-font-size {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 767.98px) {
+  .title-font-size {
+    font-size: 1.8rem;
+  }
+
+  .paragraph-font-size {
+    font-size: 1rem;
   }
 }
 </style>
