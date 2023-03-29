@@ -6,6 +6,7 @@
     <flamelean-ingredients-section/>
     <flamelean-features-section/>
     <offer-section />
+    <shipping-section />
   </main>
 </template>
 
@@ -16,10 +17,12 @@ import FlameleanCarnitineSubstanceSection from "@/components/index/FlameleanCarn
 import FlameleanIngredientsSection from "@/components/index/FlameleanIngredientsSection.vue";
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
 import OfferSection from "@/components/index/OfferSection.vue";
+import ShippingSection from "@/components/index/ShippingSection.vue";
 
 export default {
   name: 'IndexPage',
   components: {
+    ShippingSection,
     OfferSection,
     FlameleanFeaturesSection,
     FlameleanIngredientsSection,
