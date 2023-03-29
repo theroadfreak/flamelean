@@ -5,8 +5,9 @@
     <flamelean-carnitine-substance-section/>
     <flamelean-ingredients-section/>
     <flamelean-features-section/>
-    <offer-section />
-    <shipping-section />
+    <offer-section/>
+    <shipping-section/>
+    <reviews-section/>
   </main>
 </template>
 
@@ -18,10 +19,12 @@ import FlameleanIngredientsSection from "@/components/index/FlameleanIngredients
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
 import OfferSection from "@/components/index/OfferSection.vue";
 import ShippingSection from "@/components/index/ShippingSection.vue";
+import ReviewsSection from "@/components/index/ReviewsSection.vue";
 
 export default {
   name: 'IndexPage',
   components: {
+    ReviewsSection,
     ShippingSection,
     OfferSection,
     FlameleanFeaturesSection,
