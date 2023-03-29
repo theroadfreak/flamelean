@@ -19,7 +19,7 @@
                height="50"
                class="mb-5"
           />
-          <p class="col-12 col-xl-10 text-white mb-5 paragraph-font-size">
+          <p class="col-12 col-xl-10 text-white mb-5">
             Acetyl-l-carnitine; L-carnitine Carnitine is a substance that
             helps the body turn fat into energy. Your body makes it in the
             liver and kidneys and stores it in the skeletal muscles, heart,
@@ -51,15 +51,5 @@ export default {
   background-image: url("../../assets/images/index/flamelean-carnitine-substance/bg-image.png");
   background-size: cover;
   background-position: top;
-}
-
-.paragraph-font-size {
-  font-size: 1.1rem;
-}
-
-@media (max-width: 767.98px) {
-  .paragraph-font-size {
-    font-size: 1rem;
-  }
 }
 </style>

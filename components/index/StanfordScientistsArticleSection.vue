@@ -1,12 +1,12 @@
 <template>
   <section class="container py-5">
-    <div class="row d-flex justify-content-center align-items-center">
+    <div class="row d-flex justify-content-center align-items-center align-items-xl-start">
       <div class="order-1 order-md-0 col-12 col-lg-7 mb-md-4 mb-lg-0">
         <div class="text-primary small">January 2023</div>
-        <h2 class="fw-bold mb-5 text-secondary title-font-size">
+        <h1 class="fw-bold mb-4 mb-sm-5 text-secondary title-font-size">
           Stanford Scientists Discover A Shocking New Cause of Belly Fat, And it’s Not What You Think...
-        </h2>
-        <p class="mb-0 text-secondary paragraph-font-size pe-lg-4">
+        </h1>
+        <p class="mb-0 text-secondary pe-lg-4">
           Acetyl-l-carnitine; L-carnitine Carnitine is a substance that
           helps the body turn fat into energy. Your body makes it in the
           liver and kidneys and stores it in the skeletal muscles, heart,
@@ -23,10 +23,10 @@
         </p>
       </div>
       <div class="order-0 order-md-1 col-12 col-lg-5 mb-5 mb-md-0">
-        <div class="ratio ratio-2x3 max-height-80vh">
+        <div class="ratio ratio-2x3 custom-max-height">
           <img src="../../assets/images/index/stanford-scientists-article/scientist.png"
                alt="Scientist"
-               class="object-fit-contain max-height-80vh"
+               class="object-fit-contain custom-max-height"
           />
         </div>
       </div>
@@ -42,32 +42,28 @@ export default {
 
 <style scoped>
 @media (max-width: 991.98px) {
-  .max-height-80vh {
+  .custom-max-height {
     max-height: 70vh;
   }
 }
 
-@media (min-width: 1200px) {
-  .max-height-80vh {
-    max-height: 80vh;
-  }
-}
-
 .title-font-size {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
 }
 
-.paragraph-font-size {
-  font-size: 1.1rem;
+@media (min-width: 1200px) {
+  .custom-max-height {
+    max-height: 75vh;
+  }
+
+  .title-font-size {
+    font-size: 2.3rem;
+  }
 }
 
 @media (max-width: 767.98px) {
   .title-font-size {
     font-size: 1.8rem;
-  }
-
-  .paragraph-font-size {
-    font-size: 1rem;
   }
 }
 </style>

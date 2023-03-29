@@ -3,6 +3,8 @@
     <hero-section/>
     <stanford-scientists-article-section/>
     <flamelean-carnitine-substance-section/>
+    <flamelean-ingredients-section/>
+    <flamelean-features-section/>
   </main>
 </template>
 
@@ -10,9 +12,15 @@
 import HeroSection from "@/components/index/HeroSection.vue";
 import StanfordScientistsArticleSection from "@/components/index/StanfordScientistsArticleSection.vue";
 import FlameleanCarnitineSubstanceSection from "@/components/index/FlameleanCarnitineSubstanceSection.vue";
+import FlameleanIngredientsSection from "@/components/index/FlameleanIngredientsSection.vue";
+import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
 
 export default {
   name: 'IndexPage',
-  components: {FlameleanCarnitineSubstanceSection, StanfordScientistsArticleSection, HeroSection}
+  components: {
+    FlameleanFeaturesSection,
+    FlameleanIngredientsSection,
+    FlameleanCarnitineSubstanceSection, StanfordScientistsArticleSection, HeroSection
+  }
 }
 </script>
