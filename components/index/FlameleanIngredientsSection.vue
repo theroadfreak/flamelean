@@ -1,5 +1,5 @@
 <template>
-  <div class="container pt-5">
+  <section class="container pt-5">
     <div class="d-flex flex-column justify-content-center align-items-center text-center text-secondary mb-5">
       <h2 class="fw-bold mb-5">Inside Every Flamelean capsule you’ll find</h2>
       <div class="col-12 col-md-8 col-xl-6 mb-md-5">
@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
