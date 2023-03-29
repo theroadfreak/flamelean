@@ -17,7 +17,8 @@
           </h1>
           <ul class="list-unstyled">
             <li v-for="feature in features" :key="feature" class="d-flex align-items-center mb-3">
-              <img src="../../assets/images/index/hero-section/check.svg"
+              <img src="../../assets/images/index/check.svg"
+                   alt="Check icon"
                    width="17" height="17"
                    class="me-2"
               />

@@ -38,7 +38,7 @@
         </ul>
         <div class="d-flex justify-content-center text-center">
           <button
-            class="nav-item btn btn-light text-primary rounded rounded-3 px-3"
+            class="nav-item btn btn-light text-primary rounded rounded-3 px-3 mt-2 mt-lg-0"
           >
             Order Now
           </button>
