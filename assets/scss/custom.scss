@@ -2,6 +2,14 @@
   object-fit: contain;
 }
 
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.line-height-normal {
+  line-height: normal;
+}
+
 .ratio-2x3 {
   --bs-aspect-ratio: calc(3 / 2 * 100%);
 }
