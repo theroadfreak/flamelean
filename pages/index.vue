@@ -5,6 +5,7 @@
     <flamelean-carnitine-substance-section/>
     <flamelean-ingredients-section/>
     <flamelean-features-section/>
+    <offer-section />
   </main>
 </template>
 
@@ -14,10 +15,12 @@ import StanfordScientistsArticleSection from "@/components/index/StanfordScienti
 import FlameleanCarnitineSubstanceSection from "@/components/index/FlameleanCarnitineSubstanceSection.vue";
 import FlameleanIngredientsSection from "@/components/index/FlameleanIngredientsSection.vue";
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
+import OfferSection from "@/components/index/OfferSection.vue";
 
 export default {
   name: 'IndexPage',
   components: {
+    OfferSection,
     FlameleanFeaturesSection,
     FlameleanIngredientsSection,
     FlameleanCarnitineSubstanceSection, StanfordScientistsArticleSection, HeroSection
