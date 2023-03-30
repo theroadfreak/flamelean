@@ -2,15 +2,15 @@
   <main>
     <hero-section/>
     <stanford-scientists-article-section/>
-    <flamelean-carnitine-substance-section/>
-    <flamelean-ingredients-section/>
+    <flamelean-carnitine-substance-section id="about-flamelean"/>
+    <flamelean-ingredients-section id="ingredients"/>
     <flamelean-features-section/>
     <offer-section/>
     <shipping-section/>
     <reviews-section/>
     <pricing-section/>
     <money-back-guarantee-section/>
-    <frequently-asked-questions-section/>
+    <frequently-asked-questions-section id="faq"/>
   </main>
 </template>
 
