@@ -8,6 +8,7 @@
     <offer-section/>
     <shipping-section/>
     <reviews-section/>
+    <pricing-section/>
   </main>
 </template>
 
@@ -20,10 +21,12 @@ import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSectio
 import OfferSection from "@/components/index/OfferSection.vue";
 import ShippingSection from "@/components/index/ShippingSection.vue";
 import ReviewsSection from "@/components/index/ReviewsSection.vue";
+import PricingSection from "@/components/index/PricingSection.vue";
 
 export default {
   name: 'IndexPage',
   components: {
+    PricingSection,
     ReviewsSection,
     ShippingSection,
     OfferSection,
