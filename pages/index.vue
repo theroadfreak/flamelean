@@ -39,6 +39,23 @@ export default {
     FlameleanFeaturesSection,
     FlameleanIngredientsSection,
     FlameleanCarnitineSubstanceSection, StanfordScientistsArticleSection, HeroSection
-  }
+  },
+  data() {
+    return {
+      title: 'Homepage | Flamelean',
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: this.title,
+        },
+      ],
+    };
+  },
 }
 </script>
