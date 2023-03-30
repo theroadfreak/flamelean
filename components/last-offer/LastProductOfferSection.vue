@@ -14,7 +14,7 @@
         <h2 class="mb-0">
           SAVE <span class="text-primary fw-bold">70% OFF</span>
         </h2>
-        <div class="col-10 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-10 col-md-6 col-lg-5 col-xl-4">
           <div class="ratio ratio-3x2">
             <img src="../../assets/images/last-offer/flamelean-product.png"
                  alt="Flamelean product"

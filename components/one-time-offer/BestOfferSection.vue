@@ -10,12 +10,12 @@
         <h2 class="text-primary fw-bold mb-2 mb-md-3">
           WORTH: <span class="text-decoration-line-through ms-1">$704</span>
         </h2>
-        <h2 class="mb-0 col-11 col-md-12">
+        <h2 class="mb-2 col-11 col-md-12">
           SAVE <span class="text-primary fw-bold">70% OFF + FREE SHIPPING</span>
         </h2>
-        <div class="col-10 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xxl-3">
           <div class="ratio ratio-3x2">
-            <img src="../../assets/images/last-offer/flamelean-product.png"
+            <img src="../../assets/images/one-time-offer/flamelean-product.png"
                  alt="Flamelean product"
                  class="object-fit-contain"
             />
@@ -53,7 +53,25 @@
 
 <script>
 export default {
-  name: "BestOfferSection"
+  name: "BestOfferSection",
+  data() {
+    return {
+      time: [
+        {
+          value: '01',
+          unit: 'hour'
+        },
+        {
+          value: '32',
+          unit: 'minute'
+        },
+        {
+          value: '16',
+          unit: 'second'
+        },
+      ]
+    }
+  }
 }
 </script>
 
