@@ -10,6 +10,7 @@
     <reviews-section/>
     <pricing-section/>
     <money-back-guarantee-section/>
+    <frequently-asked-questions-section/>
   </main>
 </template>
 
@@ -24,10 +25,12 @@ import ShippingSection from "@/components/index/ShippingSection.vue";
 import ReviewsSection from "@/components/index/ReviewsSection.vue";
 import PricingSection from "@/components/index/PricingSection.vue";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection.vue";
+import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection.vue";
 
 export default {
   name: 'IndexPage',
   components: {
+    FrequentlyAskedQuestionsSection,
     MoneyBackGuaranteeSection,
     PricingSection,
     ReviewsSection,
