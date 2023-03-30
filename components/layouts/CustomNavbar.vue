@@ -56,15 +56,15 @@ export default {
       links: [
         {
           name: "About Flamelean",
-          to: "/",
+          to: "/#about-flamelean",
         },
         {
           name: "Ingredients",
-          to: "/",
+          to: "/#ingredients",
         },
         {
           name: "FAQ",
-          to: "/",
+          to: "/#faq",
         },
       ],
     };
