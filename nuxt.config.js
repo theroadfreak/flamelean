@@ -16,12 +16,12 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "/meta-images/flamelean.png",
+        content: "/meta-images/flamelean.jpg",
       },
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "/meta-images/flamelean.png",
+        content: "/meta-images/flamelean.jpg",
       },
     ],
     link: [
