@@ -11,6 +11,7 @@ import BestOfferSection from "@/components/one-time-offer/BestOfferSection.vue";
 
 export default {
   name: "one-time-offer",
+  layout: 'no-navbar',
   components: {BestOfferSection, HeroSection},
   data() {
     return {

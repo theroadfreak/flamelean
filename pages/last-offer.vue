@@ -11,6 +11,7 @@ import LastProductOfferSection from "@/components/last-offer/LastProductOfferSec
 
 export default {
   name: "last-offer",
+  layout: 'no-navbar',
   components: {LastProductOfferSection, HeroSection},
   data() {
     return {
