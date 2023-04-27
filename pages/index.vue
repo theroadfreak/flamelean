@@ -1,7 +1,7 @@
 <template>
   <main>
     <hero-section/>
-    <stanford-scientists-article-section/>
+    <the-blood-sugar-secret/>
     <flamelean-carnitine-substance-section id="about-flamelean"/>
     <flamelean-ingredients-section id="ingredients"/>
     <flamelean-features-section/>
@@ -16,7 +16,6 @@
 
 <script>
 import HeroSection from "@/components/index/HeroSection.vue";
-import StanfordScientistsArticleSection from "@/components/index/StanfordScientistsArticleSection.vue";
 import FlameleanCarnitineSubstanceSection from "@/components/index/FlameleanCarnitineSubstanceSection.vue";
 import FlameleanIngredientsSection from "@/components/index/FlameleanIngredientsSection.vue";
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
@@ -26,10 +25,12 @@ import ReviewsSection from "@/components/index/ReviewsSection.vue";
 import PricingSection from "@/components/index/PricingSection.vue";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection.vue";
 import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection.vue";
+import TheBloodSugarSecret from "@/components/index/TheBloodSugarSecret.vue";
 
 export default {
   name: 'IndexPage',
   components: {
+    TheBloodSugarSecret,
     FrequentlyAskedQuestionsSection,
     MoneyBackGuaranteeSection,
     PricingSection,
@@ -38,7 +39,7 @@ export default {
     OfferSection,
     FlameleanFeaturesSection,
     FlameleanIngredientsSection,
-    FlameleanCarnitineSubstanceSection, StanfordScientistsArticleSection, HeroSection
+    FlameleanCarnitineSubstanceSection, HeroSection
   },
   data() {
     return {
