@@ -4,11 +4,10 @@
     <the-blood-sugar-secret-section/>
     <pricing-section/>
     <flamelean-ingredients-section id="ingredients"/>
-    <flamelean-features-section/>
     <offer-section/>
     <shipping-section/>
-    <reviews-section/>
-    <money-back-guarantee-section/>
+    <flamelean-impact-section/>
+    <pricing-section/>
     <frequently-asked-questions-section id="faq"/>
   </main>
 </template>
@@ -24,10 +23,12 @@ import PricingSection from "@/components/index/PricingSection.vue";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection.vue";
 import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection.vue";
 import TheBloodSugarSecretSection from "@/components/index/TheBloodSugarSecretSection.vue";
+import FlameleanImpactSection from "@/components/index/FlameleanImpactSection.vue";
 
 export default {
   name: 'IndexPage',
   components: {
+    FlameleanImpactSection,
     TheBloodSugarSecretSection,
     FrequentlyAskedQuestionsSection,
     MoneyBackGuaranteeSection,
