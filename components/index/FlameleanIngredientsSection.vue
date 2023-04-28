@@ -1,24 +1,22 @@
 <template>
-  <section class="container pt-5">
+  <section class="container py-5">
     <div class="d-flex flex-column justify-content-center align-items-center text-center text-secondary mb-5">
-      <h2 class="fw-bold mb-5">Inside Every Flamelean capsule you’ll find</h2>
-      <div class="col-12 col-md-8 col-xl-6 mb-md-5">
-        6 clinically-proven ingredients that target inner body temperature
-        <span class="fw-bold">supercharging</span> your calorie-burning engine
-      </div>
+      <h2 class="fw-bold mb-md-5">Inside Every Capsule Of FlameLean You’ll Also Find:</h2>
     </div>
-    <div class="row d-flex justify-content-center align-items-center">
-      <div v-for="ingredient in ingredients" :key="ingredient.name" class="d-flex justify-content-center col-12 col-md-6 col-xl-5 mb-5">
-        <div class="d-flex align-items-center align-items-lg-start">
-          <div class="me-4">
+    <div class="row d-flex justify-content-center justify-content-md-start">
+      <div v-for="ingredient in ingredients" :key="ingredient.name"
+           class="d-flex col-10 col-sm-9 col-md-6 col-lg-4 col-xl-3 mb-5">
+        <div class="col-12 d-flex flex-column justify-content-start align-items-start">
+          <div class="mb-4">
             <img :src="require('../../assets/images/index/flamelean-ingredients/' + ingredient.image)"
                  :alt="ingredient.name + ' image'"
-                 width="150"
-                 height="150"
+                 width="115"
+                 height="115"
+                 class="d-flex justify-content-center"
             />
           </div>
           <div>
-            <div class="fs-5 fw-bold mb-3">{{ ingredient.name }}</div>
+            <div class="fs-5 fw-bold mb-3 text-secondary">{{ ingredient.name }}</div>
             <ul class="list-unstyled">
               <li v-for="feature in ingredient.features" :key="feature" class="d-flex align-items-start mb-2">
                 <img src="../../assets/images/index/check.svg"
@@ -33,6 +31,9 @@
         </div>
       </div>
     </div>
+    <div class="d-flex justify-content-center text-center">
+      <button class="btn btn-outline-primary px-5 py-2">See all ingredients</button>
+    </div>
   </section>
 </template>
 
@@ -43,57 +44,93 @@ export default {
     return {
       ingredients: [
         {
-          name: 'Perilla',
-          image: 'ingredient-1.png',
+          name: 'White Mullbery',
+          image: 'white-mullbery.png',
           features: [
-            'boosts BAT',
-            'supports brain health',
-            'supports healthy cholesterol',
+            `Used for centuries in Chinese
+medicine to manage diabetes`,
+            `Contains high levels of antioxidants
+flavonoids`,
           ]
         },
         {
-          name: 'Perilla',
-          image: 'ingredient-2.png',
+          name: 'Yarrow',
+          image: 'yarrow.png',
           features: [
-            'boosts BAT',
-            'supports brain health',
-            'supports healthy cholesterol',
+            `Used for centuries in traditional
+medicine`,
+            `Antioxidant and anti-inflammatory`,
+            `Can significantly alleviate diarrhea`,
           ]
         },
         {
-          name: 'Perilla',
-          image: 'ingredient-1.png',
+          name: 'Cayyene',
+          image: 'cayyene.png',
           features: [
-            'boosts BAT',
-            'supports brain health',
-            'supports healthy cholesterol',
+            `Can increase feelings of fullness`,
+            `May have a positive impact on fat
+oxidation`,
+            `Helps optimize metabolic rate`,
           ]
         },
         {
-          name: 'Perilla',
-          image: 'ingredient-2.png',
+          name: 'Vanadium',
+          image: 'vanadium.png',
           features: [
-            'boosts BAT',
-            'supports brain health',
-            'supports healthy cholesterol',
+            `Used for centuries in
+traditional medicine`,
+            `Antioxidant and
+anti-inflammatory`,
+            `Can significantly alleviate
+diarrhea`,
           ]
         },
         {
-          name: 'Perilla',
-          image: 'ingredient-1.png',
+          name: 'Manganese',
+          image: 'manganese.png',
           features: [
-            'boosts BAT',
-            'supports brain health',
-            'supports healthy cholesterol',
+            `Supports optimal bone formation`,
+            `Keeps your nervous system in
+check`,
+            `Regulates carbohydrate and lipid
+metabolism`,
+            `Can help maintain blood glucose
+levels`,
           ]
         },
         {
-          name: 'Perilla',
-          image: 'ingredient-2.png',
+          name: 'Banaba',
+          image: 'banaba.png',
           features: [
-            'boosts BAT',
-            'supports brain health',
-            'supports healthy cholesterol',
+            `Can increase body heat production
+and enhance weight loss`,
+            `May have a positive effect on
+blood sugar management`,
+            `Helps lower blood glucose levels`,
+            `Naturally mimicks action of insulin`,
+          ]
+        },
+        {
+          name: 'Guggul',
+          image: 'guggul.png',
+          features: [
+            `Remedy used for centuries in
+Ayurvedic medicine`,
+            `Helps manage cholesterol levels`,
+          ]
+        },
+        {
+          name: 'Bitter Melon',
+          image: 'bitter-melon.png',
+          features: [
+            `Long been a staple in
+traditional medicine`,
+            `Can significantly reduce
+fasting blood sugar`,
+            `May lower a long-term blood
+sugar marker (HbA1c)`,
+            `Helps decrease triglyceride
+levels`,
           ]
         },
       ],
