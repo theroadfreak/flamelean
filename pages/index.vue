@@ -1,14 +1,13 @@
 <template>
   <main>
     <hero-section/>
-    <the-blood-sugar-secret/>
-    <flamelean-carnitine-substance-section id="about-flamelean"/>
+    <the-blood-sugar-secret-section/>
+    <pricing-section/>
     <flamelean-ingredients-section id="ingredients"/>
     <flamelean-features-section/>
     <offer-section/>
     <shipping-section/>
     <reviews-section/>
-    <pricing-section/>
     <money-back-guarantee-section/>
     <frequently-asked-questions-section id="faq"/>
   </main>
@@ -16,7 +15,6 @@
 
 <script>
 import HeroSection from "@/components/index/HeroSection.vue";
-import FlameleanCarnitineSubstanceSection from "@/components/index/FlameleanCarnitineSubstanceSection.vue";
 import FlameleanIngredientsSection from "@/components/index/FlameleanIngredientsSection.vue";
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
 import OfferSection from "@/components/index/OfferSection.vue";
@@ -25,12 +23,12 @@ import ReviewsSection from "@/components/index/ReviewsSection.vue";
 import PricingSection from "@/components/index/PricingSection.vue";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection.vue";
 import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection.vue";
-import TheBloodSugarSecret from "@/components/index/TheBloodSugarSecret.vue";
+import TheBloodSugarSecretSection from "@/components/index/TheBloodSugarSecretSection.vue";
 
 export default {
   name: 'IndexPage',
   components: {
-    TheBloodSugarSecret,
+    TheBloodSugarSecretSection,
     FrequentlyAskedQuestionsSection,
     MoneyBackGuaranteeSection,
     PricingSection,
@@ -39,7 +37,7 @@ export default {
     OfferSection,
     FlameleanFeaturesSection,
     FlameleanIngredientsSection,
-    FlameleanCarnitineSubstanceSection, HeroSection
+    HeroSection
   },
   data() {
     return {

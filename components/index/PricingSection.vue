@@ -1,8 +1,9 @@
 <template>
-  <section class="bg-primary">
+  <section class="bg-image">
     <div class="container py-5 d-flex flex-column align-items-center">
+      <h2 class="text-white text-center mb-2">Limited Time:</h2>
       <h2 class="text-white text-center fw-bold mb-5">Claim your discounted Flamelean<br class="d-none d-sm-flex"/>
-        Below While Stocks Last
+        while stocks last
       </h2>
       <div class="col-12">
         <div class="row d-flex justify-content-center">
@@ -33,19 +34,19 @@ export default {
           image: 'flamelean-bottle.png',
           alt: 'Flamelean Bottle',
           bottlePrice: 59,
-          initialSumPrice: 300,
-          discountedSumPrice: 150,
+          initialSumPrice: '',
+          discountedSumPrice: '',
           freeBonuses: false,
           freeShipping: false,
         },
         {
           quantity: 6,
-          supplyDays: 180,
+          supplyDays: 120,
           image: 'flamelean-6-bottles.png',
           alt: 'Flamelean 6 Bottles',
           bottlePrice: 39,
-          initialSumPrice: 300,
-          discountedSumPrice: 150,
+          initialSumPrice: 354,
+          discountedSumPrice: 234,
           freeBonuses: true,
           freeShipping: true,
         },
@@ -55,10 +56,10 @@ export default {
           image: 'flamelean-3-bottles.png',
           alt: 'Flamelean 3 Bottles',
           bottlePrice: 49,
-          initialSumPrice: 300,
-          discountedSumPrice: 150,
+          initialSumPrice: 177,
+          discountedSumPrice: 147,
           freeBonuses: true,
-          freeShipping: false,
+          freeShipping: true,
         },
       ]
     }
@@ -67,5 +68,9 @@ export default {
 </script>
 
 <style scoped>
-
+.bg-image {
+  background-image: url("../../assets/images/index/pricing-section/bg-image.svg");
+  background-size: cover;
+  background-position: top;
+}
 </style>
