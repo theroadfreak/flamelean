@@ -1,7 +1,7 @@
 <template>
   <section class="container py-5">
     <div class="row d-flex justify-content-center align-items-center mb-4 mb-md-5">
-      <div class="order-1 order-md-0 col-12 col-lg-7 col-xl-6 col-xxl-5 mb-md-4 mb-lg-0">
+      <div class="order-1 order-md-0 col-12 col-lg-7 col-xl-6 col-xxl-6 mb-md-4 mb-lg-0">
         <div class="text-primary small">January 2023</div>
         <h2 class="fw-bold mb-4 mb-sm-5 text-secondary col-lg-10">
           The Blood Sugar Secret That’s Become A Viral Weight Loss Hit

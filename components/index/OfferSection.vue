@@ -12,7 +12,7 @@
         <div class="col-12 mt-md-3">
           <div class="row d-flex justify-content-center align-items-stretch">
             <div v-for="(bonus, i) in bonuses" :key="bonus.bookTitle"
-                 class="col-11 col-sm-10 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center"
+                 class="col-11 col-sm-10 col-md-6 col-lg-5 col-xxl-4 d-flex justify-content-center"
                  :class="{ 'mb-5 mb-md-0' : i !== bonuses.length - 1 }"
             >
               <bonus :bonus="bonus"/>
@@ -36,7 +36,7 @@ export default {
         {
           image: 'book-1.png',
           alt: '1 Day Kickstart Detox Book',
-          bookTitle: '1-Day Kickstart Detox',
+          bookTitle: `Why Blood Sugar Level is So Important for Weight Loss`,
           price: '59.95',
           paragraph: `Acetyl-l-carnitine; L-carnitine Carnitine is a
 substance that helps the body turn fat into
@@ -48,7 +48,7 @@ heart, brain, and sperm.`,
         {
           image: 'book-2.png',
           alt: 'Renew You',
-          bookTitle: 'Renew You',
+          bookTitle: `EAT TO FIT - 30 Days Meal Plan`,
           price: '49.95',
           paragraph: `Acetyl-l-carnitine; L-carnitine Carnitine is a
 substance that helps the body turn fat into
