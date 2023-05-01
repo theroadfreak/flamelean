@@ -2,7 +2,7 @@
   <section class="bg-primary">
     <div class="container pt-3">
       <img
-        src="../../assets/images/layouts/custom-navbar/logo.svg"
+        src="../../assets/images/layouts/logo.svg"
         alt="Flamelean's Logo"
         width="150"
         height="34"
