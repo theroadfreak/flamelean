@@ -3,7 +3,7 @@
     <div class="container d-flex align-items-center py-2">
       <nuxt-link to="/" class="navbar-brand">
         <img
-          src="../../assets/images/layouts/custom-navbar/logo.svg"
+          src="../../assets/images/layouts/logo.svg"
           alt="Flamelean's Logo"
           width="150"
           height="34"
