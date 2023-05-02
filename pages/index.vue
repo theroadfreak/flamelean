@@ -2,6 +2,7 @@
   <main>
     <hero-section/>
     <the-blood-sugar-secret-section/>
+    <as-talked-about-in-section/>
     <pricing-section/>
     <flamelean-ingredients-section id="ingredients"/>
     <offer-section/>
@@ -13,7 +14,7 @@
 </template>
 
 <script>
-import HeroSection from "@/components/index/HeroSection.vue";
+import HeroSection from "@/components/HeroSection.vue";
 import FlameleanIngredientsSection from "@/components/index/FlameleanIngredientsSection.vue";
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
 import OfferSection from "@/components/index/OfferSection.vue";
@@ -24,10 +25,12 @@ import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSect
 import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection.vue";
 import TheBloodSugarSecretSection from "@/components/index/TheBloodSugarSecretSection.vue";
 import FlameleanImpactSection from "@/components/index/FlameleanImpactSection.vue";
+import AsTalkedAboutInSection from "@/components/AsTalkedAboutInSection";
 
 export default {
   name: 'IndexPage',
   components: {
+    AsTalkedAboutInSection,
     FlameleanImpactSection,
     TheBloodSugarSecretSection,
     FrequentlyAskedQuestionsSection,

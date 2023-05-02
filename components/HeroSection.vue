@@ -4,7 +4,7 @@
       <div class="row d-flex align-items-center justify-content-center">
         <div class="col-12 col-md-9 col-lg-8 col-xl-6 mb-4 mb-md-0">
           <div class="ratio ratio-16x9">
-            <img src="../../assets/images/index/hero-section/hero-img.png"
+            <img src="../assets/images/index/hero-section/hero-img.png"
                  alt="Flamelean Product"
                  class="object-fit-contain"
             />
@@ -39,7 +39,7 @@
               </a>
             </div>
             <div>
-              <img src="../../assets/images/index/hero-section/features.svg"
+              <img src="../assets/images/index/hero-section/features.svg"
                    alt="Flamelean Features Icons"
                    width="300"
                    height="54"
@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
 .bg-image {
-  background-image: url("../../assets/images/index/hero-section/bg-image.png");
+  background-image: url("../assets/images/index/hero-section/bg-image.png");
   background-size: cover;
   background-position: top;
 }

@@ -16,9 +16,12 @@
       </div>
     </div>
     <div class="d-flex flex-column justify-content-center text-start">
-      <div class="text-white fs-4">RRP:
-        <span class="text-decoration-line-through text-decoration-color">{{ bonus.price }}</span>
-        <span class="ms-2">Today: <span class="text-success fw-bold">FREE</span></span>
+      <div class="fs-4" :class="bgColor ? 'text-secondary' : 'text-white'">RRP:
+        <span class="text-decoration-line-through"
+              :class="bgColor ? 'text-primary text-decoration-color-primary' : 'text-white text-decoration-color-success'"
+        >${{ bonus.price }}</span>
+        <span class="ms-2"> Today:
+          <span class="fw-bold" :class="bgColor ? 'text-primary' : 'text-success'">FREE</span></span>
       </div>
     </div>
   </div>
@@ -31,13 +34,21 @@ export default {
     bonus: {
       type: Object,
       required: true,
+    },
+    bgColor: {
+      type: Boolean,
+      default: false,
     }
   }
 }
 </script>
 
 <style scoped>
-.text-decoration-color {
+.text-decoration-color-success {
   text-decoration-color: #16FF3B !important;
+}
+
+.text-decoration-color-primary {
+  text-decoration-color: #3C096C !important;
 }
 </style>
