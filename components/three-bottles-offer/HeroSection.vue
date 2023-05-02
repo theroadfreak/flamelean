@@ -8,16 +8,11 @@
         height="34"
       />
     </div>
-    <div class="container d-flex flex-column align-items-center text-center py-5">
-      <div class="col-12 col-xl-10">
-        <progress-bar class="mb-4" width="w-50"/>
-      </div>
-      <h1 class="text-white mb-4">
-        <span class="fw-bold">WAIT!</span> ONE TIME OFFER
+    <div class="container d-flex flex-column align-items-center text-center pt-5 pb-2">
+      <h1>
+        <span class="d-block text-success fw-bold mb-3">Congratulations, you’ve been selected!!</span>
+        <span class="text-white">Claim Your $78 Instant Discount</span>
       </h1>
-      <div class="text-white fs-5 fw-bold">
-        You Will Never See This Page Again!
-      </div>
     </div>
   </section>
 </template>
