@@ -8,27 +8,27 @@
           <div>You can stock up on FlameLean by adding</div>
         </div>
         <div class="text-black mb-2">
-          <span class="fs-3 fw-bold text-uppercase">3 Bottles </span>
+          <span class="fs-3 fw-bold text-uppercase">{{ card.quantity }} Bottles </span>
           <span class="fs-4">to your order for just</span>
         </div>
         <div class="display-4 text-secondary fw-bold mb-4">
-          $99
+          ${{ card.price }}
         </div>
-        <div class="col-10 col-md-6 col-lg-5 col-xl-4 mb-4">
-          <div class="ratio ratio-3x2">
-            <img src="../../assets/images/claim-your-discount/flamelean-product.png"
-                 alt="Flamelean product"
+        <div class="col-12 col-sm-10 col-lg-9 col-xl-8 mb-4">
+          <div class="ratio ratio-21x9">
+            <img :src="require('../assets/images/' + card.img)"
+                 :alt="card.alt"
                  class="object-fit-contain"
             />
           </div>
         </div>
         <div class="col-12 col-md-9 border-top border-2 border-light mb-4"></div>
         <div class="text-black mb-4">
-          That’s just $0.81 per day.
+          That’s just ${{ card.perDay }} per day.
         </div>
         <div class="col-12 col-md-9 border-top border-2 border-light"></div>
         <div class="text-black my-3">
-          It’s also a savings of $78<br/>
+          It’s also a savings of ${{ card.savings }}<br/>
           off the regular retail price of FlameLean
         </div>
         <div class="col-12 col-md-9 py-4 mb-4 mb-md-5 bg-success text-secondary">
@@ -38,7 +38,7 @@
           <button
             class="w-100 btn btn-primary text-white py-3 rounded rounded-3 d-flex align-items-center justify-content-center text-center">
             <span class="fw-bold">
-              <img src="../../assets/images/claim-your-discount/shopping-cart-icon.svg"
+              <img src="../assets/images/shopping-cart-icon.svg"
                    width="30"
                    height="26"
                    alt="Shopping Cart icon"
@@ -54,6 +54,12 @@
 <script>
 export default {
   name: "ProductOfferSection",
+  props: {
+    card: {
+      type: Object,
+      required: true,
+    }
+  }
 }
 </script>
 
