@@ -1,6 +1,6 @@
 <template>
-  <section class="container py-5">
-    <div class="row d-flex justify-content-center align-items-center mb-4 mb-md-5">
+  <section class="container pt-5 pb-4 pb-lg-5">
+    <div class="row d-flex justify-content-center align-items-center">
       <div class="order-1 order-md-0 col-12 col-lg-7 col-xl-6 col-xxl-6 mb-md-4 mb-lg-0">
         <div class="text-primary small">January 2023</div>
         <h2 class="fw-bold mb-4 mb-sm-5 text-secondary col-lg-10">
@@ -34,74 +34,19 @@ Just so they can lose weight.
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column align-items-center">
-      <h2 class="fw-bold text-secondary my-5">
-        As Talked About In.
-      </h2>
-      <div class="col-11 col-md-12 col-xl-11 row d-flex align-items-center justify-content-center">
-        <div v-for="(logo, i) in logos" :key="i"
-             class="col-6 col-sm-4 col-lg d-flex align-items-center justify-content-center mb-4">
-          <img
-            :src="require('../../assets/images/index/the-blood-sugar-secret-section/logos/' + logo.image)"
-            :alt="logo.alt"
-            class="custom-max-width"
-          />
-        </div>
-      </div>
-    </div>
   </section>
 </template>
 
 <script>
 export default {
   name: "TheBloodSugarSecretSection",
-  data() {
-    return {
-      logos: [
-        {
-          image: 'forbes.svg',
-          alt: 'Forbes logo'
-        },
-        {
-          image: 'new-york-times.svg',
-          alt: 'The New York Times logo'
-        },
-        {
-          image: 'vice.svg',
-          alt: 'Vice logo'
-        },
-        {
-          image: 'variety.svg',
-          alt: 'Variety logo'
-        },
-        {
-          image: 'cbc-news.svg',
-          alt: 'CBC News logo'
-        },
-        {
-          image: 'buzz-feed.svg',
-          alt: 'BuzzFeed logo'
-        },
-      ]
-    }
-  }
 }
 </script>
 
 <style scoped>
-@media (max-width: 575.98px) {
-  .custom-max-width {
-    max-width: 70%;
-  }
-}
-
 @media (max-width: 991.98px) {
   .custom-max-height {
     max-height: 70vh;
-  }
-
-  .custom-max-width {
-    max-width: 90%;
   }
 }
 </style>

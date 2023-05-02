@@ -15,6 +15,10 @@
           </div>
         </div>
       </div>
+      <div v-if="userReview" class="small text-white text-center mt-5 col-12 col-md-9 col-lg-6 col-xl-5">
+        "My clothes fit so much better and more comfortably. I’ve lost 52 pounds
+        since starting.” Stacey Bollinger, Maryland
+      </div>
     </div>
   </section>
 </template>
@@ -25,6 +29,12 @@ import Card from "@/components/index/PricingSection/Card.vue";
 export default {
   name: "PricingSection",
   components: {Card},
+  props: {
+    userReview: {
+      type: Boolean,
+      default: false,
+    }
+  },
   data() {
     return {
       cards: [

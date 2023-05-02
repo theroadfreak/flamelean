@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import TitleSubtitleText from "@/components/twelve-bottles-offer/TitleSubtitleText";
+import TitleSubtitleText from "@/components/TitleSubtitleText";
 
 export default {
   name: "SpecialOfferIntro",

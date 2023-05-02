@@ -20,7 +20,7 @@
 
 <script>
 import HeroSection from "@/components/twelve-bottles-offer/HeroSection";
-import TitleSubtitleText from "@/components/twelve-bottles-offer/TitleSubtitleText";
+import TitleSubtitleText from "@/components/TitleSubtitleText";
 import SpecialOfferIntro from "@/components/twelve-bottles-offer/SpecialOfferIntro";
 import ProductOfferSection from "@/components/ProductOfferSection";
 import FeaturesSection from "@/components/FeaturesSection";
@@ -34,6 +34,7 @@ export default {
     FeaturesSection, ProductOfferSection, SpecialOfferIntro, TitleSubtitleText, HeroSection},
   data() {
     return {
+      title: '12 Bottles Offer | Flamelean',
       wayToRegainControl: {
         title: `Keep Reading: #1 Way To Regain Control Of
       Your Blood Sugar & Burn The Most Fat`,
@@ -75,7 +76,19 @@ Which means…`
         savings: 309,
       }
     }
-  }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: this.title,
+        },
+      ],
+    };
+  },
 }
 </script>
 

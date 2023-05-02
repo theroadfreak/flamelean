@@ -1,12 +1,17 @@
 <template>
-  <section class="bg-image">
+  <section :class="bgColor ? 'bg-light' : 'bg-image'">
     <div class="container py-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center text-center">
           <div class="col-11 col-md-7 col-lg-6 col-xxl-4 mb-5">
-            <h2 class="fw-bold text-white line-height-normal mb-0">Order <span
-              class="text-success">6 Bottles</span> or <span class="text-success">3 Bottles</span>
-              and Get <span class="border-bottom border-3 border-success">2 FREE Bonuses</span> !</h2>
+            <h2 class="fw-bold line-height-normal mb-0"
+                :class="bgColor ? 'text-secondary' : 'text-white'"
+            >Order
+              <span :class="bgColor ? 'text-primary' : 'text-success'">6 Bottles</span>
+              or
+              <span :class="bgColor ? 'text-primary' : 'text-success'">3 Bottles</span>
+              and Get <span class="border-bottom border-3" :class="bgColor ? 'border-secondary' : 'border-success'">
+                2 FREE Bonuses</span> !</h2>
           </div>
         </div>
         <div class="col-12 mt-md-3">
@@ -15,7 +20,7 @@
                  class="col-11 col-sm-10 col-md-6 col-lg-5 col-xxl-4 d-flex justify-content-center"
                  :class="{ 'mb-5 mb-md-0' : i !== bonuses.length - 1 }"
             >
-              <bonus :bonus="bonus"/>
+              <bonus :bonus="bonus" :bg-color="bgColor"/>
             </div>
           </div>
         </div>
@@ -30,6 +35,12 @@ import Bonus from "@/components/index/OfferSection/Bonus.vue";
 export default {
   name: "OfferSection",
   components: {Bonus},
+  props: {
+    bgColor: {
+      type: Boolean,
+      default: false,
+    }
+  },
   data() {
     return {
       bonuses: [
