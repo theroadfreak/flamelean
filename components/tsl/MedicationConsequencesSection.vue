@@ -1,20 +1,14 @@
 <template>
   <section class="bg-primary">
-    <div class="container d-flex flex-column align-content-center pb-5">
+    <div class="pb-5">
       <title-subtitle-text class="pt-5"
                            :title="medicationEffects.title"
+                           :text="medicationEffects.text"
                            text-color="text-white"
 
       />
-      <title-subtitle-text class="pt-3"
-                           :text="medicationEffects.text"
-                           text-color="text-white"
-      />
       <title-subtitle-text class="pt-5"
                            :title="theTruth.title"
-                           text-color="text-white"
-      />
-      <title-subtitle-text class="pt-3"
                            :text="theTruth.text"
                            text-color="text-white"
       />
@@ -24,6 +18,7 @@
 
 <script>
 import TitleSubtitleText from "~/components/TitleSubtitleText";
+
 export default {
   name: "MedicationConsequencesSection",
   components: {TitleSubtitleText},
@@ -49,7 +44,7 @@ I read through long reddit conversations about the medication…<br class="d-non
 I researched scientific journals and studies that explained WHY it was so effective.`
       },
       theTruth: {
-        title: `Here’s The TRUTH I Discovered That Helped Me<br class="d-none d-sm-flex" />
+        title: `Here’s The TRUTH I Discovered That Helped Me
 Lose 40 Pounds In Less Than 2 Months…`,
         text: `The diabetes medication the rich and famous are hoarding right now…<br class="d-none d-lg-flex" />
 Releases a chemical in your body that mimics a hormone.<br class="d-none d-lg-flex" />
