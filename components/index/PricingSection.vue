@@ -1,10 +1,15 @@
 <template>
   <section class="bg-image">
     <div class="container py-5 d-flex flex-column align-items-center">
-      <h2 class="text-white text-center mb-2">Limited Time:</h2>
-      <h2 class="text-white text-center fw-bold mb-5">Claim your discounted Flamelean<br class="d-none d-sm-flex"/>
-        while stocks last
+      <h2 v-if="freeShippingTitle" class="text-white text-center fw-bold mb-5">
+        Every 3 And 6-Bottle Order Gets Free Shipping Too!
       </h2>
+      <div v-else>
+        <h2 class="text-white text-center mb-2">Limited Time:</h2>
+        <h2 class="text-white text-center fw-bold mb-5">Claim your discounted Flamelean<br class="d-none d-sm-flex"/>
+          while stocks last
+        </h2>
+      </div>
       <div class="col-12">
         <div class="row d-flex justify-content-center">
           <div v-for="(card, i) in cards" :key="card.bottlePrice"
@@ -18,6 +23,11 @@
       <div v-if="userReview" class="small text-white text-center mt-5 col-12 col-md-9 col-lg-6 col-xl-5">
         "My clothes fit so much better and more comfortably. I’ve lost 52 pounds
         since starting.” Stacey Bollinger, Maryland
+      </div>
+      <div v-if="stockAvailableText" class="small text-white text-center mt-5 col-12 col-md-9 col-lg-6 col-xl-5">
+        *If you see ‘Buy It Now’ buttons above that means you’re in luck,
+        we have some stock available.<br/>
+        Act now to secure your order while supplies last!
       </div>
     </div>
   </section>
@@ -33,7 +43,15 @@ export default {
     userReview: {
       type: Boolean,
       default: false,
-    }
+    },
+    stockAvailableText: {
+      type: Boolean,
+      default: false,
+    },
+    freeShippingTitle: {
+      type: Boolean,
+      default: false,
+    },
   },
   data() {
     return {

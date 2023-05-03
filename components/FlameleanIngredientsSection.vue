@@ -8,7 +8,7 @@
            class="d-flex col-10 col-sm-9 col-md-6 col-lg-4 col-xl-3 mb-5">
         <div class="col-12 d-flex flex-column justify-content-start align-items-start">
           <div class="mb-4">
-            <img :src="require('../../assets/images/index/flamelean-ingredients/' + ingredient.image)"
+            <img :src="require('../assets/images/index/flamelean-ingredients/' + ingredient.image)"
                  :alt="ingredient.name + ' image'"
                  width="115"
                  height="115"
@@ -19,7 +19,7 @@
             <div class="fs-5 fw-bold mb-3 text-secondary">{{ ingredient.name }}</div>
             <ul class="list-unstyled">
               <li v-for="feature in ingredient.features" :key="feature" class="d-flex align-items-start mb-2">
-                <img src="../../assets/images/index/check.svg"
+                <img src="../assets/images/check.svg"
                      alt="Check icon"
                      width="17" height="17"
                      class="me-2 mt-1"
