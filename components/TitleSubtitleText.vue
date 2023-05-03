@@ -6,7 +6,7 @@
     <h5 v-if="subtitle !== ''" class="text-danger col-11 col-lg-9 col-xl-7 mb-4">
       {{ subtitle }}
     </h5>
-    <div :class="textColor" v-html="text"></div>
+    <div v-if="text !== ''" :class="textColor" v-html="text"></div>
   </section>
 </template>
 
