@@ -43,7 +43,7 @@ export default {
   },
   data() {
     return {
-      title: 'Homepage | Flamelean',
+      title: 'Flamelean',
     }
   },
   head() {

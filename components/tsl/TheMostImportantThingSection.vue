@@ -8,7 +8,7 @@
     <h5 class="text-black text-center fw-bold mb-4">That’s because GLP-1 works in 3 ways:</h5>
     <div class="mb-3 text-black text-center">
       <ul class="list-unstyled">
-        <li v-for="(way, i) in ways" :key="i">
+        <li v-for="(way, i) in ways" :key="i" class="mb-2">
           {{ i + 1 }}. {{ way }}
         </li>
       </ul>
