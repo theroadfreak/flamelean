@@ -15,13 +15,12 @@
 
 <script>
 import HeroSection from "@/components/HeroSection.vue";
-import FlameleanIngredientsSection from "@/components/index/FlameleanIngredientsSection.vue";
+import FlameleanIngredientsSection from "@/components/FlameleanIngredientsSection.vue";
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection.vue";
 import OfferSection from "@/components/index/OfferSection.vue";
 import ShippingSection from "@/components/index/ShippingSection.vue";
 import ReviewsSection from "@/components/index/ReviewsSection.vue";
 import PricingSection from "@/components/index/PricingSection.vue";
-import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection.vue";
 import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection.vue";
 import TheBloodSugarSecretSection from "@/components/index/TheBloodSugarSecretSection.vue";
 import FlameleanImpactSection from "@/components/index/FlameleanImpactSection.vue";
@@ -34,7 +33,6 @@ export default {
     FlameleanImpactSection,
     TheBloodSugarSecretSection,
     FrequentlyAskedQuestionsSection,
-    MoneyBackGuaranteeSection,
     PricingSection,
     ReviewsSection,
     ShippingSection,

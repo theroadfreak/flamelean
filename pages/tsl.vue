@@ -5,9 +5,17 @@
     <the-biggest-suspect-section/>
     <jessica-richards-section/>
     <thing-that-switches-on-fat-burning-section/>
-    <why-we-created-flamelean-section/>
+    <why-we-created-flamelean-section id="about-flamelean"/>
+    <four-star-of-the-show-section/>
+    <natural-solution-section/>
+    <flamelean-ingredients-section/>
+    <links/>
+    <plant-based-remedies-section/>
+    <pricing-section :stock-available-text="true"/>
     <offer-section :bg-color="true"/>
-    <pricing-section :user-review="true"/>
+    <pricing-section :user-review="true" :free-shipping-title="true"/>
+    <money-back-guarantee-section/>
+    <pricing-section :user-review="true" :free-shipping-title="true"/>
     <frequently-asked-questions-section/>
     <pricing-section :user-review="true"/>
   </main>
@@ -23,10 +31,22 @@ import WhyWeCreatedFlameleanSection from "@/components/tsl/WhyWeCreatedFlamelean
 import PricingSection from "@/components/index/PricingSection";
 import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection";
 import OfferSection from "@/components/index/OfferSection";
+import FourStarOfTheShowSection from "@/components/tsl/FourStarOfTheShowSection";
+import NaturalSolutionSection from "@/components/tsl/NaturalSolutionSection";
+import FlameleanIngredientsSection from "@/components/FlameleanIngredientsSection";
+import Links from "@/components/tsl/Links";
+import PlantBasedRemediesSection from "@/components/tsl/PlantBasedRemediesSection";
+import MoneyBackGuaranteeSection from "@/components/tsl/MoneyBackGuaranteeSection";
 
 export default {
   name: "tsl",
   components: {
+    MoneyBackGuaranteeSection,
+    PlantBasedRemediesSection,
+    Links,
+    FlameleanIngredientsSection,
+    NaturalSolutionSection,
+    FourStarOfTheShowSection,
     OfferSection,
     FrequentlyAskedQuestionsSection,
     PricingSection,
