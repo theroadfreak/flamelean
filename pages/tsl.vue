@@ -5,6 +5,7 @@
     <the-biggest-suspect-section/>
     <jessica-richards-section/>
     <thing-that-switches-on-fat-burning-section/>
+    <common-side-effects-section/>
     <why-we-created-flamelean-section id="about-flamelean"/>
     <four-star-of-the-show-section/>
     <natural-solution-section/>
@@ -37,10 +38,12 @@ import FlameleanIngredientsSection from "@/components/FlameleanIngredientsSectio
 import Links from "@/components/tsl/Links";
 import PlantBasedRemediesSection from "@/components/tsl/PlantBasedRemediesSection";
 import MoneyBackGuaranteeSection from "@/components/tsl/MoneyBackGuaranteeSection";
+import CommonSideEffectsSection from "~/components/tsl/CommonSideEffectsSection";
 
 export default {
   name: "tsl",
   components: {
+    CommonSideEffectsSection,
     MoneyBackGuaranteeSection,
     PlantBasedRemediesSection,
     Links,
