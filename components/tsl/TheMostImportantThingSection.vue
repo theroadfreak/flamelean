@@ -1,11 +1,16 @@
 <template>
   <section class="container d-flex flex-column align-content-center">
-    <h2 class="text-secondary text-center fw-bold py-4">The Most Important Thing You Need To Know Is…</h2>
-    <flamelean-impact-features :list="mostImportantThings" title-color="text-secondary" class="mb-5"/>
-    <h4 class="text-black text-center fw-bold mb-4">That’s because GLP-1 works in 3 ways:</h4>
-    <div class="text-center mb-3 text-black">
-      <ul v-for="(way, i) in ways" :key="i" class="list-unstyled">
-        <li>{{ way }}</li>
+    <flamelean-impact-features :features="mostImportantThings"
+                               title="The Most Important Thing You Need To Know Is…"
+                               title-color="text-secondary"
+                               class="my-5"
+    />
+    <h5 class="text-black text-center fw-bold mb-4">That’s because GLP-1 works in 3 ways:</h5>
+    <div class="mb-3 text-black text-center">
+      <ul class="list-unstyled">
+        <li v-for="(way, i) in ways" :key="i">
+          {{ i + 1 }}. {{ way }}
+        </li>
       </ul>
     </div>
     <title-subtitle-text :text="text"
@@ -30,9 +35,9 @@ export default {
         'And store fat and sugar in your body in a more flattering way'
       ],
       ways: [
-        '1. By helping your pancreas release insulin when blood sugar levels are high…',
-        '2. Helping move sugar out of your blood and into other body tissues to be used for energy instead of stored as fat…',
-        '3. Slowing the movement of food through the stomach to decrease appetite and lose weight…'
+        'By helping your pancreas release insulin when blood sugar levels are high…',
+        'Helping move sugar out of your blood and into other body tissues to be used for energy instead of stored as fat…',
+        'Slowing the movement of food through the stomach to decrease appetite and lose weight…'
       ],
       text: `The science proves it!<br class="d-none d-lg-flex"/>
 A lead Doctor at one of London’s most prestigious health science centres, confirms that…<br class="d-none d-lg-flex"/>

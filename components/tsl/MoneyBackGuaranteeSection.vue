@@ -5,8 +5,11 @@
       Money-Back Guarantee
     </h2>
     <title-subtitle-text class="mb-5" :text="texts[0]" text-color="text-black"/>
-    <h2 class="text-center fw-bold mb-5 text-black">That’s Right, If You Don’t Think Your New Life Is…</h2>
-    <flamelean-impact-features class="mb-4" title-color="text-black" :list="features"/>
+    <flamelean-impact-features class="mb-4"
+                               title-color="text-black"
+                               :features="features"
+                               title="That’s Right, If You Don’t Think Your New Life Is…"
+    />
     <title-subtitle-text :text="texts[1]" text-color="text-black"/>
   </section>
 </template>
