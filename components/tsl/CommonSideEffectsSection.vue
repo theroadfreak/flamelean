@@ -2,27 +2,25 @@
   <section class="text-center">
     <title-subtitle-text class="pt-5"
                          :title="title[0]"
-                         text-color="text-secondary"
     />
-    <the-xed-list :list="list1"/>
+    <the-xed-list :list="commonSideEffects"/>
     <a href="https://www.singlecare.com/blog/ozempic-alternatives/" target="_blank" class="text-center text-4D4D4D text-decoration-none font-size-12px">
       https://www.singlecare.com/blog/ozempic-alternatives/
     </a>
     <title-subtitle-text class="pt-5"
                          :title="title[1]"
-                         text-color="text-secondary"
     />
-    <the-xed-list :list="list2" class="mb-3"/>
+    <the-xed-list :list="risks" class="mb-3"/>
     <title-subtitle-text class="pb-5"
                          :text="text"
-                         text-color="text-secondary"
+                         text-color="text-black"
     />
   </section>
 </template>
 
 <script>
 import TitleSubtitleText from "~/components/TitleSubtitleText";
-import TheXedList from "~/components/tsl/TheXedList";
+import TheXedList from "@/components/tsl/CommonSideEffects/TheXedList";
 export default {
   name: "CommonSideEffectsSection",
   components: {TheXedList, TitleSubtitleText},
@@ -33,13 +31,13 @@ export default {
 Common Side Effects, Like:`,
         `And Then The More Serious Risks, Like:`,
       ],
-      list1: [
+      commonSideEffects: [
         'Nausea...',
         'Stomach Pain...',
         'Vomiting...',
         'And stomach pain...'
       ],
-      list2: [
+      risks: [
         'Kidney problems...',
         'Pancreatitis...',
         'Gallstones...',
