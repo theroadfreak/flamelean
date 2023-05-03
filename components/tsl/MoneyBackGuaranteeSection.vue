@@ -5,7 +5,8 @@
       Money-Back Guarantee
     </h2>
     <title-subtitle-text class="mb-5" :text="texts[0]" text-color="text-black"/>
-    <flamelean-impact-features class="mb-4" title-color="text-black"/>
+    <h2 class="text-center fw-bold mb-5 text-black">That’s Right, If You Don’t Think Your New Life Is…</h2>
+    <flamelean-impact-features class="mb-4" title-color="text-black" :list="features"/>
     <title-subtitle-text :text="texts[1]" text-color="text-black"/>
   </section>
 </template>
@@ -33,6 +34,15 @@ That’s our pinky promise.<br class="d-none d-lg-flex"/>
 Because honestly, we know you’re gonna love how you feel.<br class="d-none d-lg-flex"/>
 Just like thousands of women before you.`
       ],
+      features: [
+        'Stress-free now your blood glucose levels are stable and rarely spike or crash',
+        'A breeze now your body is able to use insulin more effectively, naturally',
+        'Joyful because you’re no longer fighting a losing battle against carb and sugar cravings',
+        'Energetic now the herbal blend is giving you a natural boost',
+        'Super easy to lose weight because you’re fuller for longer and actually enjoy being active',
+        'Empowering every time you’re told: “wow, you’ve lost so much weight - you look great!”',
+        'The best it’s ever been now you’re finally in control of your blood sugar and weight…',
+      ]
     }
   }
 }
