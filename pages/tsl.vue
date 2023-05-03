@@ -6,6 +6,7 @@
     <jessica-richards-section/>
     <thing-that-switches-on-fat-burning-section/>
     <common-side-effects-section/>
+    <medication-consequences-section/>
     <the-most-important-thing-section/>
     <why-we-created-flamelean-section id="about-flamelean"/>
     <four-star-of-the-show-section/>
@@ -41,11 +42,13 @@ import PlantBasedRemediesSection from "@/components/tsl/PlantBasedRemediesSectio
 import MoneyBackGuaranteeSection from "@/components/tsl/MoneyBackGuaranteeSection";
 import CommonSideEffectsSection from "~/components/tsl/CommonSideEffectsSection";
 import TheMostImportantThingSection from "~/components/tsl/TheMostImportantThingSection";
+import MedicationConsequencesSection from "~/components/tsl/MedicationConsequencesSection";
 
 export default {
   name: "tsl",
   components: {
     TheMostImportantThingSection,
+    MedicationConsequencesSection,
     CommonSideEffectsSection,
     MoneyBackGuaranteeSection,
     PlantBasedRemediesSection,
