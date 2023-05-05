@@ -13,7 +13,7 @@
       <div class="col-12">
         <div class="row d-flex justify-content-center">
           <div v-for="(card, i) in cards" :key="card.bottlePrice"
-               class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3"
+               class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 zoom"
                :class="{ 'mb-4 mb-lg-0 me-md-1 me-lg-0' : i !== cards.length - 1 }"
           >
             <card :card="card"/>
