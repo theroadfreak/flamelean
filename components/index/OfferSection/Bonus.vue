@@ -1,11 +1,11 @@
 <template>
   <div class="d-flex flex-column w-100 h-100">
     <div class="card bg-white w-100 h-100 mb-4">
-      <div class="card-img-top">
-        <div class="ratio ratio-1x1">
+      <div class="card-img-top p-1">
+        <div class="ratio ratio-6x7">
           <img :src="require('../../../assets/images/index/offer-section/' + bonus.image)"
                :alt="bonus.alt"
-               class="object-fit-cover"
+               class="object-fit-cover rounded rounded"
           />
         </div>
       </div>
