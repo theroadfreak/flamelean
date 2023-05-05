@@ -1,25 +1,47 @@
 <template>
-  <div class="bg-primary">
-    <div class="container d-flex flex-column align-items-center py-5">
-      <nuxt-link to="/" class="mb-5">
-        <img
-          src="../../assets/images/layouts/logo.svg"
-          alt="Flamelean's Logo"
-          width="150"
-          height="34"
-        />
-      </nuxt-link>
-      <div class="text-white text-center fs-5">
-        FlameLean is not endorsed by, sponsored by, or<br class="d-none d-sm-flex"/>
-        affiliated with any of these organizations.
-      </div>
+  <div class="bg-primary text-white">
+    <footer-navbar :nav-items="topNavItems"/>
+    <div class="p-4 small">
+      {{ text }}
     </div>
+    <footer-navbar :nav-items="bottomNavItems"/>
   </div>
 </template>
 
 <script>
+import FooterNavbar from "@/components/layouts/CustomFooter/FooterNavbar";
 export default {
-  name: "CustomFooter"
+  name: "CustomFooter",
+  components: {FooterNavbar},
+  data() {
+    return {
+      topNavItems: [
+        'Home',
+        'Benefits',
+        'Customer',
+        'Reviews',
+        'Ingredients',
+        'Label',
+        'Side Effect'
+      ],
+      text: `Statements found on this website have not been evaluated by the Food and Drug Administration.
+       Products on this website are not intended to diagnose, treat, cure, or prevent any disease.
+       If you are pregnant, nursing, taking medication, or have a medical condition, consult your physician before
+       using our products. ClickBank is the retailer of products on this site. CLICKBANK® is a registered trademark
+       of Click Sales, Inc., a Delaware corporation located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709,
+       USA and used by permission. ClickBank's role as retailer does not constitute an endorsement, approval or review
+       of these products or any claim, statement or opinion used in promotion of these products.
+`,
+      bottomNavItems: [
+        'Home',
+        'Product Support',
+        'Order Support',
+        'Terms',
+        'Privacy',
+        'Shipping'
+      ]
+    }
+  }
 }
 </script>
 
