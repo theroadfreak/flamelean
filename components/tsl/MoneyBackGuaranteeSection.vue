@@ -29,7 +29,7 @@ But the thing is, those supplements never switched on your fat-burning GLP-1 hor
 They didn’t make you full for much longer, suppress your cravings, or make you store fat and sugar in your body in the most optimal way.<br class="d-none d-lg-flex"/>
 That’s why we aren’t just going to help you incinerate fat and optimize your blood sugar levels effortlessly.<br class="d-none d-lg-flex"/>
 We’re going to guarantee it or your money back!`,
-        `Then simply email us and we will give you 100% of your money back.<br class="d-none d-lg-flex"/>
+        `We will give you 100% of your money back.<br class="d-none d-lg-flex"/>
 No questions asked.<br class="d-none d-lg-flex"/>
 And you have an entire 180 days to do this.<br class="d-none d-lg-flex"/>
 Don’t sweat it, just send back the bottles and you don’t owe us a thing.<br class="d-none d-lg-flex"/>
