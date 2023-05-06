@@ -5,6 +5,7 @@
     <as-talked-about-in-section/>
     <pricing-section/>
     <flamelean-ingredients-section id="ingredients"/>
+    <flamelean-features-section/>
     <offer-section/>
     <shipping-section/>
     <flamelean-impact-section/>
