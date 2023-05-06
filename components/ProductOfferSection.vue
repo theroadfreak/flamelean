@@ -36,8 +36,8 @@
         </div>
         <div class="col-11 col-md-7 col-lg-6 d-flex text-center justify-content-center">
           <button
-            class="w-100 btn btn-primary text-white py-3 rounded rounded-3 d-flex align-items-center justify-content-center text-center">
-            <span class="fw-bold">
+            class="zoom cursor-pointer w-100 btn btn-primary text-white py-3 rounded rounded-3 d-flex align-items-center justify-content-center text-center">
+            <span class="fw-bold ">
               <img src="../assets/images/shopping-cart-icon.svg"
                    width="30"
                    height="26"
