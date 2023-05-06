@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="col-12 border border-top border-2 border-secondary">
+    <div class="col-12 border border-top border-1 border-primary">
     </div>
   </section>
 </template>
