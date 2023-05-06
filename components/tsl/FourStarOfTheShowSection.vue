@@ -23,13 +23,6 @@
         </div>
       </div>
     </div>
-    <div class="mb-4 mt-lg-2 text-center">
-      <div v-for="(link, i) in links" :key="i">
-        <a :href="link" target="_blank" class="text-4D4D4D text-break font-size-12px text-decoration-none">
-          {{ link }}
-        </a>
-      </div>
-    </div>
     <div class="text-black text-center col-lg-8 col-xl-7">
       Results showed Gymnema made a significant reduction in fasting plasma glucose and
       glucagon levels compared to the placebo group.
@@ -89,12 +82,6 @@ export default {
              compared to the placebo group.`,
           ]
         },
-      ],
-      links: [
-        `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3631862/`,
-        `https://pubmed.ncbi.nlm.nih.gov/19175817/`,
-        `https://www.liebertpub.com/doi/10.1089/jmf.2010.0180`,
-        `https://pubmed.ncbi.nlm.nih.gov/19501271/`,
       ]
     }
   }

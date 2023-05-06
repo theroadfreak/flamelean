@@ -50,3 +50,15 @@
 a:visited, a:hover {
   color: #3C096C;
 }
+
+.zoom {
+  transition: transform 0.5s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
