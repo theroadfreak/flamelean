@@ -37,11 +37,11 @@
           </li>
         </ul>
         <div class="d-flex justify-content-center text-center">
-          <button
+          <nuxt-link
             class="nav-item btn btn-light text-primary rounded rounded-3 px-3 mt-2 mt-lg-0"
-          >
+          to="/#pricing-section">
             Order Now
-          </button>
+          </nuxt-link>
         </div>
       </div>
     </div>

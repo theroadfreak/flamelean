@@ -1,5 +1,5 @@
 <template>
-  <div class="card bg-white py-4"
+  <div class="zoom cursor-pointer card bg-white py-4"
        :class="[{ 'mt-lg-3' : card.quantity !== 6 },
         { 'border border-4 border-success' : card.quantity === 6 },
         { 'pb-5' : card.initialSumPrice === '' }

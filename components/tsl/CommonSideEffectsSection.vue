@@ -4,9 +4,6 @@
                          :title="title[0]"
     />
     <the-xed-list :list="commonSideEffects"/>
-    <a href="https://www.singlecare.com/blog/ozempic-alternatives/" target="_blank" class="text-center text-4D4D4D text-decoration-none font-size-12px">
-      https://www.singlecare.com/blog/ozempic-alternatives/
-    </a>
     <title-subtitle-text class="pt-5"
                          :title="title[1]"
     />
