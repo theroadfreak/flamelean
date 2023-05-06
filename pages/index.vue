@@ -8,7 +8,7 @@
     <offer-section/>
     <shipping-section/>
     <flamelean-impact-section/>
-    <pricing-section/>
+    <pricing-section  id="pricing-section"/>
     <frequently-asked-questions-section id="faq"/>
   </main>
 </template>
