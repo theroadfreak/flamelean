@@ -5,10 +5,12 @@
     <as-talked-about-in-section/>
     <pricing-section/>
     <flamelean-ingredients-section id="ingredients"/>
+    <flamelean-features-section/>
     <offer-section/>
     <shipping-section/>
     <flamelean-impact-section/>
     <pricing-section  id="pricing-section"/>
+    <money-back-guarantee-section/>
     <frequently-asked-questions-section id="faq"/>
   </main>
 </template>
@@ -25,10 +27,12 @@ import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQ
 import TheBloodSugarSecretSection from "@/components/index/TheBloodSugarSecretSection.vue";
 import FlameleanImpactSection from "@/components/index/FlameleanImpactSection.vue";
 import AsTalkedAboutInSection from "@/components/AsTalkedAboutInSection";
+import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection";
 
 export default {
   name: 'IndexPage',
   components: {
+    MoneyBackGuaranteeSection,
     AsTalkedAboutInSection,
     FlameleanImpactSection,
     TheBloodSugarSecretSection,

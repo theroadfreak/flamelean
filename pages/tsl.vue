@@ -12,12 +12,14 @@
     <four-star-of-the-show-section/>
     <natural-solution-section/>
     <flamelean-ingredients-section/>
+    <flamelean-features-section/>
     <plant-based-remedies-section/>
     <pricing-section :stock-available-text="true"/>
     <offer-section :bg-color="true"/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>
-    <money-back-guarantee-section/>
+    <money-back-guarantee-investment-section/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>
+    <money-back-guarantee-section/>
     <frequently-asked-questions-section/>
     <pricing-section :user-review="true"/>
   </main>
@@ -37,18 +39,22 @@ import FourStarOfTheShowSection from "@/components/tsl/FourStarOfTheShowSection"
 import NaturalSolutionSection from "@/components/tsl/NaturalSolutionSection";
 import FlameleanIngredientsSection from "@/components/FlameleanIngredientsSection";
 import PlantBasedRemediesSection from "@/components/tsl/PlantBasedRemediesSection";
-import MoneyBackGuaranteeSection from "@/components/tsl/MoneyBackGuaranteeSection";
 import CommonSideEffectsSection from "~/components/tsl/CommonSideEffectsSection";
 import TheMostImportantThingSection from "~/components/tsl/TheMostImportantThingSection";
 import MedicationConsequencesSection from "~/components/tsl/MedicationConsequencesSection";
+import MoneyBackGuaranteeInvestmentSection from "@/components/tsl/MoneyBackGuaranteeInvestmentSection";
+import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection";
+import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection";
 
 export default {
   name: "tsl",
   components: {
+    FlameleanFeaturesSection,
+    MoneyBackGuaranteeSection,
+    MoneyBackGuaranteeInvestmentSection,
     TheMostImportantThingSection,
     MedicationConsequencesSection,
     CommonSideEffectsSection,
-    MoneyBackGuaranteeSection,
     PlantBasedRemediesSection,
     FlameleanIngredientsSection,
     NaturalSolutionSection,

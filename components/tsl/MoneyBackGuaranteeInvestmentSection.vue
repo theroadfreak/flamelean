@@ -18,7 +18,7 @@
 import TitleSubtitleText from "@/components/TitleSubtitleText";
 import FlameleanImpactFeatures from "@/components/FlameleanImpactFeatures";
 export default {
-  name: "MoneyBackGuaranteeSection",
+  name: "MoneyBackGuaranteeInvestmentSection",
   components: {FlameleanImpactFeatures, TitleSubtitleText},
   data() {
     return {
