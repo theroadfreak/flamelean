@@ -1,9 +1,12 @@
 <template>
-  <div class="navbar bg-secondary container-fluid justify-content-between p-4">
-    <div v-for="(link, i) in navItems" :key="i" class="d-flex flex-row nav-item">
-      <nuxt-link class=" text-white text-decoration-none" to="/">{{ link }}</nuxt-link>
+  <div class="container-fluid bg-secondary">
+    <div class="navbar container justify-content-between p-4">
+      <div v-for="(link, i) in navItems" :key="i" class="d-flex flex-row nav-item">
+        <nuxt-link class=" text-white text-decoration-none" to="/">{{ link }}</nuxt-link>
+      </div>
     </div>
   </div>
+
 </template>
 
 <script>
