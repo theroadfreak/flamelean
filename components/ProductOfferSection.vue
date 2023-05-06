@@ -12,8 +12,9 @@
           <span class="fs-4">to your order for just</span>
         </div>
         <div class="display-4 text-secondary fw-bold mb-2 d-flex flex-column justify-content-center">
-          <span>${{ card.price }}</span> <span class="text-danger fs-1 py-2">{{ formattedCountdown }}</span>
+          <span>${{ card.price }}</span>
         </div>
+        <div class="col-12 mb-3 text-danger display-5 fw-light">{{ formattedCountdown }}</div>
         <div class="col-12 col-sm-10 col-lg-9 col-xl-8 mb-4">
           <div class="ratio ratio-21x9">
             <img :src="require('../assets/images/' + card.img)"
