@@ -12,6 +12,7 @@
     <four-star-of-the-show-section/>
     <natural-solution-section/>
     <flamelean-ingredients-section/>
+    <flamelean-features-section/>
     <plant-based-remedies-section/>
     <pricing-section :stock-available-text="true"/>
     <offer-section :bg-color="true"/>
@@ -43,10 +44,12 @@ import TheMostImportantThingSection from "~/components/tsl/TheMostImportantThing
 import MedicationConsequencesSection from "~/components/tsl/MedicationConsequencesSection";
 import MoneyBackGuaranteeInvestmentSection from "@/components/tsl/MoneyBackGuaranteeInvestmentSection";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection";
+import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection";
 
 export default {
   name: "tsl",
   components: {
+    FlameleanFeaturesSection,
     MoneyBackGuaranteeSection,
     MoneyBackGuaranteeInvestmentSection,
     TheMostImportantThingSection,
