@@ -17,7 +17,7 @@
             {{ reference }}
         </div>
       </div>
-      <div class="small text-center fw-lighter py-3">
+      <div class="small text-center fw-lighter pt-4">
         FlameLean is not endorsed by, sponsored by, or<br class="d-none d-sm-flex"/>
         affiliated with any of these organizations.
       </div>
