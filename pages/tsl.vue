@@ -12,7 +12,6 @@
     <four-star-of-the-show-section/>
     <natural-solution-section/>
     <flamelean-ingredients-section/>
-    <links/>
     <plant-based-remedies-section/>
     <pricing-section :stock-available-text="true"/>
     <offer-section :bg-color="true"/>
@@ -37,7 +36,6 @@ import OfferSection from "@/components/index/OfferSection";
 import FourStarOfTheShowSection from "@/components/tsl/FourStarOfTheShowSection";
 import NaturalSolutionSection from "@/components/tsl/NaturalSolutionSection";
 import FlameleanIngredientsSection from "@/components/FlameleanIngredientsSection";
-import Links from "@/components/tsl/Links";
 import PlantBasedRemediesSection from "@/components/tsl/PlantBasedRemediesSection";
 import MoneyBackGuaranteeSection from "@/components/tsl/MoneyBackGuaranteeSection";
 import CommonSideEffectsSection from "~/components/tsl/CommonSideEffectsSection";
@@ -52,7 +50,6 @@ export default {
     CommonSideEffectsSection,
     MoneyBackGuaranteeSection,
     PlantBasedRemediesSection,
-    Links,
     FlameleanIngredientsSection,
     NaturalSolutionSection,
     FourStarOfTheShowSection,
