@@ -8,8 +8,7 @@
           <img
             :src="require('../../assets/images/index/scientific-references/' + logo.image)"
             :alt="logo.alt"
-            class="custom-max-width"
-            style="width: 80%; height: 70%"
+            class="custom-max-width logo-size"
           />
         </div>
       </div>
@@ -116,5 +115,10 @@ metabolism and activation of browning in high-fat diet-induced obesity. J Nutr B
   .custom-max-width {
     max-width: 75%;
   }
+}
+
+.logo-size {
+  width: 80%;
+  height: 70%;
 }
 </style>
