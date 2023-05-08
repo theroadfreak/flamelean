@@ -1,7 +1,7 @@
 <template>
   <div class="container d-flex flex-column align-items-center py-4">
     <h1 class="mb-4 fw-bold text-center">{{ title }}</h1>
-    <div class="fs-5 custom-max-width">
+    <div class="fs-5 col-12 col-xl-10">
       {{ text }}
     </div>
   </div>
@@ -24,10 +24,4 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 575.98px) {
-  .custom-max-width {
-    max-width: 100%;
-  }
-}
-
 </style>
