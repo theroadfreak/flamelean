@@ -4,11 +4,12 @@
       <h5 class="text-7C7C7C mb-5">Scientific References:</h5>
       <div class="col-11 col-md-12 mb-4 mb-sm-5 row d-flex align-items-center justify-content-center">
         <div v-for="(logo, i) in logos" :key="i"
-             class="col-6 col-xl d-flex align-items-center justify-content-center mb-4">
+             class="col-6 col-xl d-flex align-items-center justify-content-center " >
           <img
             :src="require('../../assets/images/index/scientific-references/' + logo.image)"
             :alt="logo.alt"
             class="custom-max-width"
+            style="width: 80%; height: 70%"
           />
         </div>
       </div>
