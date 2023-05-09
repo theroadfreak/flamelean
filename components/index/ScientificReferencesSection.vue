@@ -2,13 +2,13 @@
   <section class="bg-e6e6e6">
     <div class="container d-flex flex-column align-items-center py-5">
       <h5 class="text-7C7C7C mb-5">Scientific References:</h5>
-      <div class="col-11 col-md-12 mb-4 mb-sm-5 row d-flex align-items-center justify-content-center">
+      <div class="col-12 mb-lg-5 row d-flex align-items-center justify-content-center">
         <div v-for="(logo, i) in logos" :key="i"
-             class="col-6 col-xl d-flex align-items-center justify-content-center mb-4">
+             class="col-6 col-sm-5 col-lg-3 col-xl d-flex align-items-center justify-content-center">
           <img
             :src="require('../../assets/images/index/scientific-references/' + logo.image)"
             :alt="logo.alt"
-            class="custom-max-width"
+            class="col-12 col-md-8 col-lg-11 col-xl-9 object-fit-contain"
           />
         </div>
       </div>
@@ -103,17 +103,5 @@ metabolism and activation of browning in high-fat diet-induced obesity. J Nutr B
 
 .text-4D4D4D {
   color: #4D4D4D;
-}
-
-@media (max-width: 575.98px) {
-  .custom-max-width {
-    max-width: 80%;
-  }
-}
-
-@media (max-width: 1199.98px) {
-  .custom-max-width {
-    max-width: 75%;
-  }
 }
 </style>
