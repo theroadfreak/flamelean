@@ -3,7 +3,7 @@
   <title-text :title="title"
               :text="text"
   />
-  <flamelean-ingredients-section/>
+  <flamelean-ingredients-section :subtitle-included="true"/>
 </section>
 </template>
 

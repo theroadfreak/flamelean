@@ -1,5 +1,5 @@
 <template>
-  <div class="container d-flex flex-column align-items-center py-4">
+  <div class="container d-flex flex-column align-items-center py-5 text-secondary">
     <h1 class="mb-4 fw-bold text-center">{{ title }}</h1>
     <div class="fs-5 col-12 col-xl-10">
       {{ text }}
