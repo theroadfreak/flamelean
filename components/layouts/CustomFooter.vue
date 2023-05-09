@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary text-white">
-    <footer-links class="bg-secondary" :footer-links="links.slice(0, 7)"/>
+    <footer-links class="bg-secondary" :footer-links="links.slice(0, 6)"/>
     <div class="container pt-4">
       <div class="small" style="text-align: justify-all !important;">
         {{ text }}
@@ -21,8 +21,7 @@ export default {
       links: [
         'Home',
         'Benefits',
-        'Customer',
-        'Reviews',
+        'Customer Reviews',
         'Ingredients',
         'Label',
         'Side Effect',

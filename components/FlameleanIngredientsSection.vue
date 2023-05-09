@@ -1,7 +1,10 @@
 <template>
   <section class="container py-5">
     <div class="d-flex flex-column justify-content-center align-items-center text-center text-secondary mb-5">
-      <h2 class="fw-bold mb-md-5">Inside Every Capsule Of FlameLean You’ll Also Find:</h2>
+      <h2 class="fw-bold">Inside Every Capsule Of FlameLean You’ll Also Find:</h2>
+      <div v-if="subtitleIncluded" class="fs-5 col-12 col-lg-7">
+        6 clinically-proven ingredients that target inner body temperature supercharging your calorie-burning engine
+      </div>
     </div>
     <div class="row d-flex justify-content-center justify-content-md-start">
       <div v-for="ingredient in ingredients" :key="ingredient.name"
@@ -40,6 +43,12 @@
 <script>
 export default {
   name: "FlameleanIngredientsSection",
+  props: {
+    subtitleIncluded: {
+      type: Boolean,
+      default: false,
+    }
+  },
   data() {
     return {
       ingredients: [
