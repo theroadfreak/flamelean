@@ -19,19 +19,54 @@ export default {
   data() {
     return {
       links: [
-        'Home',
-        'Benefits',
-        'Customer',
-        'Reviews',
-        'Ingredients',
-        'Label',
-        'Side Effect',
-        'Home',
-        'Product Support',
-        'Order Support',
-        'Terms',
-        'Privacy',
-        'Shipping',
+        {
+          name: 'Home',
+          link: 'index'
+        },
+        {
+          name: 'Benefits',
+          link: 'benefits'
+        },
+        {
+          name: 'Customer Reviews',
+          link: 'customer-reviews'
+        },
+        {
+          name: 'Ingredients',
+          link: 'ingredients'
+        },
+        {
+          name: 'Label',
+          link: 'label'
+        },
+        {
+          name: 'Side Effect',
+          link: 'side-effects'
+        },
+        {
+          name: 'Home',
+          link: 'index'
+        },
+        {
+          name: 'Product Support',
+          href: 'mailto:support@flamelean.com'
+        },
+        {
+          name: 'Order Support',
+          href: 'https://www.clkbank.com/'
+        },
+        {
+          name: 'Terms',
+          link: 'terms'
+        },
+        {
+          name: 'Privacy',
+          link: 'privacy'
+        },
+        {
+          name: 'Shipping',
+          link: 'shipping-and-returns'
+        }
       ],
       text: `Statements found on this website have not been evaluated by the Food and Drug Administration.
        Products on this website are not intended to diagnose, treat, cure, or prevent any disease.
