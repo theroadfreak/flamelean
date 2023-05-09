@@ -1,4 +1,5 @@
 <template>
+<section>
   <div class="container-fluid bg-primary py-4 text-center">
     <img
       src="../../assets/images/layouts/logo.svg"
@@ -7,11 +8,13 @@
       height="34"
     />
   </div>
+</section>
 </template>
 
 <script>
 export default {
-  name: "FlameleanNewLogo"
+  name: "FlameleanLogo",
+  layout: 'no-navbar'
 }
 </script>
 

@@ -1,8 +1,8 @@
 <template>
-  <section class="container pt-5 pb-3 justify-content-center">
+  <section class="container py-5 justify-content-center">
     <h1 class="fw-bold text-center mb-4">Privacy</h1>
     <discounted-offers-button/>
-    <product-and-order-support/>
+    <product-and-order-support class="mt-5"/>
     <text-item :text="text.slice(0,28)"/>
     <div class="d-flex flex-column align-items-start fs-5 col-lg-8 mx-auto mb-2">
       <ol>
@@ -22,9 +22,9 @@
 </template>
 
 <script>
-import DiscountedOffersButton from "@/components/no-layout-footer-pages/DiscountedOffersButton";
-import ProductAndOrderSupport from "@/components/no-layout-footer-pages/ProductAndOrderSupport";
-import TextItem from "@/components/no-layout-footer-pages/TextItem";
+import DiscountedOffersButton from "@/components/footer-pages/DiscountedOffersButton";
+import ProductAndOrderSupport from "@/components/footer-pages/ProductAndOrderSupport";
+import TextItem from "@/components/footer-pages/TextItem";
 export default {
   name: "PrivacySection",
   components: {TextItem, ProductAndOrderSupport, DiscountedOffersButton},

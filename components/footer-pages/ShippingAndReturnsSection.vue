@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import TextItem from "@/components/no-layout-footer-pages/TextItem";
-import ProductAndOrderSupport from "@/components/no-layout-footer-pages/ProductAndOrderSupport";
+import TextItem from "@/components/footer-pages/TextItem";
+import ProductAndOrderSupport from "@/components/footer-pages/ProductAndOrderSupport";
 export default {
   name: "ShippingAndReturnsSection",
   components: {ProductAndOrderSupport, TextItem},

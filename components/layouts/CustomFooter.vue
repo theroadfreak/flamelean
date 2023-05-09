@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary text-white">
-    <footer-links class="bg-secondary" :footer-links="links.slice(0, 7)"/>
+    <footer-links class="bg-secondary" :footer-links="links.slice(0, 6)"/>
     <div class="container pt-4">
       <div class="small" style="text-align: justify-all !important;">
         {{ text }}
@@ -21,31 +21,31 @@ export default {
       links: [
         {
           name: 'Home',
-          link: 'index'
+          link: '/'
         },
         {
           name: 'Benefits',
-          link: 'benefits'
+          link: '/footer-linked-pages/benefits'
         },
         {
           name: 'Customer Reviews',
-          link: 'customer-reviews'
+          link: '/footer-linked-pages/customer-reviews'
         },
         {
           name: 'Ingredients',
-          link: 'ingredients'
+          link: '/footer-linked-pages/ingredients'
         },
         {
           name: 'Label',
-          link: 'label'
+          link: '/footer-linked-pages/flamelean-label'
         },
         {
           name: 'Side Effect',
-          link: 'side-effects'
+          link: '/footer-linked-pages/side-effects'
         },
         {
           name: 'Home',
-          link: 'index'
+          link: '/'
         },
         {
           name: 'Product Support',
@@ -57,15 +57,15 @@ export default {
         },
         {
           name: 'Terms',
-          link: 'terms'
+          link: '/legal/terms'
         },
         {
           name: 'Privacy',
-          link: 'privacy'
+          link: '/legal/privacy'
         },
         {
           name: 'Shipping',
-          link: 'shipping-and-returns'
+          link: '/footer-linked-pages/shipping-and-returns'
         }
       ],
       text: `Statements found on this website have not been evaluated by the Food and Drug Administration.
