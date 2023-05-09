@@ -30,7 +30,7 @@ import AsTalkedAboutInSection from "@/components/AsTalkedAboutInSection";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection";
 
 export default {
-  name: 'IndexPage',
+  name: 'index',
   components: {
     MoneyBackGuaranteeSection,
     AsTalkedAboutInSection,
