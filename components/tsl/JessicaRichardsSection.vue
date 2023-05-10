@@ -1,5 +1,5 @@
 <template>
-  <section class="container d-flex flex-column align-items-center justify-content-center pt-4 pb-5">
+  <section class="container d-flex flex-column align-items-center justify-content-center  pb-5">
     <div class="row col-12 col-xl-10 col-xxl-9 align-items-center justify-content-center">
       <div class="col-12 col-lg-6 d-flex flex-column">
         <div class="small text-primary mb-3">January 2023</div>
@@ -37,8 +37,8 @@
       <div class="col-12 col-lg-6 d-flex justify-content-center">
         <div class="col-10 col-sm-6 col-md-5 col-lg-9 offset-lg-3">
           <div class="ratio ratio-4x9">
-            <img src="../../assets/images/tsl/jessica-richards-section/doctor.png"
-                 alt="Doctor"
+            <img src="../../assets/images/tsl/jessica-richards-section/woman.png"
+                 alt="Woman"
                  class="object-fit-contain"
             />
           </div>

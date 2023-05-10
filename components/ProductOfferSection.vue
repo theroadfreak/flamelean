@@ -24,8 +24,9 @@
           </div>
         </div>
         <div class="col-12 col-md-9 border-top border-2 border-light mb-4"></div>
-        <div class="text-black mb-4">
-          That’s just ${{ card.perDay }} per day.
+        <div class="text-black mb-4 d-flex flex-column align-items-center">
+          <span>That’s just ${{ card.perDay }} per day.</span>
+          <span class="small text-4D4D4D pt-3"><i>*You won't be billed monthly</i></span>
         </div>
         <div class="col-12 col-md-9 border-top border-2 border-light"></div>
         <div class="text-black my-3">

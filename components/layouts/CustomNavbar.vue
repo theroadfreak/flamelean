@@ -56,7 +56,7 @@ export default {
       links: [
         {
           name: "About Flamelean",
-          to: "/tsl#about-flamelean",
+          to: "#flameleanImpacts",
         },
         {
           name: "Ingredients",

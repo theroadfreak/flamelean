@@ -17,7 +17,7 @@
     <pricing-section :stock-available-text="true"/>
     <offer-section :bg-color="true"/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>
-    <money-back-guarantee-investment-section/>
+    <flamelean-impacts id="flameleanImpacts"/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>
     <money-back-guarantee-section/>
     <frequently-asked-questions-section/>
@@ -42,16 +42,16 @@ import PlantBasedRemediesSection from "@/components/tsl/PlantBasedRemediesSectio
 import CommonSideEffectsSection from "~/components/tsl/CommonSideEffectsSection";
 import TheMostImportantThingSection from "~/components/tsl/TheMostImportantThingSection";
 import MedicationConsequencesSection from "~/components/tsl/MedicationConsequencesSection";
-import MoneyBackGuaranteeInvestmentSection from "@/components/tsl/MoneyBackGuaranteeInvestmentSection";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection";
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection";
+import FlameleanImpacts from "@/components/FlameleanImpacts";
 
 export default {
   name: "tsl",
   components: {
+    FlameleanImpacts,
     FlameleanFeaturesSection,
     MoneyBackGuaranteeSection,
-    MoneyBackGuaranteeInvestmentSection,
     TheMostImportantThingSection,
     MedicationConsequencesSection,
     CommonSideEffectsSection,
