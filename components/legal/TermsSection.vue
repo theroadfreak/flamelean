@@ -4,9 +4,9 @@
     <discounted-offers-button class="mb-5"/>
     <product-and-order-support/>
     <text-item :text="text.slice(0,2)"/>
-    <list-item :ordered-list="orderedList.slice(0, 5)"/>
+    <list-item :ordered-list="list.slice(0, 5)"/>
     <text-item :text="text.slice(2,13)"/>
-    <list-item :ordered-list="orderedList.slice(5, 7)"/>
+    <list-item :ordered-list="list.slice(5, 7)"/>
     <div class="d-flex flex-column align-items-start fs-5 col-lg-8 mx-auto mb-2">
       <ol>
         <li class="mb-2">any link provided in connection with the services,</li>
@@ -16,7 +16,7 @@
         <li class="mb-2">any matter otherwise related to your use of the site or services.</li>
       </ol>
     </div>
-    <list-item :ordered-list="orderedList.slice(7, 15)"/>
+    <list-item :ordered-list="list.slice(7, 15)"/>
     <text-item :text="text.slice(13,14)"/>
     <product-and-order-support/>
   </section>
@@ -49,23 +49,69 @@ export default {
         'Owners of this Site are not liable for any information provided on this Site with regard to recommendations regarding supplements for any health purposes. The products or claims made about specific nutrients or products have not been evaluated by the Food and Drug Administration. Dietary products are not intended to treat, prevent or cure disease. Consult with a healthcare professional before starting any diet, supplement or exercise program. Owners of this site make no guarantee or warranty with respect to any products or services sold.',
         'You hereby agree to release and hold harmless FlameLean, their affiliates, and their respective directors, officers and employees, from any liability for any injury or adverse reaction which you may experience, or any other claims or damages which may arise from your use of the site or services or products.'
       ],
-      orderedList: [
-        `<b>1. Acceptance of Terms and Conditions.</b> By using our site or the services you agree to be bound by these terms and conditions. In addition, you consent to the use of your Personal Information in accordance with the terms of and for the purposes set out in the Privacy Policy. This is a legally binding agreement.`,
-        `<b>2. Purpose of Use.</b> The information on this site is for educational purposes only. The information provided should not replace the advice given by your physician or health care professional. You should consult your personal physician before beginning an exercise or specialized nutrition program. The information you provide is only used by flamelean.com for the purposes of calculating your nutrition needs, providing meal and supplement plans and presenting exercise routines. Your personal information will not be shared or sold with unrelated entities without your prior consent.<br/>As a condition of your using this information, you represent that you are at least eighteen years of age and have the legal authority to accept the terms and conditions, are in good mental health, do not suffer from any mental or physical condition or disability which might render your participation hazardous to yourself or to others, or which would impair your ability to understand this health release. You understand and agree that the benefits you obtain may vary depending on many factors, including the accuracy of the information you provide, changes in your health and lifestyle habits, and compliance with the program. You understand and agree that it is your responsibility to consult with your physician regarding any food allergies that you may have, any drug interactions you may have with supplements, and to check the ingredients in all recipes presented. You understand and agree that if you are on any medications or currently being treated for any illness or condition that you may participate in this program only after consultation with your health practitioner.`,
-        `<b>3. Security and Technology Requirements.</b> FlameLean uses SSL technology on some website pages to help protect information that passes over the Internet. You must have certain browser capability to take advantage of this encryption technology.`,
-        `<b>4. Disclaimer of Warranties.</b The use of the site and services is solely at your own risk. The site and services are provided on an "as is" and "as available" basis. FlameLean disclaims all warranties of any kind with respect to the site and services, including any medical or health information, health condition information and fitness for a particular purpose or goal. FlameLean makes no warranty that the site or services will meet your requirements, or will be uninterrupted, secure, current, accurate, and complete or error free or that results may be obtained by the use of the site or services will be accurate or reliable. You understand and acknowledge that your only solution with respect to any dissatisfaction with the site or services is to discontinue the use of the site or services.`,
-        `<b>5. Health Disclaimers.</b> Any references to physical or mental health on this website constitutes an educational service consisting solely of general health information. The materials are provided "as is" and without warranties of any kind either express or implied.`,
-        `<b>6. Testimonials, Case Studies, and Examples.</b> Testimonials, case studies, and examples found at flamelean.com are exceptional results, do not reflect the typical purchaser's experience, don't apply to the average person and are not intended to represent or guarantee that anyone will achieve the same or similar results. You should always perform due diligence and not take such results at face value. We are not responsible for any errors or omissions in typical results information supplied to us by manufacturers or other reputable third parties. Zach Miller, derivatives of, and other names stated or used on this website are pen name used to protect the authors of this product. Any likeness to any persons living or dead named Zach Miller or other names or derivatives is entirely coincidental. To protect the identity of the authors of this product and it's affiliates and partners we currently are, or may in the future use actors and/or voice actors to re-enact real customer testimonials or circumstances provided to us and to present our products.`,
-        `<b>7. Exclusions and Limitation of Liability.</b> You expressly understand and agree that FlameLean and FlameLean shall not be liable to you or any other person for any damages, direct, indirect, consequential or incidental, including without limitation damages for loss of profits, goodwill, use data loss or other losses resulting from:`,
-        `<b>8. Refund Policy.</b> Your purchase is fully protected by a 60 day, 100% money-back return policy. In order to obtain a refund under this policy, you must follow the instructions found in our Shipping and Returns Policy. You can contact our retailer ClickBank for billing and refund support at https://www.clkbank.com, or contact the vendor, Flamelean by emailing support@flamelean.com.`,
-        `<b>9. Conduct on the Site.</b> You agree not to use the site or services: (a) to email or otherwise transmit any material that contains software viruses or any other code, files or programs designed or known to disable, interrupt, or limit the functionality of any hardware, software, telecommunications equipment or facilities. (b) To interfere with the site or services in any manner that may adversely affect FlameLean or third party.`,
-        `<b>10. No Resale of Services.</b You agree to use the services solely for your own needs. You agree to not offer the services to any third party. You are not permitted to use any portion of the site or services to provide any commercial services or third parties.`,
-        `<b>11. Rules for Children under age 18.</b> This product is for adults aged 18 and over only. No children are to watch, read or follow any of the material found on this website.`,
-        `<b>12. Intellectual Property.</b> The Content of this service is owned by FlameLean and is protected by the United States Copyright Act of 1976, as amended, and the copyright laws of other countries.`,
-        `<b>13. Links.</b> Any links found on the FlameLean web site are provided for your convenience and do not reflect any endorsement by FlameLean with respect to the quality, reliability or any other characteristic or feature of such linked site. FlameLean is not responsible for any loss or injury you may suffer for any matter associated with the linked site.`,
-        `<b>14. Changes.</b> FlameLean reserves the right to make changes to the terms and conditions. Any changes will be posted on this Site. FlameLean reserves the right to add to or change or discontinue the services offered at any time. FlameLean may terminate your use of the services at any time for any reason without notice and shall not be liable to you or to any third party for any modification or discontinuance of the services. FlameLean reserves the right to refuse to offer services to anyone at any time.`,
-        `<b>15. Entire Agreement.</b> These terms and conditions constitute the entire agreement between you and FlameLean relating to the site and services. By your use of this site, you certify that you: (i) have read and agree to the above terms; (it) have received consent from your personal physician to use the services and participate in the prescribed activities; and (i) acknowledge that you do so voluntarily and at your own risk.`,
-      ]
+      list: [
+        {
+          title: '1. Acceptance of Terms and Conditions.',
+          text: 'By using our site or the services you agree to be bound by these terms and conditions. In addition, you consent to the use of your Personal Information in accordance with the terms of and for the purposes set out in the Privacy Policy. This is a legally binding agreement.'
+        },
+        {
+          title: '2. Purpose of Use.',
+          text: 'The information on this site is for educational purposes only. The information provided should not replace the advice given by your physician or health care professional. You should consult your personal physician before beginning an exercise or specialized nutrition program. The information you provide is only used by flamelean.com for the purposes of calculating your nutrition needs, providing meal and supplement plans and presenting exercise routines. Your personal information will not be shared or sold with unrelated entities without your prior consent.\n' +
+            'As a condition of your using this information, you represent that you are at least eighteen years of age and have the legal authority to accept the terms and conditions, are in good mental health, do not suffer from any mental or physical condition or disability which might render your participation hazardous to yourself or to others, or which would impair your ability to understand this health release. You understand and agree that the benefits you obtain may vary depending on many factors, including the accuracy of the information you provide, changes in your health and lifestyle habits, and compliance with the program. You understand and agree that it is your responsibility to consult with your physician regarding any food allergies that you may have, any drug interactions you may have with supplements, and to check the ingredients in all recipes presented. You understand and agree that if you are on any medications or currently being treated for any illness or condition that you may participate in this program only after consultation with your health practitioner.\n'
+        },
+        {
+          title: '3. Security and Technology Requirements.',
+          text: 'FlameLean uses SSL technology on some website pages to help protect information that passes over the Internet. You must have certain browser capability to take advantage of this encryption technology.'
+        },
+        {
+          title: '4. Disclaimer of Warranties.',
+          text: 'The use of the site and services is solely at your own risk. The site and services are provided on an "as is" and "as available" basis. FlameLean disclaims all warranties of any kind with respect to the site and services, including any medical or health information, health condition information and fitness for a particular purpose or goal. FlameLean makes no warranty that the site or services will meet your requirements, or will be uninterrupted, secure, current, accurate, and complete or error free or that results may be obtained by the use of the site or services will be accurate or reliable. You understand and acknowledge that your only solution with respect to any dissatisfaction with the site or services is to discontinue the use of the site or services.'
+        },
+        {
+          title: '5. Health Disclaimers.',
+          text: 'Any references to physical or mental health on this website constitutes an educational service consisting solely of general health information. The materials are provided "as is" and without warranties of any kind either express or implied.'
+        },
+        {
+          title: '6. Testimonials, Case Studies, and Examples.',
+          text: 'Testimonials, case studies, and examples found at flamelean.com are exceptional results, do not reflect the typical purchaser\'s experience, don\'t apply to the average person and are not intended to represent or guarantee that anyone will achieve the same or similar results. You should always perform due diligence and not take such results at face value. We are not responsible for any errors or omissions in typical results information supplied to us by manufacturers or other reputable third parties. Zach Miller, derivatives of, and other names stated or used on this website are pen name used to protect the authors of this product. Any likeness to any persons living or dead named Zach Miller or other names or derivatives is entirely coincidental. To protect the identity of the authors of this product and it\'s affiliates and partners we currently are, or may in the future use actors and/or voice actors to re-enact real customer testimonials or circumstances provided to us and to present our products.\n'
+        },
+        {
+          title: '7. Exclusions and Limitation of Liability.',
+          text: 'You expressly understand and agree that FlameLean and FlameLean shall not be liable to you or any other person for any damages, direct, indirect, consequential or incidental, including without limitation damages for loss of profits, goodwill, use data loss or other losses resulting from:'
+        },
+        {
+          title: '8. Refund Policy.',
+          text: 'Your purchase is fully protected by a 60 day, 100% money-back return policy. In order to obtain a refund under this policy, you must follow the instructions found in our Shipping and Returns Policy. You can contact our retailer ClickBank for billing and refund support at https://www.clkbank.com, or contact the vendor, Flamelean by emailing support@flamelean.com.'
+        },
+        {
+          title: '9. Conduct on the Site.',
+          text: ' You agree not to use the site or services: (a) to email or otherwise transmit any material that contains software viruses or any other code, files or programs designed or known to disable, interrupt, or limit the functionality of any hardware, software, telecommunications equipment or facilities. (b) To interfere with the site or services in any manner that may adversely affect FlameLean or third party.'
+        },
+        {
+          title: '10. No Resale of Services.',
+          text: 'You agree to use the services solely for your own needs. You agree to not offer the services to any third party. You are not permitted to use any portion of the site or services to provide any commercial services or third parties.'
+        },
+        {
+          title: '11. Rules for Children under age 18.',
+          text: 'This product is for adults aged 18 and over only. No children are to watch, read or follow any of the material found on this website.'
+        },
+        {
+          title: '12. Intellectual Property.',
+          text: 'The Content of this service is owned by FlameLean and is protected by the United States Copyright Act of 1976, as amended, and the copyright laws of other countries.'
+        },
+        {
+          title: '13. Links',
+          text: 'Any links found on the FlameLean web site are provided for your convenience and do not reflect any endorsement by FlameLean with respect to the quality, reliability or any other characteristic or feature of such linked site. FlameLean is not responsible for any loss or injury you may suffer for any matter associated with the linked site.'
+        },
+        {
+          title: '14. Changes.',
+          text: 'FlameLean reserves the right to make changes to the terms and conditions. Any changes will be posted on this Site. FlameLean reserves the right to add to or change or discontinue the services offered at any time. FlameLean may terminate your use of the services at any time for any reason without notice and shall not be liable to you or to any third party for any modification or discontinuance of the services. FlameLean reserves the right to refuse to offer services to anyone at any time.'
+        },
+        {
+          title: '15. Entire Agreement.',
+          text: 'These terms and conditions constitute the entire agreement between you and FlameLean relating to the site and services. By your use of this site, you certify that you: (i) have read and agree to the above terms; (it) have received consent from your personal physician to use the services and participate in the prescribed activities; and (i) acknowledge that you do so voluntarily and at your own risk.'
+        }
+      ],
     }
   }
 }
