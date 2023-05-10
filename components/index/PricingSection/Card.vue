@@ -49,14 +49,15 @@
         </div>
       </div>
       <div class="w-100 px-4 mb-4">
-        <button class="btn btn-primary rounded rounded-3 small w-100 text-white py-3 d-flex align-items-center justify-content-center">
-          <img src="../../../assets/images/index/pricing-section/shopping-cart-icon.svg"
-               alt="Shopping Cart Icon"
-               width="30"
-               height="26"
-               class="me-2"
-          />
-          <span class="fw-bold">YES! BUY IT NOW</span>
+        <button class="btn btn-primary rounded rounded-3 gap-2  w-100 text-white py-3 d-flex align-items-center justify-content-center">
+          <span class="fw-bold fs-4">ADD TO CART</span>
+          <div class="rounded-circle bg-success text-center p-2">
+            <img src="../../../assets/images/index/pricing-section/shopping-cart-icon.svg"
+                 alt="Shopping Cart Icon"
+                 width="30"
+                 height="26"
+            />
+          </div>
         </button>
       </div>
       <div class="d-flex mb-3">
