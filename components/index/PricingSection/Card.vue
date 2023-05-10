@@ -5,7 +5,7 @@
         { 'pb-5' : card.initialSumPrice === '' }
         ]">
     <div class="d-flex flex-column align-items-center text-secondary text-center">
-      <div class="fs-5 fw-bold mb-1">Flamelean {{ card.quantity }} {{ card.quantity > 1 ? 'bottles' : 'bottle' }}</div>
+      <div class="fs-2 fw-bold mb-1">{{ card.quantity }} {{ card.quantity > 1 ? 'Bottles' : 'Bottle' }}</div>
       <div :class="{ 'mb-3' : card.quantity !== 3 }">{{ card.supplyDays }} Days Supply</div>
       <div class="ratio cst-ratio" :class="{ 'mb-3' : card.quantity !== 3 }">
         <img :src="require('../../../assets/images/index/pricing-section/' + card.image)"

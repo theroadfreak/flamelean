@@ -14,14 +14,13 @@
     <flamelean-ingredients-section/>
     <flamelean-features-section/>
     <plant-based-remedies-section/>
-    <pricing-section :stock-available-text="true"/>
+    <pricing-section/>
     <offer-section :bg-color="true"/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>
     <money-back-guarantee-investment-section/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>
     <money-back-guarantee-section/>
     <frequently-asked-questions-section/>
-    <pricing-section :user-review="true"/>
   </main>
 </template>
 

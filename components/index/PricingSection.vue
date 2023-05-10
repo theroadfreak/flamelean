@@ -24,11 +24,6 @@
         "My clothes fit so much better and more comfortably. I’ve lost 52 pounds
         since starting.” Stacey Bollinger, Maryland
       </div>
-      <div v-if="stockAvailableText" class="small text-white text-center mt-5 col-12 col-md-9 col-lg-6 col-xl-5">
-        *If you see ‘Buy It Now’ buttons above that means you’re in luck,
-        we have some stock available.<br/>
-        Act now to secure your order while supplies last!
-      </div>
     </div>
   </section>
 </template>
@@ -41,10 +36,6 @@ export default {
   components: {Card},
   props: {
     userReview: {
-      type: Boolean,
-      default: false,
-    },
-    stockAvailableText: {
       type: Boolean,
       default: false,
     },
