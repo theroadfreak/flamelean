@@ -1,6 +1,6 @@
 <template>
   <div>
-    <flamelean-logo/>
+    <intro-section/>
     <nuxt/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>
     <money-back-guarantee-section/>
@@ -9,15 +9,15 @@
 </template>
 
 <script>
-import FlameleanLogo from "@/components/footer-pages/FlameleanLogo";
 import PricingSection from "@/components/index/PricingSection";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection";
 import CustomFooter from "@/components/layouts/CustomFooter";
+import IntroSection from "@/components/footer-pages/IntroSection";
 
 
 export default {
   name: "footer-pages-layout",
-  components: {CustomFooter, MoneyBackGuaranteeSection, PricingSection, FlameleanLogo}
+  components: {IntroSection, CustomFooter, MoneyBackGuaranteeSection, PricingSection}
 }
 </script>
 

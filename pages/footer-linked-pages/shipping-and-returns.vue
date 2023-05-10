@@ -1,6 +1,6 @@
 <template>
   <main>
-    <flamelean-logo/>
+    <intro-section/>
     <shipping-and-returns-section/>
     <custom-footer/>
   </main>
@@ -8,11 +8,11 @@
 
 <script>
 import ShippingAndReturnsSection from "@/components/footer-pages/ShippingAndReturnsSection";
-import FlameleanLogo from "@/components/footer-pages/FlameleanLogo";
 import CustomFooter from "@/components/footer-pages/CustomFooter";
+import IntroSection from "@/components/footer-pages/IntroSection";
 export default {
   name: "shipping-and-returns",
-  components: {CustomFooter, FlameleanLogo, ShippingAndReturnsSection},
+  components: {IntroSection, CustomFooter, ShippingAndReturnsSection},
   layout: 'no-navbar'
 }
 </script>

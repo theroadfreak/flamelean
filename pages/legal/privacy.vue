@@ -1,6 +1,6 @@
 <template>
   <main>
-    <flamelean-logo/>
+    <intro-section/>
     <privacy-section/>
     <custom-footer/>
   </main>
@@ -8,12 +8,12 @@
 
 <script>
 import PrivacySection from "@/components/legal/PrivacySection";
-import FlameleanLogo from "@/components/footer-pages/FlameleanLogo";
 import CustomFooter from "@/components/footer-pages/CustomFooter";
+import IntroSection from "@/components/footer-pages/IntroSection";
 export default {
   name: "privacy",
   layout: 'no-navbar',
-  components: {CustomFooter, FlameleanLogo, PrivacySection}
+  components: {IntroSection, CustomFooter, PrivacySection}
 }
 </script>
 

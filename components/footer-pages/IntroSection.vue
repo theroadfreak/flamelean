@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "FlameleanLogo",
+  name: "IntroSection",
   layout: 'no-navbar'
 }
 </script>
