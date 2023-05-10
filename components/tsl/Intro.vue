@@ -1,8 +1,7 @@
 <template>
   <section class="container d-flex flex-column align-items-center text-center py-5">
-    <title-subtitle-text :text="texts[0]"/>
     <as-talked-about-in-section/>
-    <title-subtitle-text class="mb-5" :text="texts[1]" text-color="text-black"/>
+    <title-subtitle-text class="mb-5" :text="texts[0]" text-color="text-black"/>
     <div class="col-12 d-flex flex-column mb-5">
       <div v-for="(link, i) in links" :key="i">
         <a :href="link"
@@ -13,7 +12,7 @@
         </a>
       </div>
     </div>
-    <title-subtitle-text :text="texts[2]" text-color="text-black"/>
+    <title-subtitle-text :text="texts[1]" text-color="text-black"/>
   </section>
 </template>
 
@@ -27,14 +26,6 @@ export default {
   data() {
     return {
       texts: [
-        `Because they’re deeply concerned - and you should be too.<br class="d-none d-md-flex" />
-Celebrities like Elon Musk are abusing a prescription medication…<br class="d-none d-md-flex" />
-Especially formulated for people with Type 2 diabetes like me (and maybe you).<br class="d-none d-md-flex" />
-But these celebrities don’t have erratic blood sugar spikes…<br class="d-none d-md-flex" />
-They’re not at risk of heart failure…<br class="d-none d-md-flex" />
-Or having their leg amputated, like Type 2 diabetics.<br class="d-none d-md-flex" />
-Instead, they’re stocking up on the severely limited drug…<br class="d-none d-md-flex" />
-Just so they can lose weight.`,
         `Celebrities are now getting these diabetes medications easily prescribed to them…<br class="d-none d-lg-flex" />
 Paying a hefty $1,300 fee every single month.<br class="d-none d-md-flex" />
 It costs as much as many mortgages!<br class="d-none d-md-flex" />
