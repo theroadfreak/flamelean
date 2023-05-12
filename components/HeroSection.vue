@@ -27,16 +27,15 @@
             <div class="mb-3">
               Doctors all over the world are all talking about it…
             </div>
-            <div class="mb-2">
-              Read More:
-            </div>
             <div class="mb-5 mb-xl-4">
-              <a
-                href="https://www.nbcnews.com/health/health-news/people-diabetes-struggle-find-ozempic-soars-popularity-weight-loss-aid-rcna64916"
-                target="_blank"
-              >
-                https://www.nbcnews.com/health/health-news/people-diabetes-struggle-find-ozempic-soars-popularity-weight-loss-aid-rcna64916
-              </a>
+              Because they’re deeply concerned - and you should be too.<br class="d-none d-md-flex" />
+              Celebrities like Elon Musk are abusing a prescription medication…<br class="d-none d-md-flex" />
+              Especially formulated for people with Type 2 diabetes like me (and maybe you).
+              But these celebrities don’t have erratic blood sugar spikes…<br class="d-none d-md-flex" />
+              They’re not at risk of heart failure…<br class="d-none d-md-flex" />
+              Or having their leg amputated, like Type 2 diabetics.<br class="d-none d-md-flex" />
+              Instead, they’re stocking up on the severely limited drug…<br class="d-none d-md-flex" />
+              Just so they can lose weight.
             </div>
             <div>
               <img src="../assets/images/index/hero-section/features.svg"

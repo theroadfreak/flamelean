@@ -37,7 +37,7 @@
       <div class="col-12 col-lg-6 d-flex justify-content-center">
         <div class="col-10 col-sm-6 col-md-5 col-lg-9 offset-lg-3">
           <div class="ratio ratio-4x9">
-            <img src="../../assets/images/tsl/jessica-richards-section/doctor.png"
+            <img src="../../assets/images/tsl/jessica-richards-section/zena.png"
                  alt="Doctor"
                  class="object-fit-contain"
             />

@@ -3,16 +3,6 @@
     <title-subtitle-text :text="texts[0]"/>
     <as-talked-about-in-section/>
     <title-subtitle-text class="mb-5" :text="texts[1]" text-color="text-black"/>
-    <div class="col-12 d-flex flex-column mb-5">
-      <div v-for="(link, i) in links" :key="i">
-        <a :href="link"
-           target="_blank"
-           class="text-break font-size-12px text-4D4D4D text-decoration-none mb-0"
-        >
-          {{ link }}
-        </a>
-      </div>
-    </div>
     <title-subtitle-text :text="texts[2]" text-color="text-black"/>
   </section>
 </template>
@@ -27,14 +17,6 @@ export default {
   data() {
     return {
       texts: [
-        `Because they’re deeply concerned - and you should be too.<br class="d-none d-md-flex" />
-Celebrities like Elon Musk are abusing a prescription medication…<br class="d-none d-md-flex" />
-Especially formulated for people with Type 2 diabetes like me (and maybe you).<br class="d-none d-md-flex" />
-But these celebrities don’t have erratic blood sugar spikes…<br class="d-none d-md-flex" />
-They’re not at risk of heart failure…<br class="d-none d-md-flex" />
-Or having their leg amputated, like Type 2 diabetics.<br class="d-none d-md-flex" />
-Instead, they’re stocking up on the severely limited drug…<br class="d-none d-md-flex" />
-Just so they can lose weight.`,
         `Celebrities are now getting these diabetes medications easily prescribed to them…<br class="d-none d-lg-flex" />
 Paying a hefty $1,300 fee every single month.<br class="d-none d-md-flex" />
 It costs as much as many mortgages!<br class="d-none d-md-flex" />
@@ -44,15 +26,6 @@ And while the price might be eye watering to us…`,
 Meaning they can easily achieve rapid weight loss and keep it off…<br class="d-none d-md-flex" />
 So long as they continue injecting themselves with the medication.`
       ],
-      links: [
-        'https://www.forbes.com/sites/ariannajohnson/2022/12/26/what-to-know-about-ozempic/?sh=24e00d9b5adb',
-        'https://www.nytimes.com/2022/11/22/well/ozempic-diabetes-weight-loss.html',
-        'https://www.vice.com/en/article/epz93n/ozempic-viral-celebrity-weight-loss-drug',
-        'https://variety.com/2022/film/actors/weight-loss-ozempic-semaglutide-hollywood-1235361465/',
-        'https://www.nbcnews.com/health/health-news/people-diabetes-struggle-find-ozempic-soars-popularity-weight-loss-aid-rcna64916',
-        'https://www.buzzfeednews.com/article/anthonyrobledo/celebrities-ozempic-weight-loss-drug-trend-quotes',
-        'https://www.webmd.com/diet/obesity/news/20221129/the-tiktok-trend-that-triggered-a-diabetes-drug-shortage',
-      ]
     }
   }
 }

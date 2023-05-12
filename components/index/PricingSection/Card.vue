@@ -5,7 +5,7 @@
         { 'pb-5' : card.initialSumPrice === '' }
         ]">
     <div class="d-flex flex-column align-items-center text-secondary text-center">
-      <div class="fs-5 fw-bold mb-1">Flamelean {{ card.quantity }} {{ card.quantity > 1 ? 'bottles' : 'bottle' }}</div>
+      <div class="fs-5 fw-bold mb-1">{{ card.quantity }} {{ card.quantity > 1 ? 'bottles' : 'bottle' }}</div>
       <div :class="{ 'mb-3' : card.quantity !== 3 }">{{ card.supplyDays }} Days Supply</div>
       <div class="ratio cst-ratio" :class="{ 'mb-3' : card.quantity !== 3 }">
         <img :src="require('../../../assets/images/index/pricing-section/' + card.image)"
@@ -49,15 +49,10 @@
         </div>
       </div>
       <div class="w-100 px-4 mb-4">
-        <button class="btn btn-primary rounded rounded-3 small w-100 text-white py-3 d-flex align-items-center justify-content-center">
-          <img src="../../../assets/images/index/pricing-section/shopping-cart-icon.svg"
-               alt="Shopping Cart Icon"
-               width="30"
-               height="26"
-               class="me-2"
-          />
-          <span class="fw-bold">YES! BUY IT NOW</span>
-        </button>
+        <img v-if="card.withClickIcon" class="w-100" src="../../../assets/images/card/addToCart2.png"
+             alt="Add to cart button with click">
+        <img v-else class="w-100" src="../../../assets/images/card/addToCart.png"
+             alt="Add to cart button">
       </div>
       <div class="d-flex mb-3">
         <img v-for="paymentCardImage in paymentCardsImages"
@@ -87,7 +82,7 @@ export default {
     card: {
       type: Object,
       required: true,
-    }
+    },
   },
   data() {
     return {

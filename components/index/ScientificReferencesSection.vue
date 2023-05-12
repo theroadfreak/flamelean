@@ -14,7 +14,7 @@
       </div>
       <div class="row d-flex justify-content-center">
         <div v-for="(reference, i) in scientificReferences" :key="i" class="col-12 col-md-11 col-lg-6 mb-3 small">
-            {{ reference }}
+          {{ reference }}
         </div>
       </div>
       <div class="small text-center fw-lighter pt-4">
@@ -86,6 +86,17 @@ affecting metabolic and hormonal parameters in overweight men: a pilot study. Me
         `12. Wang J, Li D, Wang P, Hu X, Chen F. Ginger prevents obesity through regulation of energy
 metabolism and activation of browning in high-fat diet-induced obesity. J Nutr Biochem.
 2019;70:105-115. doi:10.1016/j.jnutbio.2019.05.001`,
+        `13. https://www.nbcnews.com/health/health-news/people-diabetes-struggle-find-ozempic-soars-popularity-weight-loss-aid-rcna64916
+https://www.forbes.com/sites/ariannajohnson/2022/12/26/what-to-know-about-ozempic/?sh=24e00d9b5adb
+https://www.nytimes.com/2022/11/22/well/ozempic-diabetes-weight-loss.html
+https://www.vice.com/en/article/epz93n/ozempic-viral-celebrity-weight-loss-drug
+https://variety.com/2022/film/actors/weight-loss-ozempic-semaglutide-hollywood-1235361465/
+https://www.nbcnews.com/health/health-news/people-diabetes-struggle-find-ozempic-soars-popularity-weight-loss-aid-rcna64916`,
+        `14. https://www.buzzfeednews.com/article/anthonyrobledo/celebrities-ozempic-weight-loss-drug-trend-quotes
+https://www.webmd.com/diet/obesity/news/20221129/the-tiktok-trend-that-triggered-a-diabetes-drug-shortage
+https://www.forbes.com/sites/ariannajohnson/2022/12/26/what-to-know-about-ozempic/?sh=24e00d9b5adb
+https://www.singlecare.com/blog/ozempic-alternatives/
+https://www.womenshealthmag.com/uk/food/weight-loss/a42280255/ozempic-weight-loss-drug-explainer/`
       ]
     }
   }

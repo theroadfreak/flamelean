@@ -21,7 +21,6 @@
     <pricing-section :user-review="true" :free-shipping-title="true"/>
     <money-back-guarantee-section/>
     <frequently-asked-questions-section/>
-    <pricing-section :user-review="true"/>
   </main>
 </template>
 

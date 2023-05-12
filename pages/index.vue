@@ -8,9 +8,8 @@
     <flamelean-features-section/>
     <offer-section/>
     <shipping-section/>
-    <flamelean-impact-section/>
+    <flamelean-impact-section id="flamelean-impact-section"/>
     <pricing-section  id="pricing-section"/>
-    <money-back-guarantee-section/>
     <frequently-asked-questions-section id="faq"/>
   </main>
 </template>
@@ -32,7 +31,6 @@ import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSect
 export default {
   name: 'index',
   components: {
-    MoneyBackGuaranteeSection,
     AsTalkedAboutInSection,
     FlameleanImpactSection,
     TheBloodSugarSecretSection,
