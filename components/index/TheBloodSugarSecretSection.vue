@@ -7,22 +7,17 @@
           The Blood Sugar Secret That’s Become A Viral Weight Loss Hit
         </h2>
         <div class="text-secondary d-flex flex-column line-height-normal pe-lg-5">
-          <span class="mb-4">Have you noticed that in the last year all your favorite celebrities
-            are appearing skinnier than they ever have before?</span>
-          <span class="mb-4">Doctors all over the world are all talking about it…</span>
-          <span class="mb-md-4 mb-lg-0">
-            Because they’re deeply concerned.<br/>
-And you should be too.<br/>
-You see, celebrities like Elon Musk are abusing a prescription
-medication…<br/>
-Typically formulated for people with Type 2 diabetes, like me
-and maybe you.<br/>
-But, these celebrities don’t have erratic blood sugar spikes…
-And, they’re not at risk of having heart failure or their leg
-amputated like us.<br/>
-Instead, they’re stocking up on the severely limited drug…
-Just so they can lose weight.
-          </span>
+          Celebrities are now getting these diabetes medications easily prescribed to them…<br
+          class="d-none d-lg-flex"/>
+          <span
+            class="fw-bold text-danger text-decoration-underline">Paying a hefty $1,300 fee every single month.</span><br
+          class="d-none d-md-flex"/>
+          <p> <span class="fst-italic"> It costs as much as many mortgages!</span> Because of that, most insurance companies
+          won’t cover it for regular folk like you and me.<br class="d-none d-md-flex"/>
+          And while the price might be eye watering to us…
+          It’s a drop in the ocean for the rich and famous.<br class="d-none d-md-flex"/>
+          Meaning they can easily achieve rapid weight loss and keep it off…<br class="d-none d-md-flex"/>
+          So long as they continue injecting themselves with the medication.</p>
         </div>
       </div>
       <div class="order-0 order-md-1 col-12 col-lg-5 col-xl-4 mb-5 mb-md-0">

@@ -18,8 +18,8 @@ export default {
     return {
       texts: [
         `Celebrities are now getting these diabetes medications easily prescribed to them…<br class="d-none d-lg-flex" />
-Paying a hefty $1,300 fee every single month.<br class="d-none d-md-flex" />
-It costs as much as many mortgages!<br class="d-none d-md-flex" />
+<span class="fw-bold text-danger text-decoration-underline">Paying a hefty $1,300 fee every single month.</span><br class="d-none d-md-flex" />
+<span class="fst-italic"> It costs as much as many mortgages!</span><br class="d-none d-md-flex" />
 Because of that, most insurance companies won’t cover it for regular folk like you and me.<br class="d-none d-md-flex" />
 And while the price might be eye watering to us…`,
         `It’s a drop in the ocean for the rich and famous.<br class="d-none d-md-flex" />

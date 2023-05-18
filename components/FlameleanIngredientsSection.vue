@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="d-flex justify-content-center text-center">
-      <button class="btn btn-outline-primary px-5 py-2">See all ingredients</button>
+      <a href="/footer-linked-pages/ingredients" class="btn btn-outline-primary px-5 py-2">See all ingredients</a>
     </div>
   </section>
 </template>

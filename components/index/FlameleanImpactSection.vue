@@ -8,9 +8,7 @@
     <div>
       <h2 class="text-secondary fw-bold mb-5">This Really Is A Game-Changer!</h2>
       <div v-for="text in textParts" :key="text" class="col-12 d-flex flex-column align-items-center">
-        <div class="col-12 col-lg-10 col-xl-8 text-secondary mb-1">
-          {{ text }}
-        </div>
+        <div class="col-12 col-lg-10 col-xl-8 text-secondary mb-1" v-html="text"></div>
       </div>
     </div>
   </section>
@@ -24,9 +22,8 @@ export default {
   data() {
     return {
       textParts: [
-        'Consider this…',
-        `Just ONE of those 4 ingredients would support healthy blood glucose levels and trigger
-long-lasting weight loss.`,
+        `<span class="fw-bold">Just ONE of those 4 ingredients would support healthy blood glucose levels and trigger
+long-lasting weight loss.</span>`,
         'Now picture uniting all of them in scientifically-proven amounts…',
         `And adding 15 other well-researched botanicals, nutrients, and minerals to boost and accelerate
 your transformation even more!`,

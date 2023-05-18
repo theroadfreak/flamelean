@@ -15,27 +15,26 @@
           <div class="text-primary small">Manufactured in USA</div>
           <h1 class="display-6 fw-bold mb-4 text-secondary">
             Hollywood’s New Weight
-            Loss Secret Revealed: The
-            Hype, Hazard & Better
-            Alternative
+            Loss Secret Revealed:
+            <span class="text-success"> The Hype, Hazard & Better Alternative </span>
           </h1>
           <div class="text-secondary">
-            <div class="mb-3">
+            <div class="mb-3 fw-bold">
               Have you noticed that in the last year all your favorite celebrities are appearing skinnier
               than they ever have before?
             </div>
-            <div class="mb-3">
+            <div class="mb-3 fw-bold">
               Doctors all over the world are all talking about it…
             </div>
             <div class="mb-5 mb-xl-4">
               Because they’re deeply concerned - and you should be too.<br class="d-none d-md-flex" />
-              Celebrities like Elon Musk are abusing a prescription medication…<br class="d-none d-md-flex" />
-              Especially formulated for people with Type 2 diabetes like me (and maybe you).
-              But these celebrities don’t have erratic blood sugar spikes…<br class="d-none d-md-flex" />
-              They’re not at risk of heart failure…<br class="d-none d-md-flex" />
+              <span class="fw-bold">Celebrities like Elon Musk are abusing a prescription medication…</span><br class="d-none d-md-flex" />
+              <span class="">Especially formulated for people with Type 2 diabetes like me (and maybe you).</span><br class="d-none d-md-flex" />
+              <span class="fw-bold text-decoration-underline text-danger">But these celebrities don’t have erratic blood sugar spikes…</span><br class="d-none d-md-flex" />
+              <span class="fw-bold text-decoration-underline text-danger">They’re not at risk of heart failure…</span><br class="d-none d-md-flex" />
               Or having their leg amputated, like Type 2 diabetics.<br class="d-none d-md-flex" />
               Instead, they’re stocking up on the severely limited drug…<br class="d-none d-md-flex" />
-              Just so they can lose weight.
+              <span class="fw-bold">Just so they can lose weight.</span>
             </div>
             <div>
               <img src="../assets/images/index/hero-section/features.svg"
