@@ -61,6 +61,7 @@ export default {
           discountedSumPrice: '',
           freeBonuses: false,
           freeShipping: false,
+          link: "https://flamelean.pay.clickbank.net/?cbitems=1bottleflamelean"
         },
         {
           quantity: 6,
@@ -73,6 +74,7 @@ export default {
           freeBonuses: true,
           freeShipping: true,
           withClickIcon: true,
+          link: "https://flamelean.pay.clickbank.net/?cbitems=6bottlesflamelean"
         },
         {
           quantity: 3,
@@ -84,7 +86,7 @@ export default {
           discountedSumPrice: 147,
           freeBonuses: true,
           freeShipping: true,
-
+          link:"https://flamelean.pay.clickbank.net/?cbitems=3bottlesflamelean"
         },
       ]
     }

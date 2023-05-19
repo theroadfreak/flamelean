@@ -1,9 +1,6 @@
 <template>
   <section class="container d-flex flex-column align-items-center text-center py-5">
-    <title-subtitle-text :text="texts[0]"/>
     <as-talked-about-in-section/>
-    <title-subtitle-text class="mb-5" :text="texts[1]" text-color="text-black"/>
-    <title-subtitle-text :text="texts[2]" text-color="text-black"/>
   </section>
 </template>
 

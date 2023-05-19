@@ -30,22 +30,14 @@
             Regain control of your blood sugar levels naturally - without
             stress, worry or fear.
           </p>
-          <div class="d-flex flex-column">
-            <a href="https://www.singlecare.com/blog/ozempic-alternatives/"
-               target="_blank"
-               class="font-size-12px text-white text-decoration-none mb-3 text-break"
-            >
-              https://www.singlecare.com/blog/ozempic-alternatives/
-            </a>
-            <a href="https://www.womenshealthmag.com/uk/food/weight-loss/a42280255/ozempic-weight-
-loss-drug-explainer/"
-               target="_blank"
-               class="font-size-12px text-white text-decoration-none text-break"
-            >
-              https://www.womenshealthmag.com/uk/food/weight-loss/a42280255/ozempic-weight-
-              loss-drug-explainer/
-            </a>
+          <div class="col-12 col-md-3">
+            <nuxt-link
+              class="nav-item btn btn-light text-primary rounded rounded-3 px-3 mt-2 mt-lg-0"
+              to="/#pricing-section">
+              Order Now
+            </nuxt-link>
           </div>
+
         </div>
       </div>
     </div>

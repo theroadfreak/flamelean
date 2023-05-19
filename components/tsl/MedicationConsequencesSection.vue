@@ -1,18 +1,31 @@
 <template>
   <section class="bg-primary">
-    <div class="pb-5">
-      <title-subtitle-text class="pt-5"
-                           :title="medicationEffects.title"
-                           :text="medicationEffects.text"
-                           text-color="text-white"
+    <div class="py-5 text-white">
+      <div v-for="effect in sideEffects" class="d-flex gap-3 justify-content-center mb-4">
+        <div class="col-12 col-md-5">
+          <div class="d-flex gap-1">
+            <img
+              v-if="effect.img !== null"
+              :src="require('../../assets/images/tsl/medication-consequences-section/'+effect.img)"
+              :alt="effect.img"
+              width="45"
+              height="45"
+            >
+            <h2 v-html="effect.title"></h2>
+          </div>
+          <ul>
+            <li v-for="risk in effect.risks" v-html="risk"></li>
+          </ul>
+        </div>
+        <img
+          :src="require('../../assets/images/tsl/medication-consequences-section/'+effect.sideimage)"
+          :alt="effect.sideimage"
+          class="col-12 col-md-3"
+        >
 
-      />
-      <title-subtitle-text class="pt-5"
-                           :title="theTruth.title"
-                           :text="theTruth.text"
-                           text-color="text-white"
-      />
+      </div>
     </div>
+
   </section>
 </template>
 
@@ -24,34 +37,30 @@ export default {
   components: {TitleSubtitleText},
   data() {
     return {
-      medicationEffects: {
-        title: `The Medication Made Me Feel So Bad, I Couldn’t Raise My
+      sideEffects: [
+        {
+          title: `The Medication Made Me Feel So Bad, I Couldn’t Raise My
 Head To Vomit Into The Toilet Bowl!`,
-        text: `I was conflicted on what to do.<br class="d-none d-lg-flex" />
-I didn’t want to stop taking the drugs.<br class="d-none d-lg-flex" />
-Because it’s true what they say…<br class="d-none d-lg-flex" />
-I was losing weight easier than I’d ever done before.<br class="d-none d-lg-flex" />
-I was feelling fuller for longer.<br class="d-none d-lg-flex" />
-And I was able to keep my blood sugar levels stable without stressing like I did before.<br class="d-none d-lg-flex" />
-But there was no way I could stomach taking the medication anymore - literally.<br class="d-none d-lg-flex" />
-That’s when I went searching for a more natural alternative.<br class="d-none d-lg-flex" />
-I figured that…<br class="d-none d-lg-flex" />
-If I could find out WHY the medication worked so well at sabilizing my blood glucose levels…<br class="d-none d-lg-flex" />
-And helping me feel fuller for longer…<br class="d-none d-lg-flex" />
-Then maybe I could find a natural alternative that worked just as well - if not better!<br class="d-none d-lg-flex" />
-I became a little obsessed.<br class="d-none d-lg-flex" />
-I read through long reddit conversations about the medication…<br class="d-none d-lg-flex" />
-I researched scientific journals and studies that explained WHY it was so effective.`
-      },
-      theTruth: {
-        title: `Here’s The TRUTH I Discovered That Helped Me
-Lose 40 Pounds In Less Than 2 Months…`,
-        text: `The diabetes medication the rich and famous are hoarding right now…<br class="d-none d-lg-flex" />
-Releases a chemical in your body that mimics a hormone.<br class="d-none d-lg-flex" />
-This hormone is called GLP-1…<br class="d-none d-lg-flex" />
-Which stands for glucagon-like peptide-1.<br class="d-none d-lg-flex" />
-I won’t bore you with the complicated scientific details, but…`
-      }
+          img: "pill.png",
+          sideimage: "apcinja.png",
+          risks: [
+            'I was conflicted on what to do.',
+            'I didn’t want to stop taking the drugs.',
+            'Because it’s true what they say…',
+            'I was losing weight easier than I’d ever done before.',
+            'I was feelling fuller for longer.',
+            'And I was able to keep my blood sugar levels stable without stressing like I did before.',
+            'But there was no way I could stomach taking the medication anymore - literally.',
+            'That’s when I went searching for a more natural alternative. I figured that…',
+            'If I could find out WHY the medication worked so well at sabilizing my blood glucose levels…',
+            'And helping me feel fuller for longer…',
+            'Then maybe I could find a natural alternative that worked just as well - if not better!',
+            'I became a little obsessed.',
+            'I read through long reddit conversations about the medication…',
+            'I researched scientific journals and studies that explained WHY it was so effective.',
+          ],
+        },
+      ],
     }
   }
 }

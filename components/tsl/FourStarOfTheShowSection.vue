@@ -23,10 +23,6 @@
         </div>
       </div>
     </div>
-    <div class="text-black text-center col-lg-8 col-xl-7">
-      Results showed Gymnema made a significant reduction in fasting plasma glucose and
-      glucagon levels compared to the placebo group.
-    </div>
   </section>
 </template>
 

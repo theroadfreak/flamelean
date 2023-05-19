@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- ClickBank Trust Badge -->
+    <script src='//cbtb.clickbank.net/?vendor=flamelean'></script>
     <custom-navbar/>
     <nuxt/>
     <scientific-references-section/>

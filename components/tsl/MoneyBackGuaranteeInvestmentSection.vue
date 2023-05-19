@@ -1,16 +1,10 @@
 <template>
   <section class="container d-flex flex-column align-items-center text-secondary text-center py-5">
-    <h2 class="fw-bold mb-5 text-black">
-      Your Investment Today Comes With The 180-Day<br class="d-none d-lg-flex"/>
-      Money-Back Guarantee
-    </h2>
-    <title-subtitle-text class="mb-5" :text="texts[0]" text-color="text-black"/>
-    <flamelean-impact-features class="mb-4"
-                               title-color="text-black"
-                               :features="features"
-                               title="That’s Right, If You Don’t Think Your New Life Is…"
-    />
-    <title-subtitle-text :text="texts[1]" text-color="text-black"/>
+      <flamelean-impact-features class="mb-4"
+                                 title-color="text-black"
+                                 :features="features"
+                                 title="That’s Right, If You Don’t Think Your New Life Is…"
+      />
   </section>
 </template>
 

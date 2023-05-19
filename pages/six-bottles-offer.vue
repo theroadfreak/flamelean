@@ -1,9 +1,9 @@
 <template>
   <main>
     <intro-section/>
-    <product-offer-section :card="card"/>
+    <product-offer-section link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=a" :card="card"/>
     <features-section/>
-    <next-step/>
+    <next-step link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=d"/>
   </main>
 </template>
 

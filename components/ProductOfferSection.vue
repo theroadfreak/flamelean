@@ -37,7 +37,8 @@
           Plus FREE shipping to your door
         </div>
         <div class="col-11 col-md-7 col-lg-6 d-flex text-center justify-content-center">
-          <button
+          <a
+            :href="link"
             class="zoom cursor-pointer w-100 btn btn-primary text-white py-3 rounded rounded-3 d-flex align-items-center justify-content-center text-center">
             <span class="fw-bold ">
               <img src="../assets/images/shopping-cart-icon.svg"
@@ -47,7 +48,7 @@
                    class="me-2"
               />
               YES, UPGRADE MY ORDER!</span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -59,6 +60,10 @@ export default {
   props: {
     card: {
       type: Object,
+      required: true,
+    },
+    link: {
+      type: String,
       required: true,
     }
   },

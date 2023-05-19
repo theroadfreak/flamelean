@@ -17,6 +17,11 @@
         addition to and does not limit your statutory rights as a consumer, as granted by all mandatory
         laws and regulations applicable in your country of residence.
       </p>
+      <flamelean-impact-features class="mb-4"
+                                 title-color="text-primary"
+                                 :features="features"
+                                 title="That’s Right, If You Don’t Think Your New Life Is…"
+      />
       <div class="col-12 col-lg-9 col-xl-7 mb-5">
         <div class="ratio ratio-83x15">
           <img src="../../assets/images/index/money-back-guarantee-section/icons.svg"
@@ -32,8 +37,25 @@
 </template>
 
 <script>
+import TitleSubtitleText from "@/components/TitleSubtitleText";
+import FlameleanImpactFeatures from "@/components/FlameleanImpactFeatures";
+
 export default {
-  name: "MoneyBackGuaranteeSection"
+  name: "MoneyBackGuaranteeSection",
+  components: {FlameleanImpactFeatures, TitleSubtitleText},
+  data() {
+    return {
+      features: [
+        'Stress-free now your blood glucose levels are stable and rarely spike or crash',
+        'A breeze now your body is able to use insulin more effectively, naturally',
+        'Joyful because you’re no longer fighting a losing battle against carb and sugar cravings',
+        'Energetic now the herbal blend is giving you a natural boost',
+        'Super easy to lose weight because you’re fuller for longer and actually enjoy being active',
+        'Empowering every time you’re told: “wow, you’ve lost so much weight - you look great!”',
+        'The best it’s ever been now you’re finally in control of your blood sugar and weight…',
+      ]
+    }
+  }
 }
 </script>
 
@@ -42,6 +64,7 @@ export default {
   .custom-title-size {
     font-size: 1.8rem !important;
   }
+
   .custom-dimensions-sm-screen {
     width: 150px !important;
     height: 144px !important;

@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- ClickBank Trust Badge -->
+    <script src='//cbtb.clickbank.net/?vendor=flamelean'></script>
     <intro-section/>
     <nuxt/>
     <pricing-section :user-review="true" :free-shipping-title="true"/>

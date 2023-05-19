@@ -14,7 +14,7 @@
     <special-offer-intro/>
     <product-offer-section :card="card" />
     <features-section/>
-    <what-you-need-to-do-section/>
+    <what-you-need-to-do-section yes="https://flamelean.pay.clickbank.net/?cbitems=12bottlesflameleanupsell&cbur=a" no="https://flamelean.pay.clickbank.net/?cbitems=12bottlesflameleanupsell&cbur=d"/>
   </main>
 </template>
 
