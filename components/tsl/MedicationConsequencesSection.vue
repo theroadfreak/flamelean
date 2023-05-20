@@ -21,7 +21,7 @@
         <img
           :src="require('../../assets/images/tsl/medication-consequences-section/'+effect.sideimage)"
           :alt="effect.sideimage"
-          class="col-12 col-md-3"
+          class="mx-auto mx-md-0 col-11 col-md-3"
         >
 
       </div>

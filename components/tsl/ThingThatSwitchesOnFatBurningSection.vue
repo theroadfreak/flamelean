@@ -1,5 +1,6 @@
 <template>
   <section class="bg-primary">
+  <div class="container">
     <div class="py-5">
       <div class="d-flex justify-content-center">
         <div class="col-12 col-md-7">
@@ -12,6 +13,7 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
 </template>
 
