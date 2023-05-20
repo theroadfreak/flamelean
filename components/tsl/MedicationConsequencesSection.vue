@@ -41,7 +41,7 @@ export default {
       sideEffects: [
         {
           title: `<span class="fw-bold">The Medication Made Me Feel So Bad, I Couldn’t Raise My
-Head To Vomit Into The Toilet Bowl!</span>>`,
+Head To Vomit Into The Toilet Bowl!</span>`,
           img: "pill.png",
           sideimage: "apcinja.png",
           risks: [
