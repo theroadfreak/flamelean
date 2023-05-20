@@ -22,23 +22,17 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-md-6">
-        <!--        <video>-->
-        <!--          <source :src="require('../../assets/videos/ViralVideo.mp4')" type="video/mp4" class="w-100 h-auto">-->
-        <!--        </video>-->
-        <div class="responsive-iframe-container">
-          <iframe src="https://drive.google.com/file/d/1a0Ab_AMGvYHvgOx8550h50KXAtK9l59m/preview"
-                  class="responsive-iframe"
-                  allow="autoplay"></iframe>
+
+      <div class="col-12 col-md-3 mx-auto mb-5">
+        <div style="padding:177.78% 0 0 0;position:relative;">
+          <iframe
+            src="https://player.vimeo.com/video/828611662?h=810b75824d&title=0&byline=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
     </div>
-
-
-    <title-subtitle-text :text="text"
-                         class="py-5"
-                         text-color="text-black"
-    />
   </section>
 </template>
 
@@ -71,27 +65,24 @@ I won’t bore you with the complicated scientific details, but…`
         '<span class="fw-bold"> But patients with Type 2 diabetes lack this.</span> Their GLP-1 levels stay the same. Which means your food isn’t moving out of your blood into your body. But instead, staying inside your bloodstream. Causing your blood sugar levels to become imbalanced. <span class="fw-bold"> Making you feel slow and sluggish, like you’re running on an empty tank! </span>',
         '<span class="fw-bold">That’s why this 3-step function of the medication works so well for people with diabetes… Because it helps your pancreas release the right amount of insulin. Which, your body isn’t equipped to do optimally on its own. </span>'
       ],
-      
+
     }
   }
 }
 </script>
 
 <style scoped>
-.responsive-iframe-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
+/*.responsive-iframe-container {*/
+/*  position: relative;*/
+/*  overflow: hidden;*/
+/*  padding: 177.78%;*/
+/*}*/
 
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
+/*.responsive-iframe {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*}*/
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="row my-4 px-3 px-md-4">
+  <section class="my-4 px-3 px-md-4">
     <div class="d-flex justify-content-center mb-4">
       <div class="col-12 col-md-6">
         <h2 class="fw-bold mb-3">❌ Here’s Where Things Started To Go Terribly Wrong…</h2>

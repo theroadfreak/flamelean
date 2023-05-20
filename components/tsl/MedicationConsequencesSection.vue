@@ -1,7 +1,7 @@
 <template>
   <section class="bg-primary">
     <div class="py-5 text-white">
-      <div v-for="effect in sideEffects" class="d-flex gap-3 justify-content-center mb-4">
+      <div v-for="effect in sideEffects" class="d-flex flex-column flex-md-row gap-3 justify-content-center mb-4">
         <div class="col-12 col-md-5">
           <div class="d-flex gap-1">
             <img
@@ -17,6 +17,7 @@
             <li v-for="risk in effect.risks" v-html="risk"></li>
           </ul>
         </div>
+
         <img
           :src="require('../../assets/images/tsl/medication-consequences-section/'+effect.sideimage)"
           :alt="effect.sideimage"
@@ -39,8 +40,8 @@ export default {
     return {
       sideEffects: [
         {
-          title: `The Medication Made Me Feel So Bad, I Couldn’t Raise My
-Head To Vomit Into The Toilet Bowl!`,
+          title: `<span class="fw-bold">The Medication Made Me Feel So Bad, I Couldn’t Raise My
+Head To Vomit Into The Toilet Bowl!</span>>`,
           img: "pill.png",
           sideimage: "apcinja.png",
           risks: [

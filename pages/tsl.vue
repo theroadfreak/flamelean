@@ -1,10 +1,10 @@
 <template>
   <main>
-    <hero-section/>
-    <intro/>
-    <the-biggest-suspect-section/>
-    <jessica-richards-section/>
-    <thing-that-switches-on-fat-burning-section/>
+<!--    <hero-section/>-->
+<!--    <intro/>-->
+<!--    <the-biggest-suspect-section/>-->
+<!--    <jessica-richards-section/>-->
+<!--    <thing-that-switches-on-fat-burning-section/>-->
     <common-side-effects-section/>
     <medication-consequences-section/>
     <the-most-important-thing-section/>
