@@ -4,13 +4,6 @@
       <h2 v-if="freeShippingTitle" class="text-white text-center fw-bold mb-5">
         Every 3 And 6-Bottle Order Gets Free Shipping Too!
       </h2>
-      <div v-else>
-        <h2 class="text-white text-center mb-2">Limited Time:</h2>
-        <h2 class="text-white text-center fw-bold mb-5">
-          Claim your discounted Flamelean<br class="d-none d-sm-flex" />
-          while stocks last
-        </h2>
-      </div>
       <div class="col-12">
         <div class="row d-flex justify-content-center">
           <div

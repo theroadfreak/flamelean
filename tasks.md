@@ -32,14 +32,6 @@ Unless you can confirm all or mostly all ingredients are in fact sourced from th
 
 <https://www.ftc.gov/legal-library/browse/enforcement-policy-statement-us-origin-claims>
 
-Can you confirm that the urgency statement below is true?
-
-"Limited Time:
-Claim your discounted Flamelean
-while stocks last "
-
-If not, please remove this and any similar statements from the Pitch Page.
-
 The FTC considers false urgency claims to be "digital dark patterns" and strongly discourages sellers from using this type of messaging. Digital dark patterns are practices that trick, manipulate, or pressure customers into making choices. Some examples of what the FTC deems dark patterns:
 
 URGENCY - baseless countdown timer, false limited time messaging, false discount claims

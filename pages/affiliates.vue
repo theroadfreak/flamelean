@@ -1,27 +1,46 @@
 <template>
   <section class="container my-4">
-    <div v-for="item in listOfItems" class="py-5">
-      <h3>{{ item.title }}</h3>
-      <h4>Subject Lines:</h4>
-      <ol style="list-style: lower-alpha">
-        <li v-for="line in item.subjectLines">{{ line }}</li>
-      </ol>
-      <p v-for="p in item.paragraphs" v-html="p"></p>
-      <img
-        v-if="item.picture"
-        :src="require(`@/assets/images/` + item.picture)"
-        :width="item.width"
-        alt="picture"
-        class="object-fit-contain"
-      />
-      <p v-for="p in item.restOfParagraphs" v-html="p"></p>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div v-for="i in listOfItems" class="swiper-slide">
+          <div class="slider-content">
+            <h3>{{ i.title }}</h3>
+            <h4>Subject Lines:</h4>
+            <ol style="list-style: lower-alpha">
+              <li v-for="line in i.subjectLines">{{ line }}</li>
+            </ol>
+            <p v-for="p in i.paragraphs" v-html="p"></p>
+            <img
+              v-if="i.picture"
+              :src="require(`@/assets/images/` + i.picture)"
+              :width="i.width"
+              alt="picture"
+              class="object-fit-contain"
+            />
+            <p v-for="p in i.restOfParagraphs" v-html="p"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </section>
 </template>
 
 <script>
+// Import Swiper Vue.js components, styles.
+import { Swiper, Navigation, Pagination, Autoplay } from "swiper";
+import "swiper/swiper.css";
+
 export default {
-  name: "affliates",
+  name: "affiliates",
+  components: {
+    Swiper,
+    Navigation,
+    Pagination,
+    Autoplay,
+  },
   data() {
     return {
       listOfItems: [
@@ -39,7 +58,7 @@ export default {
             "Not only was she forced to buy a whole new wardrobe…",
             "But Jessica finally felt in control of her blood sugar levels…",
             "The natural way and with zero stress.",
-            "<span class='text-primary text-decoration-underline'> >> Try THIS Harvard-approved macronutrient today</span>>",
+            "<span class='text-primary text-decoration-underline'> >> Try THIS Harvard-approved macronutrient today << </span>",
           ],
         },
         {
@@ -152,7 +171,50 @@ export default {
       ],
     };
   },
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log("slide change");
+    };
+
+    return {
+      onSwiper,
+      onSlideChange,
+    };
+  },
+  mounted() {
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      direction: "horizontal",
+      loop: true,
+      autoplay: {
+        delay: 5000,
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.swiper {
+  overflow: hidden;
+  position: relative;
+  /* width: 500px; */
+}
+.swiper-slide {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.slider-content {
+  color: #000;
+}
+</style>
