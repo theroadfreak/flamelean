@@ -1,46 +1,87 @@
 <template>
-  <section class="container my-4">
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <div v-for="i in listOfItems" class="swiper-slide">
-          <div class="slider-content">
-            <h3>{{ i.title }}</h3>
-            <h4>Subject Lines:</h4>
-            <ol style="list-style: lower-alpha">
-              <li v-for="line in i.subjectLines">{{ line }}</li>
-            </ol>
-            <p v-for="p in i.paragraphs" v-html="p"></p>
-            <img
-              v-if="i.picture"
-              :src="require(`@/assets/images/` + i.picture)"
-              :width="i.width"
-              alt="picture"
-              class="object-fit-contain"
-            />
-            <p v-for="p in i.restOfParagraphs" v-html="p"></p>
-          </div>
+  <section id="affiliates" class="bg-image">
+    <div class="container my-2">
+      <div class="row mb-5">
+        <div id="first__line">
+          <h2 class="text-center">
+            ClickBank's
+            <span class="fw-bold">#1 Weight Loss Offer</span>
+            For 2023/2024
+          </h2>
+        </div>
+        <div id="second__line">
+          <h1 class="text-center fw-bold">
+            Promote <span class="text-primary">Flamelean</span> Now
+            <br />
+            Get <span class="text-primary">85% Per Sale</span>
+          </h1>
+        </div>
+        <div id="third__line">
+          <h3 class="text-center text-primary fw-bold">
+            And Earn Up To $250 + Average Order Value!
+          </h3>
         </div>
       </div>
 
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <div
+        class="container bg-primary rounded d-flex justify-content-between py-3"
+      >
+        <div class="row">
+          <img
+            src="@/assets/images/index/hero-section/hero-img.png"
+            alt="Flamelean Product"
+            class="object-fit-contain"
+            width="250"
+          />
+        </div>
+        <div class="row">
+          <p class="text-white fw-bold display-6 mb-4">
+            Flamelean™ is available to promote easily and quickly on the
+            ClickBank affiliate network.
+          </p>
+          <p class="text-white fs-4">
+            They track all your clicks and conversion and send out your payments
+            <span class="text-decoration-underline">every week</span>! Creating
+            an account is <span class="text-decoration-underline">FREE</span>.
+            Follow the steps below to get started:
+          </p>
+        </div>
+      </div>
+      <div class="container bg-white rounded mt-4 mb-4" id="email__Swipes">
+        <div id="main__text">
+          <h1 class="text-center fw-bold">Email Swipes</h1>
+        </div>
+        <div id="secondary__text">
+          <h3 class="text-center">
+            Use these email swipes to promote Flamelean to your email list.
+          </h3>
+        </div>
+      </div>
     </div>
+    <!-- <div v-for="i in listOfItems" class="swiper-slide">
+      <div class="slider-content">
+        <h3>{{ i.title }}</h3>
+        <h4>Subject Lines:</h4>
+        <ol style="list-style: lower-alpha">
+          <li v-for="line in i.subjectLines">{{ line }}</li>
+        </ol>
+        <p v-for="p in i.paragraphs" v-html="p"></p>
+        <img
+          v-if="i.picture"
+          :src="require(`@/assets/images/` + i.picture)"
+          :width="i.width"
+          alt="picture"
+          class="object-fit-contain"
+        />
+        <p v-for="p in i.restOfParagraphs" v-html="p"></p>
+      </div>
+    </div> -->
   </section>
 </template>
 
 <script>
-// Import Swiper Vue.js components, styles.
-import { Swiper, Navigation, Pagination, Autoplay } from "swiper";
-import "swiper/swiper.css";
-
 export default {
   name: "affiliates",
-  components: {
-    Swiper,
-    Navigation,
-    Pagination,
-    Autoplay,
-  },
   data() {
     return {
       listOfItems: [
@@ -171,50 +212,13 @@ export default {
       ],
     };
   },
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log("slide change");
-    };
-
-    return {
-      onSwiper,
-      onSlideChange,
-    };
-  },
-  mounted() {
-    const swiper = new Swiper(".swiper", {
-      // Optional parameters
-      direction: "horizontal",
-      loop: true,
-      autoplay: {
-        delay: 5000,
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  },
 };
 </script>
 
 <style scoped>
-.swiper {
-  overflow: hidden;
-  position: relative;
-  /* width: 500px; */
-}
-.swiper-slide {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-.slider-content {
-  color: #000;
+.bg-image {
+  background-image: url("../assets/images/index/hero-section/bg-image.png");
+  background-size: cover;
+  background-position: top;
 }
 </style>
