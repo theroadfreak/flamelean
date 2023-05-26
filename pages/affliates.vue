@@ -7,12 +7,16 @@
         <li v-for="line in item.subjectLines">{{ line }}</li>
       </ol>
       <p v-for="p in item.paragraphs" v-html="p"></p>
-      <img v-if="item.picture" :src='require(`@/assets/images/` + item.picture)' :width="item.width" alt='picture' class='object-fit-contain'>
+      <img
+        v-if="item.picture"
+        :src="require(`@/assets/images/` + item.picture)"
+        :width="item.width"
+        alt="picture"
+        class="object-fit-contain"
+      />
       <p v-for="p in item.restOfParagraphs" v-html="p"></p>
     </div>
-
   </section>
-
 </template>
 
 <script>
@@ -37,7 +41,6 @@ export default {
             "The natural way and with zero stress.",
             "<span class='text-primary text-decoration-underline'> >> Try THIS Harvard-approved macronutrient today</span>>",
           ],
-
         },
         {
           title: "Email Swipe 2 - Celebrity Gossip",
@@ -51,8 +54,9 @@ export default {
             "About how she really lost 16 pounds in 3 weeks.",
             "Take a look:",
           ],
-          picture: "tsl/the-biggest-suspect-section/kim-kardashian-transformation.png",
-          width:500,
+          picture:
+            "tsl/the-biggest-suspect-section/kim-kardashian-transformation.png",
+          width: 500,
           restOfParagraphs: [
             "Rumors are circulating Hollywood right now…",
             "That Kim and other A-List celebrities (Rebel Wilson, Elon Musk and more)...",
@@ -64,7 +68,6 @@ export default {
             "The good news is…",
             "There’s a more natural, safer, cheaper alternative to this medication.",
             "It works the same way by:",
-            "Helping your pancreas release insulin when blood sugar levels are high…",
             "Using that sugar for energy instead of storing it as stubborn fat…",
             "Decreasing your appetite and helping you lose weight effortlessly",
             "So, if you have trouble losing weight and managing your blood sugar levels…",
@@ -73,7 +76,7 @@ export default {
             "It’s going to give your body everything it needs to start burning fat again…",
             "And manage your blood glucose without the stress.",
             "Stay healthy!",
-          ]
+          ],
         },
         {
           title: "Email Swipe 3 - Shorter Celeb Gossip",
@@ -103,8 +106,7 @@ export default {
             "<span class='text-primary text-decoration-underline'> => lose 40 pounds in 2 months like Kim Kardashian </span>",
             "<span class='text-primary text-decoration-underline'> => Try Kim Kardashian’s weight loss “secret” </span>",
             "<span class='text-primary text-decoration-underline'> => lose weight FASTER than Kim Kardashian (safely) </span>",
-
-          ]
+          ],
         },
         {
           title: "Email Swipe 4 - Problem / Solution",
@@ -123,7 +125,7 @@ export default {
             "And was struggling to lose it ever since.",
             "So, when she saw A-List celebs like Kim Kardashian, Elon Musk, and Rebel Wilson suddenly drop weight in the blink of an eye…",
             "She demanded to know their secret.",
-            ],
+          ],
           picture: "affliate/affliate1.png",
           width: 300,
           restOfParagraphs: [
@@ -145,14 +147,12 @@ export default {
             "Big pharma is trying frantically to take it down…",
             "Because she’s sharing a more natural alternative than what they have to offer you.",
             "Stay healthy!",
-          ]
-        }
+          ],
+        },
       ],
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

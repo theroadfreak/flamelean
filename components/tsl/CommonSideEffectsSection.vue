@@ -2,7 +2,9 @@
   <section class="my-4 px-3 px-md-4">
     <div class="d-flex justify-content-center mb-4">
       <div class="col-12 col-md-6">
-        <h2 class="fw-bold mb-3">❌ Here’s Where Things Started To Go Terribly Wrong…</h2>
+        <h2 class="fw-bold mb-3">
+          ❌ Here’s Where Things Started To Go Terribly Wrong…
+        </h2>
         <ul>
           <li v-for="item in texts" v-html="item"></li>
         </ul>
@@ -13,11 +15,14 @@
         <div class="d-flex gap-1">
           <img
             v-if="effect.img !== null"
-            :src="require('../../assets/images/tsl/common-side-effects-section/'+effect.img)"
+            :src="
+              require('../../assets/images/tsl/common-side-effects-section/' +
+                effect.img)
+            "
             :alt="effect.img"
             width="45"
             height="45"
-          >
+          />
           <h2 class="fw-bold mb-3" v-html="effect.title"></h2>
         </div>
         <ul>
@@ -25,7 +30,6 @@
         </ul>
       </div>
     </div>
-
   </section>
 </template>
 
@@ -34,15 +38,15 @@ import TitleSubtitleText from "@/components/TitleSubtitleText";
 
 export default {
   name: "CommonSideEffectsSection",
-  components: {TitleSubtitleText},
+  components: { TitleSubtitleText },
   data() {
     return {
       texts: [
         'My doctor didn’t hand over the prescription so readily. <span class="fw-bold">WHY?</span>',
-        'Well, it turns out, some people shouldn’t take the medication at all.',
-        'Regardless of whether you have diabetes or not.',
-        'That’s because it comes with a boxed warning…',
-        'Which, I didn’t know at the time, but it’s the strongest safety-related warning required by the FDA.',
+        "Well, it turns out, some people shouldn’t take the medication at all.",
+        "Regardless of whether you have diabetes or not.",
+        "That’s because it comes with a boxed warning…",
+        "Which, I didn’t know at the time, but it’s the strongest safety-related warning required by the FDA.",
       ],
       sideEffects: [
         {
@@ -50,10 +54,10 @@ export default {
                     Common Side Effects, Like:`,
           img: "doctor.png",
           risks: [
-            'Nausea...',
-            'Stomach Pain...',
-            'Vomiting...',
-            'And stomach pain...'
+            "Nausea...",
+            "Stomach Pain...",
+            "Vomiting...",
+            "And stomach pain...",
           ],
         },
         {
@@ -63,15 +67,13 @@ export default {
             '<span class="fw-bold">Kidney problems...</span>',
             '<span class="fw-bold">Pancreatitis...</span>',
             '<span class="fw-bold">Gallstones...</span>',
-            '<span class="fw-bold">Or severe allergic reactions</span>'
+            '<span class="fw-bold">Or severe allergic reactions</span>',
           ],
-        }
+        },
       ],
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

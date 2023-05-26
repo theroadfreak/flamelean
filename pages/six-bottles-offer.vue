@@ -1,9 +1,14 @@
 <template>
   <main>
-    <intro-section/>
-    <product-offer-section link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=a" :card="card"/>
-    <features-section/>
-    <next-step link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=d"/>
+    <intro-section />
+    <product-offer-section
+      link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=a"
+      :card="card"
+    />
+    <features-section />
+    <next-step
+      link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=d"
+    />
   </main>
 </template>
 
@@ -15,20 +20,20 @@ import NextStep from "@/components/NextStep";
 
 export default {
   name: "six-bottles-offer",
-  components: {NextStep, FeaturesSection, ProductOfferSection, IntroSection},
-  layout: 'no-navbar',
+  components: { NextStep, FeaturesSection, ProductOfferSection, IntroSection },
+  layout: "no-navbar",
   data() {
     return {
-      title: '6 Bottles Offer | Flamelean',
+      title: "6 Bottles Offer | Flamelean",
       card: {
         quantity: 6,
         price: 199,
-        img: 'six-bottles-offer/flamelean-product.png',
-        alt: 'Six bottles of Flamelean',
+        img: "six-bottles-offer/flamelean-product.png",
+        alt: "Six bottles of Flamelean",
         perDay: 1.09,
         savings: 155,
-      }
-    }
+      },
+    };
   },
   head() {
     return {
@@ -42,9 +47,7 @@ export default {
       ],
     };
   },
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

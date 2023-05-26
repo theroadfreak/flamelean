@@ -1,9 +1,9 @@
 <template>
-<main>
-  <intro-section/>
-  <terms-section/>
-  <custom-footer/>
-</main>
+  <main>
+    <intro-section />
+    <terms-section />
+    <custom-footer />
+  </main>
 </template>
 
 <script>
@@ -12,11 +12,9 @@ import CustomFooter from "@/components/footer-pages/CustomFooter";
 import IntroSection from "@/components/footer-pages/IntroSection";
 export default {
   name: "terms",
-  layout: 'no-navbar',
-  components: {IntroSection, CustomFooter, TermsSection}
-}
+  layout: "no-navbar",
+  components: { IntroSection, CustomFooter, TermsSection },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

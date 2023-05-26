@@ -2,23 +2,37 @@
   <section class="bg-e6e6e6">
     <div class="container py-5">
       <h5 class="text-7C7C7C mb-5">Scientific References:</h5>
-      <div class="col-12 mb-lg-5 row d-flex align-items-center justify-content-center">
-        <div v-for="(logo, i) in logos" :key="i"
-             class="col-6 col-sm-5 col-lg-3 ">
+      <div
+        class="col-12 mb-lg-5 row d-flex align-items-center justify-content-center"
+      >
+        <div
+          v-for="(logo, i) in logos"
+          :key="i"
+          class="col-6 col-sm-5 col-lg-3"
+        >
           <img
-            :src="require('../../assets/images/index/scientific-references/' + logo.image)"
+            :src="
+              require('../../assets/images/index/scientific-references/' +
+                logo.image)
+            "
             :alt="logo.alt"
             class="col-12"
           />
         </div>
       </div>
       <div class="row">
-        <div v-for="(reference, i) in scientificReferences" :key="i" class="col-12 col-lg-6 mb-3">
-          <p class="small custom-wrap">{{reference}}</p>
+        <div
+          v-for="(reference, i) in scientificReferences"
+          :key="i"
+          class="col-12 col-lg-6 mb-3"
+        >
+          <p class="small custom-wrap">{{ reference }}</p>
         </div>
       </div>
       <div class="small text-center fw-lighter pt-4">
-        FlameLean is not endorsed by, sponsored by, or<br class="d-none d-sm-flex"/>
+        FlameLean is not endorsed by, sponsored by, or<br
+          class="d-none d-sm-flex"
+        />
         affiliated with any of these organizations.
       </div>
     </div>
@@ -32,20 +46,20 @@ export default {
     return {
       logos: [
         {
-          image: 'harvard-logo.svg',
-          alt: 'Harvard logo'
+          image: "harvard-logo.svg",
+          alt: "Harvard logo",
         },
         {
-          image: 'new-york-obesity-research-center-logo.svg',
-          alt: 'New York Obesity Research Center logo'
+          image: "new-york-obesity-research-center-logo.svg",
+          alt: "New York Obesity Research Center logo",
         },
         {
-          image: 'imperial-college-healthcare-logo.svg',
-          alt: 'Imperial College Healthcare logo'
+          image: "imperial-college-healthcare-logo.svg",
+          alt: "Imperial College Healthcare logo",
         },
         {
-          image: 'oxford-logo.svg',
-          alt: 'Oxford logo'
+          image: "oxford-logo.svg",
+          alt: "Oxford logo",
         },
       ],
       scientificReferences: [
@@ -62,26 +76,26 @@ export default {
         "6. Mansour MS, Ni YM, Roberts AL, Kelleman M, Roychoudhury A, St-Onge MP. Ginger consumption enhances the thermic effect of food and promotes feelings of satiety without affecting metabolic and hormonal parameters in overweight men: a pilot study. Metabolism. 2012;61(10):1347-1352. doi:10.1016/j.metabol.2012.03.016",
         "12. Wang J, Li D, Wang P, Hu X, Chen F. Ginger prevents obesity through regulation of energy metabolism and activation of browning in high-fat diet-induced obesity. J Nutr Biochem. 2019;70:105-115. doi:10.1016/j.jnutbio.2019.05.001",
         "13. https://www.nbcnews.com/health/health-news/people-diabetes-struggle-find-ozempic-soars-popularity-weight-loss-aid-rcna64916 https://www.forbes.com/sites/ariannajohnson/2022/12/26/what-to-know-about-ozempic/?sh=24e00d9b5adb https://www.nytimes.com/2022/11/22/well/ozempic-diabetes-weight-loss.html https://www.vice.com/en/article/epz93n/ozempic-viral-celebrity-weight-loss-drug https: //variety.com/2022/film/actors/weight-loss-ozempic-semaglutide-hollywood-1235361465/ https://www.nbcnews.com/health/health-news/people-diabetes-struggle-find-ozempic-soars-popularity-weight-loss-aid-rcna64916",
-        "14. https://www.buzzfeednews.com/article/anthonyrobledo/celebrities-ozempic-weight-loss-drug-trend-quotes https://www.webmd.com/diet/obesity/news/20221129/the-tiktok-trend-that-triggered-a-diabetes-drug-shortage https://www.forbes.com/sites/ariannajohnson/2022/12/26/what-to-know-about-ozempic/?sh=24e00d9b5adb https://www.singlecare.com/ blog/ozempic-alternatives/ https: //www.womenshealthmag.com /uk /food/weight-loss/a42280255/ozempic-weight-loss-drug-explainer/"
-      ]
-    }
-  }
-}
+        "14. https://www.buzzfeednews.com/article/anthonyrobledo/celebrities-ozempic-weight-loss-drug-trend-quotes https://www.webmd.com/diet/obesity/news/20221129/the-tiktok-trend-that-triggered-a-diabetes-drug-shortage https://www.forbes.com/sites/ariannajohnson/2022/12/26/what-to-know-about-ozempic/?sh=24e00d9b5adb https://www.singlecare.com/ blog/ozempic-alternatives/ https: //www.womenshealthmag.com /uk /food/weight-loss/a42280255/ozempic-weight-loss-drug-explainer/",
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
 .bg-e6e6e6 {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
 .text-7C7C7C {
-  color: #7C7C7C;
+  color: #7c7c7c;
 }
 
 .text-4D4D4D {
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
-.custom-wrap{
+.custom-wrap {
   word-wrap: break-word;
 }
 </style>

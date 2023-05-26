@@ -1,9 +1,14 @@
 <template>
   <main>
-    <hero-section/>
-    <product-offer-section link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=a" :card="card"/>
-    <features-section/>
-    <next-step link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=d"/>
+    <hero-section />
+    <product-offer-section
+      link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=a"
+      :card="card"
+    />
+    <features-section />
+    <next-step
+      link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=d"
+    />
   </main>
 </template>
 
@@ -16,20 +21,20 @@ import ProductOfferSection from "@/components/ProductOfferSection";
 
 export default {
   name: "three-bottles-offer",
-  layout: 'no-navbar',
-  components: {ProductOfferSection, NextStep, FeaturesSection, HeroSection},
+  layout: "no-navbar",
+  components: { ProductOfferSection, NextStep, FeaturesSection, HeroSection },
   data() {
     return {
-      title: '3 Bottles Offer | Flamelean',
+      title: "3 Bottles Offer | Flamelean",
       card: {
         quantity: 3,
         price: 99,
-        img: 'three-bottles-offer/flamelean-product.png',
-        alt: 'Three bottles of Flamelean',
+        img: "three-bottles-offer/flamelean-product.png",
+        alt: "Three bottles of Flamelean",
         perDay: 0.81,
         savings: 78,
-      }
-    }
+      },
+    };
   },
   head() {
     return {
@@ -43,9 +48,7 @@ export default {
       ],
     };
   },
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

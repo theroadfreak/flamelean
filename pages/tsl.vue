@@ -1,24 +1,24 @@
 <template>
   <main>
-    <hero-section/>
-    <intro/>
-    <the-biggest-suspect-section/>
-    <jessica-richards-section/>
-    <thing-that-switches-on-fat-burning-section/>
-    <common-side-effects-section/>
-    <medication-consequences-section/>
-    <the-most-important-thing-section/>
-    <why-we-created-flamelean-section id="about-flamelean"/>
-    <four-star-of-the-show-section/>
-    <natural-solution-section/>
-    <flamelean-ingredients-section/>
-    <flamelean-features-section/>
-    <plant-based-remedies-section/>
-    <pricing-section :stock-available-text="true"/>
-    <offer-section :bg-color="true"/>
-    <pricing-section :user-review="true" :free-shipping-title="true"/>
-    <money-back-guarantee-section/>
-    <frequently-asked-questions-section/>
+    <hero-section />
+    <intro />
+    <the-biggest-suspect-section />
+    <jessica-richards-section />
+    <thing-that-switches-on-fat-burning-section />
+    <common-side-effects-section />
+    <medication-consequences-section />
+    <the-most-important-thing-section />
+    <why-we-created-flamelean-section id="about-flamelean" />
+    <four-star-of-the-show-section />
+    <natural-solution-section />
+    <flamelean-ingredients-section />
+    <flamelean-features-section />
+    <plant-based-remedies-section />
+    <pricing-section :stock-available-text="true" />
+    <offer-section :bg-color="true" />
+    <pricing-section :user-review="true" :free-shipping-title="true" />
+    <money-back-guarantee-section />
+    <frequently-asked-questions-section />
   </main>
 </template>
 
@@ -61,12 +61,15 @@ export default {
     PricingSection,
     WhyWeCreatedFlameleanSection,
     ThingThatSwitchesOnFatBurningSection,
-    JessicaRichardsSection, TheBiggestSuspectSection, Intro, HeroSection
+    JessicaRichardsSection,
+    TheBiggestSuspectSection,
+    Intro,
+    HeroSection,
   },
   data() {
     return {
-      title: 'TSL | Flamelean',
-    }
+      title: "TSL | Flamelean",
+    };
   },
   head() {
     return {
@@ -80,9 +83,7 @@ export default {
       ],
     };
   },
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

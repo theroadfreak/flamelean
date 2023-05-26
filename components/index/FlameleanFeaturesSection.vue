@@ -3,24 +3,31 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center mb-5">
-          <img src="../../assets/images/index/flamelean-features/flamelean.svg"
-               width="230"
-               height="50"
-               alt="Flamelean"
+          <img
+            src="../../assets/images/index/flamelean-features/flamelean.svg"
+            width="230"
+            height="50"
+            alt="Flamelean"
           />
         </div>
         <div class="col-12">
           <div class="row d-flex justify-content-center">
-            <div class="d-none d-lg-flex col-4 d-flex justify-content-center" v-for="(features, i) in featuresSlices"
-                 :key="i">
-              <feature :features="features"/>
+            <div
+              class="d-none d-lg-flex col-4 d-flex justify-content-center"
+              v-for="(features, i) in featuresSlices"
+              :key="i"
+            >
+              <feature :features="features" />
             </div>
-            <div class="d-none d-sm-flex d-lg-none col-6 d-flex justify-content-center"
-                 v-for="(features, i) in featuresSlicesSmScreen" :key="i">
-              <feature :features="features"/>
+            <div
+              class="d-none d-sm-flex d-lg-none col-6 d-flex justify-content-center"
+              v-for="(features, i) in featuresSlicesSmScreen"
+              :key="i"
+            >
+              <feature :features="features" />
             </div>
             <div class="d-flex d-sm-none col-12 justify-content-center">
-              <feature :features="features"/>
+              <feature :features="features" />
             </div>
           </div>
         </div>
@@ -34,18 +41,17 @@ import Feature from "@/components/index/FlameleanFeatures/Feature.vue";
 
 export default {
   name: "FlameleanFeaturesSection",
-  components: {Feature},
+  components: { Feature },
   data() {
     return {
       features: [
-        'Natural Formula',
-        'Plant Ingredients',
-        'Non-GMO',
-        'Easy to Swallow',
-        'No Stimulants',
-        'Non-Habit Forming',
-      ]
-    }
+        "Natural Formula",
+        "Plant Ingredients",
+        "Non-GMO",
+        "Easy to Swallow",
+        "No Stimulants",
+      ],
+    };
   },
   computed: {
     featuresSlices() {
@@ -65,11 +71,11 @@ export default {
       }, []);
     },
   },
-}
+};
 </script>
 
 <style scoped>
 .background-color-e4dee9 {
-  background-color: #E4DEE9;
+  background-color: #e4dee9;
 }
 </style>

@@ -13,11 +13,9 @@ export default {
     width: {
       type: String,
       required: true,
-    }
+    },
   },
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

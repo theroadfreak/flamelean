@@ -1,12 +1,12 @@
 <template>
   <div>
     <!-- ClickBank Trust Badge -->
-    <script src='//cbtb.clickbank.net/?vendor=flamelean'></script>
-    <intro-section/>
-    <nuxt/>
-    <pricing-section :user-review="true" :free-shipping-title="true"/>
-    <money-back-guarantee-section/>
-    <custom-footer/>
+    <script src="//cbtb.clickbank.net/?vendor=flamelean"></script>
+    <intro-section />
+    <nuxt />
+    <pricing-section :user-review="true" :free-shipping-title="true" />
+    <money-back-guarantee-section />
+    <custom-footer />
   </div>
 </template>
 
@@ -16,13 +16,15 @@ import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSect
 import CustomFooter from "@/components/layouts/CustomFooter";
 import IntroSection from "@/components/footer-pages/IntroSection";
 
-
 export default {
   name: "footer-pages-layout",
-  components: {IntroSection, CustomFooter, MoneyBackGuaranteeSection, PricingSection}
-}
+  components: {
+    IntroSection,
+    CustomFooter,
+    MoneyBackGuaranteeSection,
+    PricingSection,
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

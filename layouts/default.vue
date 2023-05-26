@@ -1,11 +1,11 @@
 <template>
   <div>
     <!-- ClickBank Trust Badge -->
-    <script src='//cbtb.clickbank.net/?vendor=flamelean'></script>
-    <custom-navbar/>
-    <nuxt/>
-    <scientific-references-section/>
-    <custom-footer/>
+    <script src="//cbtb.clickbank.net/?vendor=flamelean"></script>
+    <custom-navbar />
+    <nuxt />
+    <scientific-references-section />
+    <custom-footer />
   </div>
 </template>
 
@@ -16,10 +16,8 @@ import ScientificReferencesSection from "@/components/index/ScientificReferences
 
 export default {
   name: "Default",
-  components: {ScientificReferencesSection, CustomFooter, CustomNavbar}
-}
+  components: { ScientificReferencesSection, CustomFooter, CustomNavbar },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

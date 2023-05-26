@@ -1,5 +1,7 @@
 <template>
-  <div class="container d-flex flex-column align-items-center py-5 text-secondary">
+  <div
+    class="container d-flex flex-column align-items-center py-5 text-secondary"
+  >
     <h1 class="mb-4 fw-bold text-center">{{ title }}</h1>
     <div class="fs-5 col-12 col-xl-10">
       {{ text }}
@@ -13,15 +15,14 @@ export default {
   props: {
     title: {
       type: String,
-      default: ''
+      default: "",
     },
     text: {
       type: String,
-      default: '',
-    }
-  }
-}
+      default: "",
+    },
+  },
+};
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

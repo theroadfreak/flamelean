@@ -1,24 +1,33 @@
 <template>
   <section class="container pt-5 pb-3 justify-content-center">
     <h1 class="fw-bold text-center mb-4">Terms</h1>
-    <discounted-offers-button class="mb-5"/>
-    <product-and-order-support/>
-    <text-item :text="text.slice(0,2)"/>
-    <list-item :ordered-list="orderedList.slice(0, 5)"/>
-    <text-item :text="text.slice(2,13)"/>
-    <list-item :ordered-list="orderedList.slice(5, 7)"/>
-    <div class="d-flex flex-column align-items-start fs-5 col-lg-8 mx-auto mb-2">
+    <discounted-offers-button class="mb-5" />
+    <product-and-order-support />
+    <text-item :text="text.slice(0, 2)" />
+    <list-item :ordered-list="orderedList.slice(0, 5)" />
+    <text-item :text="text.slice(2, 13)" />
+    <list-item :ordered-list="orderedList.slice(5, 7)" />
+    <div
+      class="d-flex flex-column align-items-start fs-5 col-lg-8 mx-auto mb-2"
+    >
       <ol>
         <li class="mb-2">any link provided in connection with the services,</li>
         <li class="mb-2">your reliance on any of the services,</li>
-        <li class="mb-2">the interruption, suspension, termination of any of the services,</li>
-        <li class="mb-2">any viruses that may infect your computer equipment or other property on account of your use of the site, or</li>
-        <li class="mb-2">any matter otherwise related to your use of the site or services.</li>
+        <li class="mb-2">
+          the interruption, suspension, termination of any of the services,
+        </li>
+        <li class="mb-2">
+          any viruses that may infect your computer equipment or other property
+          on account of your use of the site, or
+        </li>
+        <li class="mb-2">
+          any matter otherwise related to your use of the site or services.
+        </li>
       </ol>
     </div>
-    <list-item :ordered-list="orderedList.slice(7, 15)"/>
-    <text-item :text="text.slice(13,14)"/>
-    <product-and-order-support/>
+    <list-item :ordered-list="orderedList.slice(7, 15)" />
+    <text-item :text="text.slice(13, 14)" />
+    <product-and-order-support />
   </section>
 </template>
 
@@ -30,24 +39,29 @@ import ListItem from "@/components/footer-pages/ListItem";
 
 export default {
   name: "TermsSection",
-  components: {ListItem, TextItem, ProductAndOrderSupport, DiscountedOffersButton},
+  components: {
+    ListItem,
+    TextItem,
+    ProductAndOrderSupport,
+    DiscountedOffersButton,
+  },
   data() {
     return {
       text: [
-        'This site is provided to you by FlameLean. You are granted access to this site only upon the condition that you accept and agree to adhere to the following terms and conditions.',
+        "This site is provided to you by FlameLean. You are granted access to this site only upon the condition that you accept and agree to adhere to the following terms and conditions.",
         'The website\'s content and the product for sale is based upon the author\'s opinion and is provided solelv on an "AS IS" and "AS AVAILABLE" basis. You should do vour own research and confirm the information with other sources when searching for information regarding health issues and always review the information carefully with your professional health care provider before using any of the protocols presented on this website and/or in the product sold here. ClickBank is the retailer of products on this site. Neither ClickBank nor the author are engaged in rendering medical or similar professional services or advice via this website or in the product, and the information provided is not intended to replace medical advice offered by a physician or other licensed healthcare provider. You should not construe ClickBank\'s sale of this product as an endorsement by ClickBank of the views expressed herein, or any warranty or guarantee of any strategy, recommendation, treatment, action, or application of advice made by the author of the product.',
-        '(i) Not a Substitute for Professional Medical Advice or Treatment. The website\'s content is not a substitute for direct, personal, professional medical care and diagnosis. None of the exercises or methods (including products and services) mentioned at flamelean.com should be performed or otherwise used without clearance from your physician or health care provider. The information contained within is not intended to provide specific physical or mental health advice, or any other advice whatsoever, for any individual or company and should not be relied upon in that regard. We are not medical professionals and nothing on this website should be misconstrued to mean otherwise.',
-        '(ii) Health Risks. There may be risks associated with participating in activities mentioned on flamelean.com for people in poor health or with pre-existing physical or mental health conditions.',
-        'Because these risks exist, you will not participate in such activities if you are in poor health or have a pre-existing mental or physical condition. If you choose to participate in these risks, you do so of your own free will and accord, knowingly and voluntarily assuming all risks associated with such activities.',
-        '(ili) Accuracy and Completeness. Facts and information are believed to be accurate at the time they were placed in flamelean.com. All data provided in this website is to be used for information purposes only. Products and services described are only offered in jurisdictions where they may be legally offered. Information provided is not all-inclusive, and is limited to information that is made available and such information should not be relied upon as all-inclusive or accurate.',
-        '(iv) Injuries. You agree to hold FlameLean, flamelean.com, its owners, agents, and employees harmless from any and all liability for all claims for damages due to injuries, including attorney fees and costs, incurred by you or caused to third parties by you, arising out of the activities discussed on this website, excepting only claims for gross negligence or intentional tort.',
-        'The products and claims made about specific products on or through this Site have not been evaluated by the United States Food and Drug Administration and are not approved to diagnose, treat, cure or prevent disease.',
+        "(i) Not a Substitute for Professional Medical Advice or Treatment. The website's content is not a substitute for direct, personal, professional medical care and diagnosis. None of the exercises or methods (including products and services) mentioned at flamelean.com should be performed or otherwise used without clearance from your physician or health care provider. The information contained within is not intended to provide specific physical or mental health advice, or any other advice whatsoever, for any individual or company and should not be relied upon in that regard. We are not medical professionals and nothing on this website should be misconstrued to mean otherwise.",
+        "(ii) Health Risks. There may be risks associated with participating in activities mentioned on flamelean.com for people in poor health or with pre-existing physical or mental health conditions.",
+        "Because these risks exist, you will not participate in such activities if you are in poor health or have a pre-existing mental or physical condition. If you choose to participate in these risks, you do so of your own free will and accord, knowingly and voluntarily assuming all risks associated with such activities.",
+        "(ili) Accuracy and Completeness. Facts and information are believed to be accurate at the time they were placed in flamelean.com. All data provided in this website is to be used for information purposes only. Products and services described are only offered in jurisdictions where they may be legally offered. Information provided is not all-inclusive, and is limited to information that is made available and such information should not be relied upon as all-inclusive or accurate.",
+        "(iv) Injuries. You agree to hold FlameLean, flamelean.com, its owners, agents, and employees harmless from any and all liability for all claims for damages due to injuries, including attorney fees and costs, incurred by you or caused to third parties by you, arising out of the activities discussed on this website, excepting only claims for gross negligence or intentional tort.",
+        "The products and claims made about specific products on or through this Site have not been evaluated by the United States Food and Drug Administration and are not approved to diagnose, treat, cure or prevent disease.",
         'This Site ("flamelean.com") is not intended to provide diagnosis, treatment or medical advice.Products, services, information and other content provided on this Site, including information that may be provided on this Site directly or by linking to third-party websites are provided for informational purposes only. Please consult with a physician or other healthcare professional regarding any medical or health related diagnosis or treatment options.',
-        'Information provided on this Site and linked websites, including information relating to medical and health conditions, treatments and products may be provided in summary form. Information on this Site including any product label or packaging should not be considered as a substitute for advice from a healthcare professional. This Site does not recommend self-management of health issues. Information on this Site is not comprehensive and does not cover all diseases, ailments, physical conditions or their treatment. Contact vour healthcare professional promptlv should vou have any health related questions. Never disregard or delay medical advice based upon information you may have read on this Site.',
-        'You should not use the information or services on this Site to diagnose or treat any health issues or for prescription of any medication or other treatment. You should always consult with your healthcare professional and read information provided by the product manufacture and any product label or packaging, prior to using any medication, nutritional, herbal or homeopathic product or before beginning any exercise or diet program or starting any treatment for a health issue. Individuals are different and may react differently to different products. You should consult your physician about interactions between medications you are taking and nutritional supplements. Comments made in any forums on this Site by employees or Site users are strictly their own personal views made in their own personal capacity and are not claims made by us or do they represent the position or view of the owners of this Site. Product ratings by any current or previous employees or Site users are strictly their own personal views made in their own personal capacity and are not intended as a substitute for appropriate medical care or advice from a healthcare professional.',
-        'Always check the product label or packaging prior to using any product. If there are discrepancies, customers should follow the information provided on the product label or packaging. You should contact the manufacturer directly for clarification as to product labelling and packaging details and recommended use.',
-        'Owners of this Site are not liable for any information provided on this Site with regard to recommendations regarding supplements for any health purposes. The products or claims made about specific nutrients or products have not been evaluated by the Food and Drug Administration. Dietary products are not intended to treat, prevent or cure disease. Consult with a healthcare professional before starting any diet, supplement or exercise program. Owners of this site make no guarantee or warranty with respect to any products or services sold.',
-        'You hereby agree to release and hold harmless FlameLean, their affiliates, and their respective directors, officers and employees, from any liability for any injury or adverse reaction which you may experience, or any other claims or damages which may arise from your use of the site or services or products.'
+        "Information provided on this Site and linked websites, including information relating to medical and health conditions, treatments and products may be provided in summary form. Information on this Site including any product label or packaging should not be considered as a substitute for advice from a healthcare professional. This Site does not recommend self-management of health issues. Information on this Site is not comprehensive and does not cover all diseases, ailments, physical conditions or their treatment. Contact vour healthcare professional promptlv should vou have any health related questions. Never disregard or delay medical advice based upon information you may have read on this Site.",
+        "You should not use the information or services on this Site to diagnose or treat any health issues or for prescription of any medication or other treatment. You should always consult with your healthcare professional and read information provided by the product manufacture and any product label or packaging, prior to using any medication, nutritional, herbal or homeopathic product or before beginning any exercise or diet program or starting any treatment for a health issue. Individuals are different and may react differently to different products. You should consult your physician about interactions between medications you are taking and nutritional supplements. Comments made in any forums on this Site by employees or Site users are strictly their own personal views made in their own personal capacity and are not claims made by us or do they represent the position or view of the owners of this Site. Product ratings by any current or previous employees or Site users are strictly their own personal views made in their own personal capacity and are not intended as a substitute for appropriate medical care or advice from a healthcare professional.",
+        "Always check the product label or packaging prior to using any product. If there are discrepancies, customers should follow the information provided on the product label or packaging. You should contact the manufacturer directly for clarification as to product labelling and packaging details and recommended use.",
+        "Owners of this Site are not liable for any information provided on this Site with regard to recommendations regarding supplements for any health purposes. The products or claims made about specific nutrients or products have not been evaluated by the Food and Drug Administration. Dietary products are not intended to treat, prevent or cure disease. Consult with a healthcare professional before starting any diet, supplement or exercise program. Owners of this site make no guarantee or warranty with respect to any products or services sold.",
+        "You hereby agree to release and hold harmless FlameLean, their affiliates, and their respective directors, officers and employees, from any liability for any injury or adverse reaction which you may experience, or any other claims or damages which may arise from your use of the site or services or products.",
       ],
       orderedList: [
         `<b>1. Acceptance of Terms and Conditions.</b> By using our site or the services you agree to be bound by these terms and conditions. In addition, you consent to the use of your Personal Information in accordance with the terms of and for the purposes set out in the Privacy Policy. This is a legally binding agreement.`,
@@ -65,12 +79,10 @@ export default {
         `<b>13. Links.</b> Any links found on the FlameLean web site are provided for your convenience and do not reflect any endorsement by FlameLean with respect to the quality, reliability or any other characteristic or feature of such linked site. FlameLean is not responsible for any loss or injury you may suffer for any matter associated with the linked site.`,
         `<b>14. Changes.</b> FlameLean reserves the right to make changes to the terms and conditions. Any changes will be posted on this Site. FlameLean reserves the right to add to or change or discontinue the services offered at any time. FlameLean may terminate your use of the services at any time for any reason without notice and shall not be liable to you or to any third party for any modification or discontinuance of the services. FlameLean reserves the right to refuse to offer services to anyone at any time.`,
         `<b>15. Entire Agreement.</b> These terms and conditions constitute the entire agreement between you and FlameLean relating to the site and services. By your use of this site, you certify that you: (i) have read and agree to the above terms; (it) have received consent from your personal physician to use the services and participate in the prescribed activities; and (i) acknowledge that you do so voluntarily and at your own risk.`,
-      ]
-    }
-  }
-}
+      ],
+    };
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

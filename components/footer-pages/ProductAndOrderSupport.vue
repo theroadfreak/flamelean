@@ -1,16 +1,15 @@
 <template>
   <div>
-    <text-item :text="text"/>
+    <text-item :text="text" />
   </div>
 </template>
 
 <script>
-
 import TextItem from "@/components/footer-pages/TextItem";
 
 export default {
   name: "ProductAndOrderSupport",
-  components: {TextItem},
+  components: { TextItem },
   data() {
     return {
       text: [
@@ -21,12 +20,10 @@ export default {
   from the US or
   <a href="tel:+1-208-345-4245" class="fw-bold text-decoration-none">+1-208-345-4245</a>
    from other countries.`,
-      ]
-    }
-  }
-}
+      ],
+    };
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

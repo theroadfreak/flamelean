@@ -1,9 +1,15 @@
 <template>
   <section class="container d-flex flex-column align-items-center text-center">
-    <h2 v-if="title !== ''" class="fw-bold col-12 col-lg-10 col-xl-8 line-height-normal mb-3"
-        :class="textColor" v-html="title">
-    </h2>
-    <h5 v-if="subtitle !== ''" class="text-danger col-11 col-lg-9 col-xl-7 mb-4">
+    <h2
+      v-if="title !== ''"
+      class="fw-bold col-12 col-lg-10 col-xl-8 line-height-normal mb-3"
+      :class="textColor"
+      v-html="title"
+    ></h2>
+    <h5
+      v-if="subtitle !== ''"
+      class="text-danger col-11 col-lg-9 col-xl-7 mb-4"
+    >
       {{ subtitle }}
     </h5>
     <div v-if="text !== ''" :class="textColor" v-html="text"></div>
@@ -16,24 +22,22 @@ export default {
   props: {
     title: {
       type: String,
-      default: '',
+      default: "",
     },
     subtitle: {
       type: String,
-      default: '',
+      default: "",
     },
     text: {
       type: String,
-      default: '',
+      default: "",
     },
     textColor: {
       type: String,
-      default: 'text-secondary',
-    }
-  }
-}
+      default: "text-secondary",
+    },
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

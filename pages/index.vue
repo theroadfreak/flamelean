@@ -1,16 +1,16 @@
 <template>
   <main>
-    <hero-section/>
-    <the-blood-sugar-secret-section/>
-    <as-talked-about-in-section/>
-    <pricing-section/>
-    <flamelean-ingredients-section id="ingredients"/>
-    <flamelean-features-section/>
-    <offer-section/>
-    <shipping-section/>
-    <flamelean-impact-section id="flamelean-impact-section"/>
-    <pricing-section  id="pricing-section"/>
-    <frequently-asked-questions-section id="faq"/>
+    <hero-section />
+    <the-blood-sugar-secret-section />
+    <!-- <as-talked-about-in-section/> -->
+    <pricing-section />
+    <flamelean-ingredients-section id="ingredients" />
+    <flamelean-features-section />
+    <offer-section />
+    <shipping-section />
+    <flamelean-impact-section id="flamelean-impact-section" />
+    <pricing-section id="pricing-section" />
+    <frequently-asked-questions-section id="faq" />
   </main>
 </template>
 
@@ -25,13 +25,13 @@ import PricingSection from "@/components/index/PricingSection.vue";
 import FrequentlyAskedQuestionsSection from "@/components/index/FrequentlyAskedQuestionsSection.vue";
 import TheBloodSugarSecretSection from "@/components/index/TheBloodSugarSecretSection.vue";
 import FlameleanImpactSection from "@/components/index/FlameleanImpactSection.vue";
-import AsTalkedAboutInSection from "@/components/AsTalkedAboutInSection";
+// import AsTalkedAboutInSection from "@/components/AsTalkedAboutInSection";
 import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSection";
 
 export default {
-  name: 'index',
+  name: "index",
   components: {
-    AsTalkedAboutInSection,
+    // AsTalkedAboutInSection,
     FlameleanImpactSection,
     TheBloodSugarSecretSection,
     FrequentlyAskedQuestionsSection,
@@ -41,12 +41,12 @@ export default {
     OfferSection,
     FlameleanFeaturesSection,
     FlameleanIngredientsSection,
-    HeroSection
+    HeroSection,
   },
   data() {
     return {
-      title: 'Flamelean',
-    }
+      title: "Flamelean",
+    };
   },
   head() {
     return {
@@ -60,5 +60,5 @@ export default {
       ],
     };
   },
-}
+};
 </script>

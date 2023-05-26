@@ -10,14 +10,12 @@
 export default {
   name: "TextItem",
   props: {
-    text:{
+    text: {
       type: Array,
-      default: []
-    }
-  }
-}
+      default: [],
+    },
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

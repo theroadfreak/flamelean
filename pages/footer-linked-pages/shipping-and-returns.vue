@@ -1,8 +1,8 @@
 <template>
   <main>
-    <intro-section/>
-    <shipping-and-returns-section/>
-    <custom-footer/>
+    <intro-section />
+    <shipping-and-returns-section />
+    <custom-footer />
   </main>
 </template>
 
@@ -12,11 +12,9 @@ import CustomFooter from "@/components/footer-pages/CustomFooter";
 import IntroSection from "@/components/footer-pages/IntroSection";
 export default {
   name: "shipping-and-returns",
-  components: {IntroSection, CustomFooter, ShippingAndReturnsSection},
-  layout: 'no-navbar'
-}
+  components: { IntroSection, CustomFooter, ShippingAndReturnsSection },
+  layout: "no-navbar",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
