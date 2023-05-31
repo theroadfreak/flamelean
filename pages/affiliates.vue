@@ -13,7 +13,7 @@
           <h1 class="text-center fw-bold">
             Promote <span class="text-primary">Flamelean</span> Now
             <br />
-            Get <span class="text-primary">85% Per Sale</span>
+            Get <span class="text-primary">75% Per Sale</span>
           </h1>
         </div>
         <div id="third__line">
@@ -24,7 +24,7 @@
       </div>
 
       <div
-        class="container bg-primary rounded d-flex justify-content-between py-3"
+        class="container bg-primary rounded d-flex justify-content-between py-3 shadow-sm"
       >
         <div class="row">
           <img
@@ -47,7 +47,12 @@
           </p>
         </div>
       </div>
-      <div class="container bg-white rounded mt-4 mb-4" id="email__Swipes">
+
+      <!-- Email Swipes Start -->
+      <div
+        class="container bg-white rounded shadow-sm mt-4 mb-4 py-2"
+        id="email__Swipes"
+      >
         <div id="main__text">
           <h1 class="text-center fw-bold">Email Swipes</h1>
         </div>
@@ -55,10 +60,47 @@
           <h3 class="text-center">
             Use these email swipes to promote Flamelean to your email list.
           </h3>
-        </div>
-      </div>
-    </div>
-    <!-- <div v-for="i in listOfItems" class="swiper-slide">
+
+          <div class="accordion" id="accordionEmailSwipes">
+            <div class="accordion-item" v-for="i in listOfItems" :key="i.id">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  :data-bs-target="'#' + i.id"
+                  aria-expanded="false"
+                  :aria-controls="i.id"
+                >
+                  {{ i.title }}
+                </button>
+              </h2>
+              <div
+                :id="i.id"
+                class="accordion-collapse collapse"
+                :aria-labelledby="i.id"
+                data-bs-parent="#accordionEmailSwipes"
+              >
+                <div class="accordion-body">
+                  <h4>Subject Lines:</h4>
+                  <ol style="list-style: lower-alpha">
+                    <li v-for="line in i.subjectLines">{{ line }}</li>
+                  </ol>
+                  <p v-for="p in i.paragraphs" v-html="p"></p>
+                  <img
+                    v-if="i.picture"
+                    :src="require(`@/assets/images/` + i.picture)"
+                    :width="i.width"
+                    alt="picture"
+                    class="object-fit-contain"
+                  />
+                  <p v-for="p in i.restOfParagraphs" v-html="p"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div v-for="i in listOfItems" class="swiper-slide">
       <div class="slider-content">
         <h3>{{ i.title }}</h3>
         <h4>Subject Lines:</h4>
@@ -76,6 +118,10 @@
         <p v-for="p in i.restOfParagraphs" v-html="p"></p>
       </div>
     </div> -->
+        </div>
+      </div>
+      <!-- Email Swipes End -->
+    </div>
   </section>
 </template>
 
@@ -86,6 +132,7 @@ export default {
     return {
       listOfItems: [
         {
+          id: 1,
           title: "Email Swipe 1 - Science Mech Tease",
           subjectLines: [
             "Do THIS to burn fat in the morning",
@@ -103,6 +150,7 @@ export default {
           ],
         },
         {
+          id: 2,
           title: "Email Swipe 2 - Celebrity Gossip",
           subjectLines: [
             "Kim Kardadshian before and after (pics inside)",
@@ -139,6 +187,7 @@ export default {
           ],
         },
         {
+          id: 3,
           title: "Email Swipe 3 - Shorter Celeb Gossip",
           subjectLines: [
             "lose 40 pounds in 2 months like Kim Kardashian",
@@ -169,6 +218,7 @@ export default {
           ],
         },
         {
+          id: 4,
           title: "Email Swipe 4 - Problem / Solution",
           subjectLines: [
             "THIS is why you can’t lose weight",

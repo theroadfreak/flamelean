@@ -10,11 +10,6 @@ Please remove these claims if you are unable to provide substantiation of the su
 
 Per the FDA, dietary supplements and food products may carry claims that describe the effect of a substance in maintaining the body's normal structure or function. By law dietary supplements cannot imply the product diagnoses, treats, cures, or prevents a disease.
 
-Please edit the following statements:
-
-"Celebrities are now getting these diabetes medications easily prescribed to them?
-Paying a hefty $1,300 fee every single month.
-
 It costs as much as many mortgages! Because of that, most insurance companies won?t cover it for regular folk like you and me.
 And while the price might be eye watering to us? It?s a drop in the ocean for the rich and famous.
 Meaning they can easily achieve rapid weight loss and keep it off?
