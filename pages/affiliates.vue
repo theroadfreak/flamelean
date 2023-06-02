@@ -1,56 +1,69 @@
 <template>
   <section id="affiliates" class="bg-image">
-    <div class="container my-2">
+    <div class="container">
       <div class="row mb-5">
-        <div id="first__line">
-          <h2 class="text-center">
-            ClickBank's
-            <span class="fw-bold">#1 Weight Loss Offer</span>
-            For 2023/2024
-          </h2>
-        </div>
-        <div id="second__line">
-          <h1 class="text-center fw-bold">
-            Promote <span class="text-primary">Flamelean</span> Now
-            <br />
-            Get <span class="text-primary">75% Per Sale</span>
-          </h1>
-        </div>
-        <div id="third__line">
-          <h3 class="text-center text-primary fw-bold">
-            And Earn Up To $250 + Average Order Value!
-          </h3>
+        <h1 class="text-center fw-bold">
+          Promote <span class="text-primary">Flamelean</span> Now
+          <br />
+          Get <span class="text-primary">75% Per Sale</span>
+        </h1>
+      </div>
+
+      <div class="bg-primary rounded p-3 mb-4 shadow-sm">
+        <div class="d-flex justify-content-between">
+          <div class="row">
+            <img
+              src="@/assets/images/index/hero-section/hero-img.png"
+              alt="Flamelean Product"
+              class="object-fit-contain"
+              width="250"
+            />
+          </div>
+          <div class="row">
+            <p class="text-white fw-bold display-6 mb-4">
+              Flamelean™ is available to promote easily and quickly on the
+              ClickBank affiliate network.
+            </p>
+            <p class="text-white fs-4">
+              They track all your clicks and conversion and send out your
+              payments
+              <span class="text-decoration-underline">every week</span>!
+              Creating an account is
+              <span class="text-decoration-underline">FREE</span>. Follow the
+              steps below to get started:
+            </p>
+          </div>
         </div>
       </div>
 
-      <div
-        class="container bg-primary rounded d-flex justify-content-between py-3 shadow-sm"
-      >
-        <div class="row">
-          <img
-            src="@/assets/images/index/hero-section/hero-img.png"
-            alt="Flamelean Product"
-            class="object-fit-contain"
-            width="250"
-          />
+      <!-- Tracking pixels start -->
+      <div id="tracking__pixels" class="bg-primary rounded shadow-sm mb-4 p-3">
+        <div id="trackingpixles__title" class="mb-4">
+          <h1 class="text-center text-white fw-bold">Tracking Pixels</h1>
         </div>
-        <div class="row">
-          <p class="text-white fw-bold display-6 mb-4">
-            Flamelean™ is available to promote easily and quickly on the
-            ClickBank affiliate network.
-          </p>
+
+        <div id="trackingpixles__content">
           <p class="text-white fs-4">
-            They track all your clicks and conversion and send out your payments
-            <span class="text-decoration-underline">every week</span>! Creating
-            an account is <span class="text-decoration-underline">FREE</span>.
-            Follow the steps below to get started:
+            ClickBank allows you to place all your tracking pixels (such as
+            Facebook, Yahoo, Google, Voluum and more) right from you ClickBank
+            account. Visit
+            <a
+              href="https://support.clickbank.com/hc/en-us/articles/220375827"
+              class="text-white"
+              >this link</a
+            >
+            to get more information on how to use this service. If you have a
+            specific pixel unable to be added by the above method please
+            <a href="#contact" class="text-white">contact us</a> to have it
+            added manually by our development team.
           </p>
         </div>
       </div>
+      <!-- Tracking pixels end -->
 
       <!-- Email Swipes Start -->
       <div
-        class="container bg-white rounded shadow-sm mt-4 mb-4 py-2"
+        class="container bg-white rounded shadow-sm mb-4 p-3"
         id="email__Swipes"
       >
         <div id="main__text">
@@ -121,6 +134,259 @@
         </div>
       </div>
       <!-- Email Swipes End -->
+
+      <!-- Demographics start -->
+      <div id="demographics" class="bg-white rounded shadow-sm p-3 mb-4">
+        <div id="demographics__title">
+          <h1 class="text-center fw-bold">Demographics</h1>
+        </div>
+
+        <div id="demographics__content" class="container">
+          <div class="row">
+            <div class="col me-2">
+              <div class="row mb-2 bg-black rounded bg-opacity-10 text-center">
+                <h1 class="text-primary fw-bold">Age</h1>
+                <span class="fs-4">40 - 85</span>
+              </div>
+              <div class="row mb-2 bg-black rounded bg-opacity-10 text-center">
+                <h1 class="text-primary fw-bold">Gender</h1>
+                <p>
+                  Primary <span class="text-decoration-underline">female</span>,
+                  secondary
+                  <span class="text-decoration-underline">male</span> also
+                  converts very well.
+                </p>
+              </div>
+              <div class="row bg-black rounded bg-opacity-10 text-center">
+                <h1 class="text-primary fw-bold">Location</h1>
+                <p>
+                  Primary <span class="text-decoration-underline">USA</span>,
+                  secondary UK, Canada, Australia, New Zealand.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+              <div class="row mb-2 bg-black rounded bg-opacity-10 text-center">
+                <h1 class="text-primary fw-bold">Device</h1>
+                <p>
+                  Primary <span class="text-decoration-underline">mobile</span>,
+                  secondary
+                  <span class="text-decoration-underline">tablet</span>,
+                  tertiary desktop.
+                  <br />
+                  <span class="fw-bold">Note:</span> Our website is optimized
+                  for maximum conversions on all devices!
+                </p>
+              </div>
+              <div class="row bg-black rounded bg-opacity-10 text-center">
+                <h1 class="text-primary fw-bold">Traffic Types</h1>
+                <p>
+                  We convert and have affiliates successfully making
+                  industry-leading ROIs all traffic types such as Facebook,
+                  Email, Native, YouTube, TikTok and more!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demographics end -->
+
+      <!-- Images start -->
+      <div id="images" class="bg-white rounded shadow-sm p-3 mb-4">
+        <div id="images__title">
+          <h1 class="text-center fw-bold">Images</h1>
+        </div>
+
+        <p class="fs-4">
+          You are permitted to use the following imagery in your promotions. You
+          are not allowed to use any imagery found on this website aside from
+          that detailed below. Click to open the image in a new window then
+          right-click <span class="fw-bold">"Save Image As"</span> to save to
+          your computer.
+        </p>
+
+        <div id="images__content">
+          <div id="content__title">
+            <h1 class="text-center text-primary fw-bold">Product Images</h1>
+          </div>
+
+          <div class="container text-center">
+            <div class="row mb-2">
+              <div class="col me-2 border border-5 rounded border-primary">
+                <img
+                  src="@/assets/images/index/pricing-section/flamelean-bottle.png"
+                  alt="Flamelean Product"
+                  class="object-fit-contain"
+                  width="250"
+                  height="225"
+                />
+              </div>
+              <div class="col me-2 border-5 rounded border border-primary">
+                <img
+                  src="@/assets/images/index/pricing-section/flamelean-3-bottles.png"
+                  alt="Flamelean Product"
+                  class="object-fit-contain"
+                  width="250"
+                />
+              </div>
+              <div class="col me-2 border-5 rounded border border-primary">
+                <img
+                  src="@/assets/images/index/pricing-section/flamelean-6-bottles.png"
+                  alt="Flamelean Product"
+                  class="object-fit-contain"
+                  width="250"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col me-2 border-5 rounded border border-primary">
+                <img
+                  src="@/assets/images/index/offer-section/book-1.png"
+                  alt="Flamelean Product"
+                  class="object-fit-contain"
+                  width="250"
+                  height="225"
+                />
+              </div>
+              <div class="col me-2 border-5 rounded border border-primary">
+                <img
+                  src="@/assets/images/index/offer-section/book-2.png"
+                  alt="Flamelean Product"
+                  class="object-fit-contain"
+                  width="250"
+                  height="225"
+                />
+              </div>
+              <div class="col border border-5 rounded border-primary">
+                <img
+                  src="@/assets/images/index/flamelean-carnitine-substance/flamelean.png"
+                  alt="Flamelean Product"
+                  class="object-fit-contain"
+                  width="250"
+                  height="225"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Images end -->
+
+      <!-- Contact us start -->
+      <div id="contact" class="bg-white rounded shadow-sm p-3 mb-4">
+        <div id="contact__title">
+          <h1 class="text-center fw-bold">Contact us</h1>
+        </div>
+
+        <div id="contact__content" class="container">
+          <p class="fs-4">
+            If you need anything else, email your dedicated affiliate manager at
+            <span class="fw-bold">support@flamelean.com</span> and they will
+            assist you as soon as possible. We look forward to working with you.
+          </p>
+        </div>
+      </div>
+      <!-- Contact us end -->
+
+      <!-- Affiliate terms start -->
+      <div id="affiliate_terms" class="text-black p-3">
+        <div id="affiliate_terms__title">
+          <h1 class="text-center fw-bold">Affiliate Terms</h1>
+        </div>
+
+        <div id="content">
+          <span class="">
+            By promoting Flamelean, you hereby agree to the following terms of
+            service. If an affiliate breaches the following terms they will be
+            instantly banned/blacklisted from promoting our products, and any
+            future sales will be voided without warning.
+            <br />
+            <ol>
+              <li>
+                Affiliates
+                <span class="text-decoration-underline">may NOT</span> copy,
+                transcribe, paraphrase, reproduce or otherwise use in any format
+                any video or part of video found on this website in their
+                promotions.
+              </li>
+              <li>
+                Affiliates
+                <span class="text-decoration-underline">may NOT</span> use any
+                before or after photos found on this website or found within
+                this website's video content in their promotions.
+              </li>
+              <li>
+                Affiliates
+                <span class="text-decoration-underline">may NOT</span> bid on
+                keywords (word, sentence or phrase) on any search engine such as
+                Google, Bing and Yahoo where any part of the keyword targeted
+                contains the word "Flamelean" such as "buy Flamelean",
+                "Flamelean reviews" etc.
+              </li>
+              <li>
+                Affiliates
+                <span class="text-decoration-underline">may NOT</span> falsely
+                represent themselves as the creators or owners of Flamelean in
+                their promotions.
+              </li>
+              <li>
+                Affiliates
+                <span class="text-decoration-underline">may NOT</span> use words
+                such as "fraud", "scam" or similar terminology in their
+                promotions including but not limited to, Ad content, landing
+                pages, video titles, written content or other metadata.
+              </li>
+              <li>
+                Affiliates
+                <span class="text-decoration-underline">may NOT</span> promote,
+                sell, wholesale or resell Flamelean on any retail site including
+                but not limited to Amazon, eBay and Google Store.
+              </li>
+              <li>
+                Affiliates
+                <span class="text-decoration-underline">may NOT</span> direct
+                prospects directly to the checkout page bypassing the Flamelean
+                website. All customers must purchase through the Flamelean
+                website.
+              </li>
+              <li>
+                Affiliates understand Flamelean is solely responsible for
+                customer service.
+              </li>
+              <li>
+                Affiliates' websites, promotions and material (regardless of
+                country of domicile)
+                <span class="text-decoration-underline">MUST</span> be in
+                compliance with all applicable laws, regulations, and
+                guidelines, including without limitation the Federal Trade
+                Commission Act ("FTC Act"), the Controlling the Assault of
+                Non-Solicited Pornography and Marketing Act of 2003 ("CAN-SPAM
+                Act"), Federal Trade Commission ("FTC") regulations and
+                guidelines implementing the FTC Act and the CAN-SPAM Act, the
+                FTC's Guides Concerning the Use of Endorsements and Testimonials
+                in Advertising ("FTC Testimonials Guide"), the National
+                Advertising Division decisions of the Better Business Bureau,
+                and other federal and state consumer protection laws,
+                regulations, and guidelines.
+              </li>
+            </ol>
+            <br />
+            This bonus offer has been created by the applicable Seller and not
+            by ClickBank. Accordingly, ClickBank is not responsible for any
+            information contained in the offer, including, but not limited to,
+            any product information, promotions, incentives, expected returns or
+            other information contained herein. In addition, ClickBank is not
+            responsible for any links to third party websites in conjunction
+            with this offer. Such links do not imply any endorsement by
+            ClickBank of such websites or the content, products or services
+            available from such websites. By clicking on or accessing a third
+            party website listed, you acknowledge sole responsibility for and
+            assume all risk arising from your use of any such websites.
+          </span>
+        </div>
+      </div>
+      <!-- Affiliate terms end -->
     </div>
   </section>
 </template>
