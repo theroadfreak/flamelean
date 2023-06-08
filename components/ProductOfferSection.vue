@@ -4,10 +4,6 @@
       <div
         class="col-12 col-lg-10 card d-flex flex-column align-items-center text-center py-5 px-4 bg-white rounded rounded-3"
       >
-        <div class="mb-4 text-black">
-          <div>On this private page only…</div>
-          <div>You can stock up on FlameLean by adding</div>
-        </div>
         <div class="text-black mb-2">
           <span class="fs-3 fw-bold text-uppercase"
             >{{ card.quantity }} Bottles
@@ -18,9 +14,6 @@
           class="display-4 text-secondary fw-bold mb-2 d-flex flex-column justify-content-center"
         >
           <span>${{ card.price }}</span>
-        </div>
-        <div class="col-12 mb-3 text-danger display-5 fw-light">
-          {{ formattedCountdown }}
         </div>
         <div class="col-12 col-sm-10 col-lg-9 col-xl-8 mb-4">
           <div class="ratio ratio-21x9">
@@ -67,6 +60,13 @@
             >
           </a>
         </div>
+
+        <div class="col-11 col-sm-9 col-lg-6 col-xl-5 text-primary mt-2">
+          <a :href="li">
+            No, thanks, Jessica! I don’t want to get continued benefits from
+            FlameLean to balance my blood sugar or lose any more weight.
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -83,34 +83,13 @@ export default {
       type: String,
       required: true,
     },
-  },
-  data() {
-    return {
-      countdown: 300,
-      countdownInterval: null,
-    };
-  },
-  mounted() {
-    this.startCountdown();
-  },
-  methods: {
-    startCountdown() {
-      this.countdownInterval = setInterval(() => {
-        if (this.countdown > 0) {
-          this.countdown--;
-        } else clearInterval(this.countdownInterval);
-      }, 1000);
+    yes: {
+      type: String,
+      required: true,
     },
-  },
-  computed: {
-    formattedCountdown() {
-      const hours = Math.floor(this.countdown / 3600);
-      const minutes = Math.floor((this.countdown % 3600) / 60);
-      const seconds = this.countdown % 60;
-      const formattedHours = hours.toString().padStart(2, "0");
-      return `${formattedHours}:${minutes.toString().padStart(2, "0")}:${seconds
-        .toString()
-        .padStart(2, "0")}`;
+    no: {
+      type: String,
+      required: true,
     },
   },
 };

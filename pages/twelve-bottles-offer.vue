@@ -46,14 +46,13 @@ export default {
     return {
       title: "12 Bottles Offer | Flamelean",
       wayToRegainControl: {
-        title: `Keep Reading: #1 Way To Regain Control Of
-      Your Blood Sugar & Burn The Most Fat`,
+        title: `Keep Reading: #1 Way to Support Your Blood Sugar & Burn The Most Fat`,
         subtitle: `Don’t exit out of this page or hit the back button as it may cause
       errors to your order`,
         text: `Hey, Jessica here, and I’m so proud of you!<br class="d-none d-lg-flex"/>
       Once you start using FlameLean, there isn’t a single part of your life that won’t get better.<br
       class="d-none d-lg-flex"/>
-      As your body begins to start normalising your blood sugar levels and help you feeling fuller for longer…<br
+      As your body begins to start optimizing your blood sugar levels and help you feeling fuller for longer…<br
       class="d-none d-lg-flex"/>
       You’ll have a newfound confidence and feel like you’ve finally pressed your life’s “play” button.<br
       class="d-none d-lg-flex"/>
@@ -70,12 +69,11 @@ export default {
 Long-Lasting Results With FlameLean`,
         subtitle: "",
         text: `For the absolute best experience…<br class="d-none d-lg-flex"/>
-It’s important to use FlameLean consistently because its effects compound over time.<br class="d-none d-lg-flex"/>
-The more you take the faster you’ll normalise blood sugar levels…<br class="d-none d-lg-flex"/>
-The better your body will be at using food for energy instead of storing it away as stubborn fast…<br class="d-none d-lg-flex"/>
-And most importantly, the happier YOU will be!<br class="d-none d-lg-flex"/>
-The problem though is that most of our customers tend to order FlameLean in bulk.<br class="d-none d-lg-flex"/>
-Which means…`,
+          It’s important to use FlameLean consistently because its effects compound over time.<br class="d-none d-lg-flex"/>
+          The better your body will be at using food for energy instead of storing it away as stubborn fast…<br class="d-none d-lg-flex"/>
+          And most importantly, the happier YOU will be!<br class="d-none d-lg-flex"/>
+          The problem though is that most of our customers tend to order FlameLean in bulk.<br class="d-none d-lg-flex"/>
+          Which means…`,
       },
       card: {
         quantity: 12,

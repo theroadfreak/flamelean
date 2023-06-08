@@ -33,8 +33,7 @@ That’s the bad news.`,
       specialOffer: {
         title: `Here’s The Special Offer<br class="d-none d-sm-flex" />
 I Have For You Today`,
-        text: `<b>The regular price for a year supply of FlameLean is $468…</b><br class="d-none d-lg-flex" />
-But since you’re a new customer, here’s what I’m offering you instead…`,
+        text: ``,
       },
     };
   },

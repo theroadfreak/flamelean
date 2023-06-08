@@ -6,34 +6,6 @@
       Like Billionaire Kim Kardashian… The Biggest Suspect To Be On It Right
       Now…
     </h5>
-    <div class="col-12 col-md-6 mb-5">
-      Celebrities are now getting these medications for normal blood sugar
-      level...
-      <br class="d-none d-lg-flex" />
-      <p class="mb-0">
-        <span class="fw-bold text-danger text-decoration-underline"
-          >Paying a hefty $1,300 fee every single month.</span
-        ><br class="d-none d-md-flex" />
-      </p>
-
-      <p class="mb-0">
-        <span class="fst-italic">It costs as much as many mortgages!</span>
-        Because of that, most insurance companies won’t cover it for regular
-        folk like you and me. And while the price might be eye watering to us.
-        It’s a drop in the ocean for the rich and famous. Meaning they can
-        easily achieve rapid weight loss and keep it off. So long as they
-        continue injecting themselves with the medication. <br />
-        Celebrities are now getting these medications for normal blood sugar
-        level...<br class="d-none d-lg-flex" />
-      </p>
-
-      <p>
-        <span class="fw-bold"
-          >After she mysteriously lost 16 pounds in just 3 weeks to fit into
-          Marilyn Monroe’s dress.</span
-        >
-      </p>
-    </div>
     <div class="col-12 col-lg-9 col-xxl-7 mb-5">
       <div class="ratio ratio-3x2">
         <img

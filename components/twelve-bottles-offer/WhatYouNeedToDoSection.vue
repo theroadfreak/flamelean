@@ -1,33 +1,6 @@
 <template>
   <section>
     <title-subtitle-text class="py-5" :title="title" :text="text" />
-    <div
-      class="container d-flex flex-column align-items-center text-center pb-5"
-    >
-      <div class="col-11 col-sm-10 col-lg-7 col-xl-6 mb-4">
-        <a
-          :href="yes"
-          class="w-100 btn btn-primary text-white py-3 rounded rounded-3 d-flex align-items-center justify-content-center text-center"
-        >
-          <span class="fw-bold">
-            <img
-              src="../../assets/images/shopping-cart-icon.svg"
-              width="30"
-              height="26"
-              alt="Shopping Cart icon"
-              class="me-2"
-            />
-            YES, UPGRADE MY ORDER!</span
-          >
-        </a>
-      </div>
-      <div class="col-11 col-sm-9 col-lg-6 col-xl-5 text-primary">
-        <a :href="no">
-          No, thanks, Jessica! I don’t want to get continued benefits from
-          FlameLean to balance my blood sugar or lose any more weight.
-        </a>
-      </div>
-    </div>
   </section>
 </template>
 

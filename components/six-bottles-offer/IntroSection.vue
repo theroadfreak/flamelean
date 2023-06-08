@@ -17,8 +17,9 @@
         Wait! I Wouldn’t Be Able To Live With Myself<br
           class="d-none d-md-flex"
         />
-        If I Let Money Keep You From Gaining<br class="d-none d-md-flex" />
-        Control Of Your Blood Sugar…
+        If I Let Money Keep You From Controlling
+        <br class="d-none d-md-flex" />
+        Your Blood Sugar…
       </h2>
       <div class="line-height-normal">
         Hey, Jessica here!<br class="d-none d-sm-flex" />
