@@ -1,25 +1,25 @@
 <template>
-  <main>
-    <hero-section />
-    <intro />
-    <the-biggest-suspect-section />
-    <jessica-richards-section />
-    <thing-that-switches-on-fat-burning-section />
-    <common-side-effects-section />
-    <medication-consequences-section />
-    <the-most-important-thing-section />
-    <why-we-created-flamelean-section id="about-flamelean" />
-    <four-star-of-the-show-section />
-    <natural-solution-section />
-    <flamelean-ingredients-section />
-    <flamelean-features-section />
-    <plant-based-remedies-section />
-    <pricing-section :stock-available-text="true" />
-    <offer-section :bg-color="true" />
-    <pricing-section :user-review="true" :free-shipping-title="true" />
-    <money-back-guarantee-section />
-    <frequently-asked-questions-section />
-  </main>
+	<main>
+		<hero-section />
+		<intro />
+		<the-biggest-suspect-section />
+		<jessica-richards-section />
+		<thing-that-switches-on-fat-burning-section />
+		<common-side-effects-section />
+		<medication-consequences-section />
+		<the-most-important-thing-section />
+		<why-we-created-flamelean-section id="about-flamelean" />
+		<four-star-of-the-show-section />
+		<natural-solution-section />
+		<flamelean-ingredients-section />
+		<flamelean-features-section />
+		<plant-based-remedies-section />
+		<pricing-section :stock-available-text="true" />
+		<offer-section :bg-color="true" />
+		<pricing-section :user-review="true" :free-shipping-title="true" />
+		<money-back-guarantee-section />
+		<frequently-asked-questions-section />
+	</main>
 </template>
 
 <script>
@@ -44,45 +44,45 @@ import MoneyBackGuaranteeSection from "@/components/index/MoneyBackGuaranteeSect
 import FlameleanFeaturesSection from "@/components/index/FlameleanFeaturesSection";
 
 export default {
-  name: "tsl",
-  components: {
-    FlameleanFeaturesSection,
-    MoneyBackGuaranteeSection,
-    MoneyBackGuaranteeInvestmentSection,
-    TheMostImportantThingSection,
-    MedicationConsequencesSection,
-    CommonSideEffectsSection,
-    PlantBasedRemediesSection,
-    FlameleanIngredientsSection,
-    NaturalSolutionSection,
-    FourStarOfTheShowSection,
-    OfferSection,
-    FrequentlyAskedQuestionsSection,
-    PricingSection,
-    WhyWeCreatedFlameleanSection,
-    ThingThatSwitchesOnFatBurningSection,
-    JessicaRichardsSection,
-    TheBiggestSuspectSection,
-    Intro,
-    HeroSection,
-  },
-  data() {
-    return {
-      title: "TSL | Flamelean",
-    };
-  },
-  head() {
-    return {
-      title: this.title,
-      meta: [
-        {
-          hid: "og:title",
-          property: "og:title",
-          content: this.title,
-        },
-      ],
-    };
-  },
+	name: "tsl",
+	components: {
+		FlameleanFeaturesSection,
+		MoneyBackGuaranteeSection,
+		MoneyBackGuaranteeInvestmentSection,
+		TheMostImportantThingSection,
+		MedicationConsequencesSection,
+		CommonSideEffectsSection,
+		PlantBasedRemediesSection,
+		FlameleanIngredientsSection,
+		NaturalSolutionSection,
+		FourStarOfTheShowSection,
+		OfferSection,
+		FrequentlyAskedQuestionsSection,
+		PricingSection,
+		WhyWeCreatedFlameleanSection,
+		ThingThatSwitchesOnFatBurningSection,
+		JessicaRichardsSection,
+		TheBiggestSuspectSection,
+		Intro,
+		HeroSection,
+	},
+	data() {
+		return {
+			title: "TSL | Flamelean",
+		};
+	},
+	head() {
+		return {
+			title: this.title,
+			meta: [
+				{
+					hid: "og:title",
+					property: "og:title",
+					content: this.title,
+				},
+			],
+		};
+	},
 };
 </script>
 

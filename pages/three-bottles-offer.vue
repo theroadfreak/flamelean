@@ -1,15 +1,15 @@
 <template>
-  <main>
-    <hero-section />
-    <product-offer-section
-      link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=a"
-      :card="card"
-    />
-    <features-section />
-    <next-step
-      link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=d"
-    />
-  </main>
+	<main>
+		<hero-section />
+		<product-offer-section
+			link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=a"
+			:card="card"
+		/>
+		<features-section />
+		<next-step
+			link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflameleandownsell&cbur=d"
+		/>
+	</main>
 </template>
 
 <script>
@@ -20,34 +20,34 @@ import NextStep from "@/components/NextStep.vue";
 import ProductOfferSection from "@/components/ProductOfferSection";
 
 export default {
-  name: "three-bottles-offer",
-  layout: "no-navbar",
-  components: { ProductOfferSection, NextStep, FeaturesSection, HeroSection },
-  data() {
-    return {
-      title: "3 Bottles Offer | Flamelean",
-      card: {
-        quantity: 3,
-        price: 99,
-        img: "three-bottles-offer/flamelean-product.png",
-        alt: "Three bottles of Flamelean",
-        perDay: 0.81,
-        savings: 78,
-      },
-    };
-  },
-  head() {
-    return {
-      title: this.title,
-      meta: [
-        {
-          hid: "og:title",
-          property: "og:title",
-          content: this.title,
-        },
-      ],
-    };
-  },
+	name: "three-bottles-offer",
+	layout: "no-navbar",
+	components: {ProductOfferSection, NextStep, FeaturesSection, HeroSection},
+	data() {
+		return {
+			title: "3 Bottles Offer | Flamelean",
+			card: {
+				quantity: 3,
+				price: 99,
+				img: "three-bottles-offer/flamelean-product.png",
+				alt: "Three bottles of Flamelean",
+				perDay: 0.81,
+				savings: 78,
+			},
+		};
+	},
+	head() {
+		return {
+			title: this.title,
+			meta: [
+				{
+					hid: "og:title",
+					property: "og:title",
+					content: this.title,
+				},
+			],
+		};
+	},
 };
 </script>
 

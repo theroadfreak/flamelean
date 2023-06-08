@@ -1,0 +1,9 @@
+{
+	"vueCompilerOptions": {
+		"extensions": [".vue"],
+		"target": 2.7
+	},
+	"compilerOptions": {
+		"allowJs": true
+	}
+}

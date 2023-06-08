@@ -1,64 +1,64 @@
 .object-fit-contain {
-  object-fit: contain;
+	object-fit: contain;
 }
 
 .object-fit-cover {
-  object-fit: cover;
+	object-fit: cover;
 }
 
 .object-position-left {
-  object-position: left;
+	object-position: left;
 }
 
 .line-height-normal {
-  line-height: normal;
+	line-height: normal;
 }
 
 .ratio-2x3 {
-  --bs-aspect-ratio: calc(3 / 2 * 100%);
+	--bs-aspect-ratio: calc(3 / 2 * 100%);
 }
 
 .ratio-3x2 {
-  --bs-aspect-ratio: calc(2 / 3 * 100%);
+	--bs-aspect-ratio: calc(2 / 3 * 100%);
 }
 
 .ratio-4x9 {
-  --bs-aspect-ratio: calc(9 / 4 * 100%);
+	--bs-aspect-ratio: calc(9 / 4 * 100%);
 }
 
-
 .ratio-6x5 {
-  --bs-aspect-ratio: calc(5 / 6 * 100%);
+	--bs-aspect-ratio: calc(5 / 6 * 100%);
 }
 
 .ratio-6x7 {
-  --bs-aspect-ratio: calc(7 / 6 * 100%);
+	--bs-aspect-ratio: calc(7 / 6 * 100%);
 }
 
 .ratio-83x15 {
-  --bs-aspect-ratio: calc(15 / 83 * 100%);
+	--bs-aspect-ratio: calc(15 / 83 * 100%);
 }
 
 .text-4D4D4D {
-  color: #4D4D4D;
+	color: #4d4d4d;
 }
 
 .font-size-12px {
-  font-size: 12px;
+	font-size: 12px;
 }
 
-a:visited, a:hover {
-  color: #3C096C;
+a:visited,
+a:hover {
+	color: #3c096c;
 }
 
 .zoom {
-  transition: transform 0.5s;
+	transition: transform 0.5s;
 }
 
 .zoom:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .cursor-pointer {
-  cursor: pointer;
+	cursor: pointer;
 }
