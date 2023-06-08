@@ -16,12 +16,7 @@
 			<h2
 				class="col-12 col-md-12 text-secondary fw-bold custom-font-size mb-5"
 			>
-				Wait! I Wouldn’t Be Able To Live With Myself<br
-					class="d-none d-md-flex"
-				/>
-				If I Let Money Keep You From Controlling
-				<br class="d-none d-md-flex" />
-				Your Blood Sugar…
+				Wait!
 			</h2>
 			<div class="line-height-normal">
 				Hey, Jessica here!<br class="d-none d-sm-flex" />

@@ -30,10 +30,11 @@
 				</div>
 			</div>
 			<div class="small text-center fw-lighter pt-4">
-				FlameLean is not endorsed by, sponsored by, or<br
-					class="d-none d-sm-flex"
-				/>
+				FlameLean is not endorsed by, sponsored by, or
+				<br class="d-none d-sm-flex" />
 				affiliated with any of these organizations.
+				<br class="d-none d-sm-flex" />
+				Jessica is a pen name in this pitch page.
 			</div>
 		</div>
 	</section>
