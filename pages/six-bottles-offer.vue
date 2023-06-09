@@ -1,10 +1,7 @@
 <template>
 	<main>
 		<intro-section />
-		<product-offer-section
-			link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=a"
-			:card="card"
-		/>
+		<product-offer-section :card="card" :link="link" :no="no" />
 		<features-section />
 		<next-step
 			link="https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=d"
@@ -33,6 +30,8 @@ export default {
 				perDay: 1.09,
 				savings: 155,
 			},
+			link: "https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=a",
+			no: "https://flamelean.pay.clickbank.net/?cbitems=6bottlesflameleandownsel1&cbur=d",
 		};
 	},
 	head() {

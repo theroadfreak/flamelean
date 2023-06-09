@@ -66,7 +66,7 @@
 				<div
 					class="col-11 col-sm-9 col-lg-6 col-xl-5 text-primary mt-2"
 				>
-					<a :href="li">
+					<a :href="no">
 						No, thanks, Jessica! I don’t want to get continued
 						benefits from FlameLean to balance my blood sugar or
 						lose any more weight.
