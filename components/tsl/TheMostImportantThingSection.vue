@@ -30,14 +30,8 @@
 				<div style="">
 					<iframe
 						src="https://player.vimeo.com/video/828611662?h=810b75824d&title=0&byline=0"
-						style="
-							position: absolute;
-							top: 0;
-							left: 0;
-							width: 100%;
-							height: 100%;
-						"
 						frameborder="0"
+						style="height: 50vh"
 						allow="autoplay; fullscreen; picture-in-picture"
 						allowfullscreen
 					></iframe>
