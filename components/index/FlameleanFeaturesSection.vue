@@ -15,14 +15,14 @@
 						<div
 							class="d-none d-lg-flex col-4 d-flex justify-content-center"
 							v-for="(features, i) in featuresSlices"
-							:key="i"
+							:key="'large' + i"
 						>
 							<feature :features="features" />
 						</div>
 						<div
 							class="d-none d-sm-flex d-lg-none col-6 d-flex justify-content-center"
 							v-for="(features, i) in featuresSlicesSmScreen"
-							:key="i"
+							:key="'sm' + i"
 						>
 							<feature :features="features" />
 						</div>

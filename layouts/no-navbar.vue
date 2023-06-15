@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<!-- ClickBank Trust Badge -->
-		<script src="//cbtb.clickbank.net/?vendor=flamelean"></script>
+		<script src="https://cbtb.clickbank.net/?vendor=flamelean"></script>
 		<nuxt />
 		<div
 			class="small bg-primary text-white p-3"

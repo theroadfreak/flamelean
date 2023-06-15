@@ -1,7 +1,9 @@
 <template>
 	<main>
 		<intro-section />
-		<terms-section />
+		<ClientOnly>
+			<terms-section />
+		</ClientOnly>
 		<custom-footer />
 	</main>
 </template>

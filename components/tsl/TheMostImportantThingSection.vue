@@ -33,7 +33,6 @@
 						frameborder="0"
 						style="height: 50vh"
 						allow="autoplay; fullscreen; picture-in-picture"
-						allowfullscreen
 					></iframe>
 				</div>
 				<!-- <script src="https://player.vimeo.com/api/player.js"></script> -->

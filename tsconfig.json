@@ -4,6 +4,8 @@
 		"target": 2.7
 	},
 	"compilerOptions": {
+		"outDir": "./dist/",
 		"allowJs": true
-	}
+	},
+	"exclude": ["node_modules", "dist"]
 }

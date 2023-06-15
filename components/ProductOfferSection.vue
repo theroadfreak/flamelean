@@ -90,11 +90,9 @@ export default {
 		},
 		yes: {
 			type: String,
-			required: true,
 		},
 		no: {
 			type: String,
-			required: true,
 		},
 	},
 };
