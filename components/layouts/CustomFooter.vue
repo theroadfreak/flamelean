@@ -55,6 +55,10 @@ export default {
 					link: "/legal/terms",
 				},
 				{
+					name: "Anti-Spam Policy",
+					link: "/legal/anti-spam",
+				},
+				{
 					name: "Privacy",
 					link: "/legal/privacy",
 				},
