@@ -16,10 +16,7 @@
 		<special-offer-intro />
 		<product-offer-section :card="card" :link="link" :no="no" />
 		<features-section />
-		<what-you-need-to-do-section
-			yes="https://flamelean.pay.clickbank.net/?cbitems=12bottlesflameleanupsell&cbur=a"
-			no="https://flamelean.pay.clickbank.net/?cbitems=12bottlesflameleanupsell&cbur=d"
-		/>
+		<!-- <what-you-need-to-do-section yes="TODO: add link" no="TODO: add link" /> -->
 	</main>
 </template>
 
@@ -83,8 +80,8 @@ Long-Lasting Results With FlameLean`,
 				perDay: 1.09,
 				savings: 309,
 			},
-			link: "https://flamelean.pay.clickbank.net/?cbitems=12bottlesflameleanupsell&cbur=a",
-			no: "https://flamelean.pay.clickbank.net/?cbitems=12bottlesflameleanupsell&cbur=d",
+			link: "", // TODO: add link
+			no: "", // TODO: add link
 		};
 	},
 	head() {

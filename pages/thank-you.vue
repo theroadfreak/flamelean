@@ -6,8 +6,7 @@
 					Thank You for your order!
 				</h1>
 				<h3 class="text-white text-center">
-					Your credit card statement will show a charge from
-					CLICKBANK!
+					Your credit card statement will show a charge from BUYGOODS!
 				</h3>
 			</div>
 		</div>

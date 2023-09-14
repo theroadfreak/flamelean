@@ -22,7 +22,7 @@
 					<div class="row">
 						<p class="text-white fw-bold display-6 mb-4">
 							Flamelean™ is available to promote easily and
-							quickly on the ClickBank affiliate network.
+							quickly on the BuyGoods affiliate network.
 						</p>
 						<p class="text-white fs-4">
 							They track all your clicks and conversion and send
@@ -50,19 +50,9 @@
 
 				<div id="trackingpixles__content">
 					<p class="text-white fs-4">
-						ClickBank allows you to place all your tracking pixels
+						BuyGoods allows you to place all your tracking pixels
 						(such as Facebook, Yahoo, Google, Voluum and more) right
-						from you ClickBank account. Visit
-						<a
-							href="https://support.clickbank.com/hc/en-us/articles/220375827"
-							class="text-white"
-							>this link</a
-						>
-						to get more information on how to use this service. If
-						you have a specific pixel unable to be added by the
-						above method please
-						<a href="#contact" class="text-white">contact us</a> to
-						have it added manually by our development team.
+						from you BuyGoods account.
 					</p>
 				</div>
 			</div>
@@ -460,19 +450,18 @@
 						</ol>
 						<br />
 						This bonus offer has been created by the applicable
-						Seller and not by ClickBank. Accordingly, ClickBank is
-						not responsible for any information contained in the
-						offer, including, but not limited to, any product
-						information, promotions, incentives, expected returns or
-						other information contained herein. In addition,
-						ClickBank is not responsible for any links to third
-						party websites in conjunction with this offer. Such
-						links do not imply any endorsement by ClickBank of such
-						websites or the content, products or services available
-						from such websites. By clicking on or accessing a third
-						party website listed, you acknowledge sole
-						responsibility for and assume all risk arising from your
-						use of any such websites.
+						Seller and not by BuyGoods. Accordingly, BuyGoods is not
+						responsible for any information contained in the offer,
+						including, but not limited to, any product information,
+						promotions, incentives, expected returns or other
+						information contained herein. In addition, BuyGoods is
+						not responsible for any links to third party websites in
+						conjunction with this offer. Such links do not imply any
+						endorsement by BuyGoods of such websites or the content,
+						products or services available from such websites. By
+						clicking on or accessing a third party website listed,
+						you acknowledge sole responsibility for and assume all
+						risk arising from your use of any such websites.
 					</span>
 				</div>
 			</div>

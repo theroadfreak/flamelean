@@ -4,18 +4,18 @@
 		<ClientOnly>
 			<terms-section />
 		</ClientOnly>
-		<custom-footer />
+		<!-- <custom-footer /> -->
 	</main>
 </template>
 
 <script>
 import TermsSection from "@/components/legal/TermsSection";
-import CustomFooter from "@/components/footer-pages/CustomFooter";
+// import CustomFooter from "@/components/footer-pages/CustomFooter";
 import IntroSection from "@/components/footer-pages/IntroSection";
 export default {
 	name: "terms",
 	layout: "no-navbar",
-	components: {IntroSection, CustomFooter, TermsSection},
+	components: {IntroSection, TermsSection},
 };
 </script>
 

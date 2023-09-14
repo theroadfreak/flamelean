@@ -3,9 +3,7 @@
 		<hero-section />
 		<product-offer-section :card="card" :link="link" :no="no" />
 		<features-section />
-		<next-step
-			link="https://flamelean.pay.clickbank.net/?cbitems=3bottlesflamelean&cbfid=53967downsell&cbur=d"
-		/>
+		<!-- <next-step link="TODO: add link" /> -->
 	</main>
 </template>
 
@@ -31,8 +29,8 @@ export default {
 				perDay: 0.81,
 				savings: 78,
 			},
-			link: "https://flamelean.pay.clickbank.net/?cbitems=3bottlesflamelean&cbfid=53967downsell&cbur=a",
-			no: "https://flamelean.pay.clickbank.net/?cbitems=3bottlesflamelean&cbfid=53967downsell&cbur=d",
+			link: "", // TODO: add link
+			no: "", // TODO: add link
 		};
 	},
 	head() {

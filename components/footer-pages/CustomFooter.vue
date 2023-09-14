@@ -7,10 +7,10 @@
 				intended to diagnose, treat, cure, or prevent any disease. If
 				you are pregnant, nursing, taking medication, or have a medical
 				condition, consult your physician before using our products.
-				ClickBank is the retailer of products on this site. CLICKBANK®
-				is a registered trademark of Click Sales, Inc., a Delaware
+				BuyGoods is the retailer of products on this site. BuyGoods® is
+				a registered trademark of Click Sales, Inc., a Delaware
 				corporation located at 1444 S. Entertainment Ave., Suite 410
-				Boise, ID 83709, USA and used by permission. ClickBank's role as
+				Boise, ID 83709, USA and used by permission. BuyGoods's role as
 				retailer does not constitute an endorsement, approval or review
 				of these products or any claim, statement or opinion used in
 				promotion of these products.
@@ -23,13 +23,13 @@
 				information regarding health issues and always review the
 				information carefully with your professional health care
 				provider before using any of the protocols presented on this
-				website and/or in the product sold here. Neither ClickBank nor
+				website and/or in the product sold here. Neither BuyGoods nor
 				the author are engaged in rendering medical or similar
 				professional services or advice via this website or in the
 				product, and the information provided is not intended to replace
 				medical advice offered by a physician or other licensed
-				healthcare provider. You should not construe ClickBank's sale of
-				this product as an endorsement by ClickBank of the views
+				healthcare provider. You should not construe BuyGoods's sale of
+				this product as an endorsement by BuyGoods of the views
 				expressed herein, or any warranty or guarantee of any strategy,
 				recommendation, treatment, action, or application of advice made
 				by the author of the product. Testimonials, case studies, and
