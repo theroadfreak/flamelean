@@ -3,16 +3,20 @@
 		<h1 class="fw-bold text-center mb-4">Anti-Spam Policy</h1>
 
 		<text-item :text="text" />
+
+		<CustomFooter />
 	</section>
 </template>
 
 <script>
 import TextItem from "../footer-pages/TextItem.vue";
+import CustomFooter from "../layouts/CustomFooter.vue";
 
 export default {
 	name: "AntiSpamSection",
 	components: {
 		TextItem,
+		CustomFooter,
 	},
 	data() {
 		return {

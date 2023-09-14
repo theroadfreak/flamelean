@@ -1,5 +1,11 @@
 <template>
 	<div class="bg-primary text-white">
+		<div class="text-center">
+			<a href="mailto:support@flamelean.com" class="text-white"
+				>For Product Support, please contact the vendor HERE!</a
+			>
+		</div>
+
 		<footer-links class="bg-secondary" :footer-links="links.slice(0, 6)" />
 		<footer-links :footer-links="links.slice(7, links.length)" />
 	</div>
@@ -48,7 +54,7 @@ export default {
 				},
 				{
 					name: "Order Support",
-					href: "https://buygoods.com/contact",
+					href: "https://buygoods.com/orderlookup",
 				},
 				{
 					name: "Terms",
