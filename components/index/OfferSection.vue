@@ -35,6 +35,11 @@
 							>
 							!
 						</h2>
+						<p class="text-white">
+							<span class="fw-bold">Disclaimer:</span> These are
+							not a physical books. These are digital books that
+							will be sent to your email address.
+						</p>
 					</div>
 				</div>
 				<div class="col-12 mt-md-3">
