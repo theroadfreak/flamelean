@@ -17,6 +17,7 @@
 		<product-offer-section :card="card" :link="link" :no="no" />
 		<features-section />
 		<!-- <what-you-need-to-do-section yes="TODO: add link" no="TODO: add link" /> -->
+		<CustomFooter />
 	</main>
 </template>
 
@@ -28,6 +29,8 @@ import ProductOfferSection from "@/components/ProductOfferSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import WhatYouNeedToDoSection from "@/components/twelve-bottles-offer/WhatYouNeedToDoSection";
 
+import CustomFooter from "@/components/layouts/CustomFooter.vue";
+
 export default {
 	name: "twelve-bottles-offer",
 	layout: "no-navbar",
@@ -38,6 +41,7 @@ export default {
 		SpecialOfferIntro,
 		TitleSubtitleText,
 		HeroSection,
+		CustomFooter,
 	},
 	data() {
 		return {

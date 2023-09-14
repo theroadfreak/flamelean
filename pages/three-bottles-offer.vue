@@ -4,6 +4,7 @@
 		<product-offer-section :card="card" :link="link" :no="no" />
 		<features-section />
 		<!-- <next-step link="TODO: add link" /> -->
+		<CustomFooter />
 	</main>
 </template>
 
@@ -14,10 +15,18 @@ import FeaturesSection from "@/components/FeaturesSection";
 import NextStep from "@/components/NextStep.vue";
 import ProductOfferSection from "@/components/ProductOfferSection";
 
+import CustomFooter from "@/components/layouts/CustomFooter.vue";
+
 export default {
 	name: "three-bottles-offer",
 	layout: "no-navbar",
-	components: {ProductOfferSection, NextStep, FeaturesSection, HeroSection},
+	components: {
+		ProductOfferSection,
+		NextStep,
+		FeaturesSection,
+		HeroSection,
+		CustomFooter,
+	},
 	data() {
 		return {
 			title: "3 Bottles Offer | Flamelean",

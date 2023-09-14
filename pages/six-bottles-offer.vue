@@ -6,6 +6,8 @@
 		<!-- <next-step
 			link="TODO: add link"
 		/> -->
+
+		<CustomFooter />
 	</main>
 </template>
 
@@ -15,9 +17,17 @@ import ProductOfferSection from "@/components/ProductOfferSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import NextStep from "@/components/NextStep";
 
+import CustomFooter from "@/components/layouts/CustomFooter.vue";
+
 export default {
 	name: "six-bottles-offer",
-	components: {NextStep, FeaturesSection, ProductOfferSection, IntroSection},
+	components: {
+		NextStep,
+		FeaturesSection,
+		ProductOfferSection,
+		IntroSection,
+		CustomFooter,
+	},
 	layout: "no-navbar",
 	data() {
 		return {
