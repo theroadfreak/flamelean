@@ -48,7 +48,7 @@ export default {
 				},
 				{
 					name: "Order Support",
-					href: "https://www.buygoods.com/",
+					href: "https://buygoods.com/contact",
 				},
 				{
 					name: "Terms",
